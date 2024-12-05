@@ -2,6 +2,7 @@
 date = '2024-12-05T22:33:13+01:00'
 title = 'Junos Rollback'
 tags = ["Junos", "Juniper"]
+author = "Soner Sahin"
 +++
 Rollback, cihazda yapılan önceki konfigürasyonlara dönebilmeyi sağlayan komuttur. Örneğin cihazda bir konfigürasyon yaptık ve commit ettik. Fakat yapılan konfigürasyon hatalıydı veya başka bir sebepten dolayı eski konfigürasyonu bir şekilde geri almamız gerekiyor. Bu durumda Rollback kullanılır.
 
