@@ -1,6 +1,5 @@
 +++
 date = '2024-11-22T17:53:48+01:00'
-draft = true
 title = 'Junos Commit Usage'
 tags = ["junos", "juniper"]
 +++
