@@ -2,6 +2,7 @@
 date = '2024-11-22T17:53:48+01:00'
 title = 'Junos Commit Usage'
 tags = ["junos", "juniper"]
+author = "Soner Sahin"
 +++
 JunOS sistemlerde bir diğer önemli konu ise Commit kullanımıdır.
 
