@@ -20,7 +20,7 @@ Bazı özellikleri şöyledir:
 
 Aşağıdaki örneği uygulayacağız.
 
-![etherchannel](/etherchannel.png)
+![etherchannel](/images/etherchannel/1.png)
 
 
 

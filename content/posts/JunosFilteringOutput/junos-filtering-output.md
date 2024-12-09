@@ -1,6 +1,6 @@
 +++
 date = '2024-11-16T22:57:40+01:00'
-title = 'Juniper Çıktı Filtreleme'
+title = 'Juniper Filtering Output'
 tags = ["junos", "juniper"]
 author = "Soner Sahin"
 +++
