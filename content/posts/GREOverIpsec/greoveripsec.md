@@ -41,18 +41,23 @@ R1(config-isakmp)#encryption aes
 R1(config-isakmp)#group 14                        (above from 14)
 R1(config-isakmp)#hash sha
 R1(config-isakmp)#exit
+
 R1(config)#crypto isakmp key BENIMCICIPAROLAM address 200.59.25.2   (pre-share key and next point IP)
+
 R1(config)#crypto ipsec transform-set AABBCC esp-aes esp-sha-hmac 
 R1(cfg-crypto-trans)#mode transport 
 R1(cfg-crypto-trans)#exit
+
 R1(config)#ip access-list extended GRE-IPSEC
 R1(config-ext-nacl)#permit gre host 197.53.15.2 host 200.59.25.2     (src > dst)
 R1(config-ext-nacl)#exit
+
 R1(config)#crypto map IPSEC-MAP 10 ipsec-isakmp 
 R1(config-crypto-map)#match address GRE-IPSEC
 R1(config-crypto-map)#set peer 200.59.25.2
 R1(config-crypto-map)#set transform-set AABBCC
 R1(config-crypto-map)#exit
+
 R1(config)#int e0/0
 R1(config-if)#crypto map IPSEC-MAP
 R1(config-if)#end
@@ -68,18 +73,23 @@ R2(config-isakmp)#encryption aes
 R2(config-isakmp)#group 14
 R2(config-isakmp)#hash sha
 R2(config-isakmp)#exit
+
 R2(config)#crypto isakmp key BENIMCICIPAROLAM address 197.53.15.2
+
 R2(config)#crypto ipsec transform-set AABBCC esp-aes esp-sha-hmac 
 R2(cfg-crypto-trans)#mode transport 
 R2(cfg-crypto-trans)#exit
+
 R2(config)#ip access-list extended GRE-IPSEC
 R2(config-ext-nacl)# permit gre host 200.59.25.2 host 197.53.15.2   
 R2(config-ext-nacl)#exit
+
 R2(config)#crypto map IPSEC-MAP 10 ipsec-isakmp 
 R2(config-crypto-map)#match address GRE-IPSEC
 R2(config-crypto-map)#set peer 197.53.15.2
 R2(config-crypto-map)#set transform-set AABBCC
 R2(config-crypto-map)#exit
+
 R2(config)#int e0/0
 R2(config-if)#crypto map IPSEC-MAP
 R2(config-if)#end
