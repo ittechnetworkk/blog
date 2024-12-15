@@ -8,9 +8,11 @@ author = "Soner Sahin"
 OSPF Authentication, OSPF network trafiğinin güvenliğini artırmak amacıyla kullanılır. 
 3 Çeşit doğrulama yöntemi vardır;
 
-**1- Plain Text Authentication,**
-**2- MD5 Authentication,**
-**3- SHA-HMAC Authentication (IOS 15.4 ve sonrası versiyonlar için)**
+1- Plain Text Authentication,
+
+2- MD5 Authentication,
+
+3- SHA-HMAC Authentication (IOS 15.4 ve sonrası versiyonlar için)
 
 Aşağıdaki topolojiyi uygulayacağız.
 

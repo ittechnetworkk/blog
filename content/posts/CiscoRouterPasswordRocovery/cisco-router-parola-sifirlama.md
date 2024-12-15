@@ -10,7 +10,7 @@ Cisco cihazlarda unutulan parolayı, konfigürasyonu bozmadan sıfırlamak mümk
 Ben bu uygulamayı elimde bulunan Cisco 800 Serisi bir Router'da adım adım uygulayacağım.
 Cihaz şekilde görüldüğü gibidir.
 
-![router](/images/CiscoRouterPasswordRocovery/1.png)
+![router](/images/CiscoRouterPasswordRocovery/1.jpg)
 CiscoRouterPasswordRocovery
 
 İlk olarak Console Portundan cihaza bağlanıyorum. 

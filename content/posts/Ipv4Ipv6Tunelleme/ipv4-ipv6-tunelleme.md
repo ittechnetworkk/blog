@@ -17,7 +17,7 @@ Yapılacaklar:
 3. Statik route yazarak networkleri haberleştir.
 4. Test
 
-1. **Interfacelere IP ver.**
+**1. Interfacelere IP ver.**
 **R1:**
 ```
 R1#configure terminal 
