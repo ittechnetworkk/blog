@@ -24,7 +24,8 @@ Aşağıdaki GRE Lab Topolojisini uygulayacağım.
 5. Test et.
 
 
-6. **Router ve PC'lere IP adreslerini ver:**
+
+**1. Router ve PC'lere IP adreslerini ver:**
 
 **R1:**
 ```

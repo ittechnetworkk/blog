@@ -8,7 +8,7 @@ JunOS'da Cli yardım alma komutları oldukça detaylı ve kullanışlıdır. Jun
 
 JunOS'da birden fazla yardım alma komutu vardır ve her biri birbirinden kulanıcı dostudur.
 
-Cli Help Komutları:
+**Cli Help Komutları:**
 ```
 root> help ?   
 Possible completions:

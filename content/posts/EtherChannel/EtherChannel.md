@@ -10,6 +10,8 @@ EtherChannel Protokolü switchlerin birden fazla fiziksel portunu tek bir mantı
 - No Protocol = Herhangi bir protokol kullanılamadan yapılır.
 - PAgP (Port Aggrastion Protocol) = Cisco'ya özeldir, başka cihazlarda çalışmaz.
 - LACP (Link Aggregation Control Protocol) = Tüm cihazlarda kullanılan bir protokoldür, Cisco dahil.
+
+
 Bazı özellikleri şöyledir:
 - Bant Genişliği,
 - Performans ve Güvenlik,
