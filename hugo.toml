@@ -52,6 +52,7 @@ weight = 3
   colortheme = "dark" # dark, light, white, or classic
 
   # Home page settings
+  showAllPostsArchive = true 
   description = "Hello, I’m Soner from Turkey. I prefer working with the CLI rather than GUI. On this site, I share my expertise in various technologies, insights into newly learned tools, as well as details of the projects I have completed and those I plan to undertake. I run this blog with the motivation to learn, have fun, and help others along the way."
   mainSection = "posts" # your main section
   showAllPostsOnHomePage = true # default
