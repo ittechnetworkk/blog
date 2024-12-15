@@ -34,7 +34,7 @@ Yapılacaklar:
 5. Kontrol et.
 
 
-1. Router'ın Interfacelerine ilgili IPv6 adreslerini ver:
+**1. Router'ın Interfacelerine ilgili IPv6 adreslerini ver:**
 
 **R1:**
 ```
@@ -53,7 +53,7 @@ R1(config-if)#exit
 ```
 
 
-2. Network A için Stateless (SLAAC) konfigürasyonu yap,
+**2. Network A için Stateless (SLAAC) konfigürasyonu yap**
 
 Bunun için VPC1 cihazının IP ayarlarını "auto" ya çektiğim zaman R1'den ilgili parametreleri otomatik alacaktır.
 
@@ -95,7 +95,7 @@ IPv6 adresi alma süreci de aşağıdaki gibidir.
 
 ![dhcpv6](/images/dhcpv6/2.png)
 
-3. Network B için Stateful DHCPv6 konfigürasyonu yap.
+**3. Network B için Stateful DHCPv6 konfigürasyonu yap.**
 
 Şimdi ise normal bir şekilde DHCPv6 Server konfigürasyonu yapıp IP, DNS parametrelerini dağıtacağız.
 
@@ -121,7 +121,7 @@ R1(config-if)#exit
 Görüldüğü gibi hem IP hem DNS parametrelerini almış.
 Şimdi DNS parametresini almadığı duruma bakalım.
 
-4. Network C için SLAAC + DHCPv6 konfigürasyonu yap.
+**4. Network C için SLAAC + DHCPv6 konfigürasyonu yap.**
 
 Şimdi ise SLAAC yönteminde alamadığımız DNS bilgilerini DHCPv6 server üzerinden alacağız.
 Bunun için ise, 0 Flag'ini 1 olarak ayarlayacağız.

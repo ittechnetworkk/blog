@@ -1,7 +1,7 @@
 +++
 date = '2024-06-09T22:57:40+01:00'
-title = 'Cisco Router Parola Sifirlama'
-tags = ["Cisco", "Router",]
+title = 'Cisco Router Parola Sıfırlama'
+tags = ["Cisco", "Router"]
 author = "Soner Sahin"
 +++
 

@@ -38,7 +38,7 @@ R2(config-if)#tunnel destination 197.53.15.2
 R1(config)#crypto isakmp policy 10
 R1(config-isakmp)#authentication pre-share               (define it later on)
 R1(config-isakmp)#encryption aes
-R1(config-isakmp)#group 14                        (above from 14)
+R1(config-isakmp)#group 14                               (must be over 14)
 R1(config-isakmp)#hash sha
 R1(config-isakmp)#exit
 

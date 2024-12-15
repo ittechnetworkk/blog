@@ -8,9 +8,9 @@ author = "Soner Sahin"
 OSPF Authentication, OSPF network trafiğinin güvenliğini artırmak amacıyla kullanılır. 
 3 Çeşit doğrulama yöntemi vardır;
 
-**1-** Plain Text Authentication,
-**2-** MD5 Authentication,
-**3-** SHA-HMAC Authentication (IOS 15.4 ve sonrası versiyonlar için)
+**1- Plain Text Authentication,**
+**2- MD5 Authentication,**
+**3- SHA-HMAC Authentication (IOS 15.4 ve sonrası versiyonlar için)**
 
 Aşağıdaki topolojiyi uygulayacağız.
 
@@ -18,11 +18,13 @@ Aşağıdaki topolojiyi uygulayacağız.
 
 Bu topolojide 3 Authentication metodunu da uygulayacağız.
 
-R1 ve R3 arasında Plain Text Authentication (Area 1)
-R1 ve R2 arasında MD5 Authentication (Area 0)
+R1 ve R3 arasında Plain Text Authentication (Area 1),
+
+R1 ve R2 arasında MD5 Authentication (Area 0),
+
 R2 ve R4 arasında SHA-HMAC Authentication yapacağız. (Area 2)
 
-**A-** Interfacelere IP vererek başlayalım:
+**1- Interfacelere IP vererek başlayalım:**
 
 **R1:**
 ```
@@ -67,7 +69,7 @@ R4(config-if)#exit
 ```
 
 
-**B-** OSPF Yapılandırması Yapalım:
+**2- OSPF Yapılandırması Yapalım:**
 
 **R1:**
 ```
@@ -100,9 +102,9 @@ R4(config-router)#exit
 ```
 
 
-**C-** Authentication Yapılandırması Yapalım:
+**3-  Authentication Yapılandırması Yapalım:**
 
-**1-** R1 ve R3 arasında yani Area 1'de Plain Text Authentication yapalım;
+**R1 ve R3 arasında yani Area 1'de Plain Text Authentication yapalım;**
 
 **R1:**
 ```
@@ -123,7 +125,7 @@ R3(config-if)#exit
 
 ------------------------------------------------------------------------
 
-**2:** R1 ve R2 arasında yani Area 0'ı MD5 Authentication yapalım;
+**R1 ve R2 arasında yani Area 0'ı MD5 Authentication yapalım;**
 
 **R1:**
 ```
@@ -142,7 +144,7 @@ R2(config-if)#exit
 
 ------------------------------------------------------------------------
 
-**3:** R2 ve R4 arasında yani Area 2 SHA-HMAC Authentication yapalım;
+**R2 ve R4 arasında yani Area 2 SHA-HMAC Authentication yapalım;**
 
 **R2:**
 ```

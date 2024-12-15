@@ -23,7 +23,8 @@ Yapılacaklar:
 3. Test et.
 
 
-1. **Router ve VPC'lerin Interface'lerine IPv4 ve IPv6 adreslerini tanımla,**
+
+**1. Router ve VPC'lerin Interface'lerine IPv4 ve IPv6 adreslerini tanımla,**
 
 **R1:**
 ```
@@ -84,7 +85,7 @@ Checking for duplicate address...
 VPCS : 192.168.20.10 255.255.255.0 gateway 192.168.20.1
 ```
 
-2. **Networklerin birbirleriyle haberleşmesi için statik rotalar yaz,**
+**2. Networklerin birbirleriyle haberleşmesi için statik rotalar yaz,**
 
 **R1:**
 ```
@@ -98,7 +99,7 @@ R2(config)#ip route 192.168.10.0 255.255.255.0 192.168.1.1
 R2(config)#ipv6 route 2001:10::/64 2001:1::1
 ```
 
-3. **Test et.**
+**3. Test et.**
 
 **VPC1:**
 ```
