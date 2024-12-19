@@ -1,6 +1,6 @@
 +++
 date = '2024-06-06T22:57:40+01:00'
-title = 'İkili Yığın Yöntemi'
+title = 'IPv6 Geçiş Çalışmaları İkili Yığın Yöntemi'
 tags = ["ipv6", "dual-stack"]
 author = "Soner Sahin"
 +++

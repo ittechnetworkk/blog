@@ -171,7 +171,6 @@ sudo nano project.py
 ```
 
 ```py
-
 import sys
 import os
 import time

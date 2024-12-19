@@ -78,7 +78,7 @@ weight = 3
     link = "https://www.linkedin.com/in/soner-sahin-943262174/"
  [[params.social]]
     name = "twitter"
-    link = "https://x.com/ittechnetworkk"  
+    link = "https://x.com/sonersahin1881"  
   [[params.social]]
     name = "email"
     link = "ittechnetworkk@gmail.com"  # no need for "mailto:" in the head
