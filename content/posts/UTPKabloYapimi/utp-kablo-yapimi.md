@@ -69,55 +69,55 @@ Aşağıdaki kategorilerine göre internet kablosu yapım örneklerini inceleyeb
 
 İhtiyacımız olan malzemeler aşağıdaki gibidir:
 
-![UTP](/images/UTPKabloYapimi/18.png)
+![UTP](/images/UTPKabloYapimi/18.jpg)
 
 İlk olarak turuncu koruyucu kabı kesilen yerden geçiriyorum.
 
 Daha sonra sarı renkli küçük ama yetenekli alet ile kabloyu 2 cm kadar soyuyorum.
 
-![UTP](/images/UTPKabloYapimi/1.png)
+![UTP](/images/UTPKabloYapimi/1.jpg)
 
-![UTP](/images/UTPKabloYapimi/2.png)
+![UTP](/images/UTPKabloYapimi/2.jpg)
 
 Daha sonra mor plastik kısmı çıkarıyorum. Koruyucu metal katman aşağıdaki gibi görünecektir.
 
-![UTP](/images/UTPKabloYapimi/3.png)
+![UTP](/images/UTPKabloYapimi/3.jpg)
 
 4 çift olarak sarılmış ve en üstü tel parçaları ile çevrilmiş.
 
 Bu metal kısmı ve tel parçalarını da çıkarıp atıyorum ve kabloları renklerine göre çift olarak ayırıyorum.
 
-![UTP](/images/UTPKabloYapimi/4.png)
+![UTP](/images/UTPKabloYapimi/4.jpg)
 
 Bu kabloları da T568B standardına göre aşağıdaki gibi nizami bir şekilde diziyorum ve pensenin keskin kısmı ile kesiyorum.
 
-![UTP](/images/UTPKabloYapimi/5.png)
+![UTP](/images/UTPKabloYapimi/5.jpg)
 
-![UTP](/images/UTPKabloYapimi/6.png)
+![UTP](/images/UTPKabloYapimi/6.jpg)
 
 Kestikten sonra aşağıdaki resimde görülen küçük düzenleyiciyi sırayı bozmadan takıyorum.
 
-![UTP](/images/UTPKabloYapimi/7.png)
+![UTP](/images/UTPKabloYapimi/7.jpg)
 
 Bu şekilde konnektöre takıyorum.
 
-![UTP](/images/UTPKabloYapimi/8.png)
+![UTP](/images/UTPKabloYapimi/8.jpg)
 
-![UTP](/images/UTPKabloYapimi/9.png)
+![UTP](/images/UTPKabloYapimi/9.jpg)
 
 Kabloların tam ve doğru sırada olduklarını tekrar kontrol ediyorum.
 
 Daha sonra pense ile son sıkıştırma işlemini yapıyorum.
 
-![UTP](/images/UTPKabloYapimi/10.png)
+![UTP](/images/UTPKabloYapimi/10.jpg)
 
 Konnektörün kenar telleriyle kabloyu iyice sıkıştırıyorum.
 
-![UTP](/images/UTPKabloYapimi/11.png)
+![UTP](/images/UTPKabloYapimi/11.jpg)
 
 Son olarak koruyucu turuncu kabı yerine yerleştiriyorum.
 
-![UTP](/images/UTPKabloYapimi/12.png)
+![UTP](/images/UTPKabloYapimi/12.jpg)
 
 Artık kontrol edebiliriz.
 
@@ -125,7 +125,7 @@ Kablonun her iki ucunu da aşağıdaki gibi kontrol cihazına takıp cihazı "ON
 
 Cihazın tüm ışıkları sırasıyla karşılıklı olarak yanıyorsa sorun yok demektir. 
 
-![UTP](/images/UTPKabloYapimi/13.png)
+![UTP](/images/UTPKabloYapimi/13.jpg)
 
 Artık kullanmaya başlayabilirsiniz.
 
