@@ -1,7 +1,7 @@
 +++
 date = '2024-05-11T22:57:40+01:00'
 title = 'Proxmox Kurulumu (Dell Poweredge R640)'
-tags = ["server" "virtualization", "proxmox"]
+tags = ["server", "virtualization", "proxmox"]
 author = "Soner Sahin"
 +++
 
