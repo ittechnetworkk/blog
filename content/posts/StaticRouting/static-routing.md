@@ -9,6 +9,7 @@ Topoloji değişikliklerinde networklerin de yine güncellenmesi manuel olarak y
 Administrative Distance değeri 1'dir
 
 Aşağıdaki topolojiyi uygulayacağız.
+
 ![UTP](/images/StaticRouting/2.png)
 
 Bu topolojide tüm cihazların birbirleriyle iletişim kurmasını istiyoruz. Başlayalım

@@ -17,7 +17,7 @@ Sahip olduğum donanım ve yazılımlar şu şekilde:
 - Ethernet Kablosu,
 - Balena Etcher.
 
-![proxmox](/images/ProxmoxKurulumu/1.png)
+![proxmox](/images/ProxmoxKurulumu/1.jpg)
 
 
 
@@ -30,35 +30,35 @@ ISO yazdırma işlemi bittikten sonra USB belleği sunucumun ön kısmında bulu
 
 Cihazı USB bellekten boot etmek için açılırken F11 tuşuna basıyorum.
 
-![proxmox](/images/ProxmoxKurulumu/3.png)
+![proxmox](/images/ProxmoxKurulumu/3.jpg)
 
 Gelen menüden "One-shot UEFI Boot Menu" seçeneğiyle devam ediyorum.
 
-![proxmox](/images/ProxmoxKurulumu/4.png)
+![proxmox](/images/ProxmoxKurulumu/4.jpg)
 
 Bir sonraki menüden USB Bellekten boot etmesi gereken seçeneği seçerek ilerliyorum.
 
-![proxmox](/images/ProxmoxKurulumu/5.png)
+![proxmox](/images/ProxmoxKurulumu/5.jpg)
 
 Proxmox kurulum ekranı gelmiş oldu. En üstteki seçeği seçiyorum.
 
-![proxmox](/images/ProxmoxKurulumu/6.png)
+![proxmox](/images/ProxmoxKurulumu/6.jpg)
 
 Lisans Sözleşmesine "I agree" diyerek devam ediyorum.
 
-![proxmox](/images/ProxmoxKurulumu/7.png)
+![proxmox](/images/ProxmoxKurulumu/7.jpg)
 
 "Proxmox Virtual Environment (PVE)" kısmında Proxmox'un kurulacağı diski seçmemi istiyor. Uygun olan diski seçip devam ediyorum.
 
-![proxmox](/images/ProxmoxKurulumu/8.png)
+![proxmox](/images/ProxmoxKurulumu/8.jpg)
 
 "Location and Time Zone selection"  kısmında konum, zaman ve klavye seçeneklerini doldurduktan sonra devam ediyorum.
 
-![proxmox](/images/ProxmoxKurulumu/9.png)
+![proxmox](/images/ProxmoxKurulumu/9.jpg)
 
 "Administration Password and Email Address" kısmında bir parola(Proxmox arayüzüne erişmek için kullanılacak) ve Email adresi belirledikten sonra devam ediyorum.
 
-![proxmox](/images/ProxmoxKurulumu/10.png)
+![proxmox](/images/ProxmoxKurulumu/10.jpg)
 
 "Management Network Configuration" kısmında 
 - Yönetim Arayüzü
@@ -69,21 +69,21 @@ Lisans Sözleşmesine "I agree" diyerek devam ediyorum.
 
 Ayarlarını yaptıktan sonra devam ediyorum.
 
-![proxmox](/images/ProxmoxKurulumu/11.png)
+![proxmox](/images/ProxmoxKurulumu/11.jpg)
 
 Son olarak "Summary" kısmında bir özet olarak konfigürasyonu kontrol ettikten sonra "Install" diyerek kurulumu başlatıyorum.
 
-![proxmox](/images/ProxmoxKurulumu/12.png)
+![proxmox](/images/ProxmoxKurulumu/12.jpg)
 
-![proxmox](/images/ProxmoxKurulumu/13.png)
+![proxmox](/images/ProxmoxKurulumu/13.jpg)
 
 Kurulum işlemi bittikten sonra cihaz otomatik olarak yeniden başlatılacaktır. Reboot edilirken USB Belleği çıkarıyorum.
 
-![proxmox](/images/ProxmoxKurulumu/14.png)
+![proxmox](/images/ProxmoxKurulumu/14.jpg)
 
 Ve artık Proxmox kurulmuş oldu.
 
-![proxmox](/images/ProxmoxKurulumu/19.png)
+![proxmox](/images/ProxmoxKurulumu/19.jpg)
 
 Kendi bilgisayarımın tarayıcısından "192.168.0.17:8006" adresine gidiyorum.
 

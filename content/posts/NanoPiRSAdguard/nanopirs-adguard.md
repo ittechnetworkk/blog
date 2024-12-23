@@ -7,10 +7,6 @@ author = "Soner Sahin"
 
 Merhaba, bu yazımda önceden aldığım fakat değerlendiremediğim NanoPi R2S cihazına Adguard Home kurmayı anlatacağım.
 
-NanoPi R2S görüntü itibariyle aşağıdaki gibidir:
-
-![adguard](/images/AdguardKurulumu/1.png)
-
 Bazı özellikleri şöyledir:
 - Rockchip RK3328,
 - 1GB DDR4 RAM,
@@ -42,6 +38,9 @@ Bazı özellikleri aşağıdaki gibidir:
 | Per-client (device) configuration                                       | ✅            | ✅                                                       |
 | Access settings (choose who can use AGH DNS)                            | ✅            | ❌                                                       |
 | Running without root privileges                                         | ✅            | ❌                                                       |
+| ----------------------------------------------------------------------- | ------------ | ------------------------------------------------------- |
+
+
 Adguard Home'u herhangi bir işletim sisteminden de ayağa kaldırabilir veya aynı zamanda [Docker container](https://hub.docker.com/r/adguard/adguardhome) olarak da kurup kullanabilirsiniz. 
 
 Öncelikle cihaza bir işletim sistemi kurmamız gerekiyor. NanoPi R2S için isterseniz FrindlyWRT veya DietPi işletim sistemlerinden birini kurabilirsiniz.
@@ -91,6 +90,7 @@ Kurulum bittikten sonra cihazın IP almasını sağlamak için boot etmeden önc
 /boot/dietpi.txt
 dosyasında,
 `AUTO_SETUP_NET_WIFI_ENABLED=0` değerini 1 olarak değiştiriyoruz.
+
 ![adguard](/images/AdguardKurulumu/6.png)
 
 ikinci olarak;
