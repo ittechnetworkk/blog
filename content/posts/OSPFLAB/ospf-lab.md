@@ -2,6 +2,7 @@
 date = '2024-04-07T22:57:40+01:00'
 title = 'OSPF LAB'
 tags = ["IPv4", "routing", "ospf"]
+categories = ["Network"]
 author = "Soner Sahin"
 +++
 Bu Lab’daki amacım OSPF’in genel bir tekrarını yapmak olacak. Komutları uzun uzun yazıyor olacağım.
