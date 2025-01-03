@@ -2,6 +2,7 @@
 date = '2024-06-26T17:53:48+01:00'
 title = 'Temel Switch Konfigürasyonu'
 tags = ["Cisco", "Switch"]
+categories = ["Network"]
 author = "Soner Sahin"
 +++
 

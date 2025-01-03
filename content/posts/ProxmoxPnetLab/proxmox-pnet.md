@@ -2,6 +2,7 @@
 date = '2024-08-29T22:57:40+01:00'
 title = "Proxmox'a PNET Lab Kurulumu"
 tags = ["pnetlab", "proxmox"]
+categories = ["Virtualization"]
 author = "Soner Sahin"
 +++
 Proxmox'a normal bir ISO dosyası yükleyerek sanal makine oluşturulabilir. Fakat .ova uzantılı bir dosya için farklı bir yöntemle yüklemek gerek. 

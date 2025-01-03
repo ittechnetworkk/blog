@@ -2,6 +2,7 @@
 date = '2024-07-07T22:57:40+01:00'
 title = 'UTP Kablo Yapımı'
 tags = ["cable"]
+categories = ["Network"]
 author = "Soner Sahin"
 +++
 

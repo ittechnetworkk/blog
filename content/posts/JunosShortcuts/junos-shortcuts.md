@@ -2,6 +2,7 @@
 date = '2024-11-16T17:53:48+01:00'
 title = 'Juniper Shortcuts'
 tags = ["junos", "juniper"]
+categories = ["Network"]
 author = "Soner Sahin"
 +++
 Junos Shortcuts, JunOS CLI ekranında bize pratiklik sağlayan kısayollardır. Başlıcaları aşağıdaki gibidir.

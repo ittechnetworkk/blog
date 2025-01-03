@@ -2,6 +2,7 @@
 date = '2024-10-10T22:57:40+01:00'
 title = 'Windows Server NIC Teaming'
 tags = ["server", "windows"]
+categories = ["Windows"]
 author = "Soner Sahin"
 +++
 

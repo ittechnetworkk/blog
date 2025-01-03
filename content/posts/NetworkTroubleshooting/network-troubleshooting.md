@@ -2,6 +2,7 @@
 date = '2024-07-28T22:57:40+01:00'
 title = 'Network Troubleshooting'
 tags = ["troubleshooting"]
+categories = ["Network"]
 author = "Soner Sahin"
 +++
 

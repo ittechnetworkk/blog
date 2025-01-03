@@ -2,6 +2,7 @@
 date = '2024-06-09T22:57:40+01:00'
 title = 'Cisco Router Parola Sıfırlama'
 tags = ["Cisco", "Router"]
+categories = ["Network"]
 author = "Soner Sahin"
 +++
 

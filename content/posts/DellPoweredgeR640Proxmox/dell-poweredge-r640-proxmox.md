@@ -1,7 +1,8 @@
 +++
-date = '2024-05-11T22:57:40+01:00'
-title = 'Proxmox Kurulumu (Dell Poweredge R640)'
-tags = ["server", "virtualization", "proxmox"]
+date = '2024-12-02T22:57:40+01:00'
+title = 'Dell PowerEdge R640 Proxmox'
+tags = ["proxmox", "virtualization", "server"]
+categories = ["Virtualization"]
 author = "Soner Sahin"
 +++
 

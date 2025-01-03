@@ -2,6 +2,7 @@
 date = '2024-03-22T22:57:40+01:00'
 title = 'EtherChannel'
 tags = ["Etherchannel", "LACP", "PaGP", "Switch"]
+categories = ["Network"]
 author = "Soner Sahin"
 +++
 

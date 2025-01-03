@@ -2,6 +2,7 @@
 date = '2024-03-18T22:57:40+01:00'
 title = 'Static Routing'
 tags = ["IPv4", "routing"]
+categories = ["Network"]
 author = "Soner Sahin"
 +++
 Static Routing, yönlendirme tablosuna manuel olarak route eklenmesidir.

@@ -2,6 +2,7 @@
 date = '2024-11-07T22:57:40+01:00'
 title = 'Ubuntu 22.04 DHCP Server Konfigürasyonu'
 tags = ["linux", "ubuntu", "dhcp"]
+categories = ["Linux"]
 author = "Soner Sahin"
 +++
 

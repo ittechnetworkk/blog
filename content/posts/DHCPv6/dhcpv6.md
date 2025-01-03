@@ -2,6 +2,7 @@
 date = '2024-05-31T22:57:40+01:00'
 title = 'DHCPv6'
 tags = ["DHCP", "ipv6"]
+categories = ["Network"]
 author = "Soner Sahin"
 +++
 

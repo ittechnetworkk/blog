@@ -2,6 +2,7 @@
 date = '2024-05-31T22:57:40+01:00'
 title = 'IPv4 IPv6 Tünelleme'
 tags = ["ipv6", "tunnelling"]
+categories = ["Network"]
 author = "Soner Sahin"
 +++
 

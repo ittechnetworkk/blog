@@ -2,6 +2,7 @@
 date = '2024-10-11T22:57:40+01:00'
 title = 'Updog'
 tags = ["updog", "http"]
+categories = ["Linux"]
 author = "Soner Sahin"
 +++
 

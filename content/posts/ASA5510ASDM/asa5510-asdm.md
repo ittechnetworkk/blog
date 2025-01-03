@@ -2,6 +2,7 @@
 date = '2024-12-02T22:57:40+01:00'
 title = 'Cisco ASA ASDM Enable'
 tags = ["asa", "cisco", "firewall"]
+categories = ["Firewall"]
 author = "Soner Sahin"
 +++
 

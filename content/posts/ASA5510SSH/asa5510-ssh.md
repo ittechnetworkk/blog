@@ -2,6 +2,7 @@
 date = '2024-12-01T22:57:40+01:00'
 title = 'Cisco ASA SSH Konfigürasyonu'
 tags = ["asa", "cisco", "firewall", "ssh"]
+categories = ["Firewall"]
 author = "Soner Sahin"
 +++
 

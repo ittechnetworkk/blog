@@ -4,11 +4,6 @@
           "name":"Raspberry Pi e-Paper Projesi",
           "url":"https://ittechnetworkk.github.io/posts/epaper/raspberry-pi-epaper/",
           "desc":" Raspberry Pi Zero ve E-Paper Ekran İle Saat Uygulaması "
-       },
-       {
-          "name":"OSPF Network Lab",
-          "url":"https://ittechnetworkk.github.io/posts/ospflab/ospf-lab/",
-          "desc":"Comprehensive OSPF routing configuration with authentication and virtual links implementation"
        }
     ]
  }

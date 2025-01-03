@@ -2,6 +2,7 @@
 date = '2024-11-22T22:57:40+01:00'
 title = 'GRE Over Ipsec'
 tags = ["ipsec", "gre", "tunnelling"]
+categories = ["Network"]
 author = "Soner Sahin"
 +++
 

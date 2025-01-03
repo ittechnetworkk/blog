@@ -2,6 +2,7 @@
 date = '2024-05-12T22:57:40+01:00'
 title = 'Adguard Kurulumu (NanoPi R2S)'
 tags = ["dietpi", "nanopi"]
+categories = ["IoT", "Linux"]
 author = "Soner Sahin"
 +++
 

@@ -2,6 +2,7 @@
 date = '2024-03-31T22:57:40+01:00'
 title = 'OSPF Konfigürasyonu'
 tags = ["IPv4", "routing", "ospf"]
+categories = ["Network"]
 author = "Soner Sahin"
 +++
 

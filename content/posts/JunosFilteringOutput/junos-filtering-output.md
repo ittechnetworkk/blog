@@ -2,6 +2,7 @@
 date = '2024-11-16T22:57:40+01:00'
 title = 'Juniper Filtering Output'
 tags = ["junos", "juniper"]
+categories = ["Network"]
 author = "Soner Sahin"
 +++
 JunOS işletim sisteminde çıktıları filtrelemek çoğu zaman hayat kurtarır. JunOS'da bazı çıktılar çok uzun olabiliyor, bu çıktıları filtrelemek amacımıza ulaşmak için zamandan tasarruf sağlıyor.

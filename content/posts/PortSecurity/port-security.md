@@ -2,6 +2,7 @@
 date = '2024-04-21T22:57:40+01:00'
 title = 'Port Security'
 tags = ["portsecurity"]
+categories = ["Network"]
 author = "Soner Sahin"
 +++
 Port Security, yetkisiz cihazların networke erişimini engellemek için kullanılır. Layer 2 seviyesinde uygulanır. Switch portlarına bağlanabilecek cihazların MAC adresleri bazında güvenliği sağlanır. Port Security uygulanacak switch portu ya access ya da trunk olamalıdır. Cihaz'a default olarak geldiği gibi Port Security yapılmaz, hata verir.

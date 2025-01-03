@@ -2,6 +2,7 @@
 date = '2024-04-14T22:57:40+01:00'
 title = 'PPP Multilink Konfigürasyonu'
 tags = ["ppp", "multilink"]
+categories = ["Network"]
 author = "Soner Sahin"
 +++
 
