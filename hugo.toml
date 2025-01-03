@@ -4,6 +4,11 @@ title = "ittechnetworkk"
 theme = "cactus"
 copyright = "ittechnetworkk"
 
+# Enable categories taxonomy
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
 # Main menu which appears below site header.
 [[menu.main]]
 name = "Home"
@@ -21,14 +26,14 @@ url = "/projects"
 weight = 3
 
 [[menu.main]]
-name = "Tags"
-url = "/tags"
-weight = 5
+name = "Categories"
+url = "/categories/"
+weight = 4
 
 [[menu.main]]
-name = "Categories"
-url = "/categories"
-weight = 4
+name = "Tags"
+url = "/tags/"
+weight = 5
 
 [[menu.main]]
 name = "About"
