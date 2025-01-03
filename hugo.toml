@@ -1,13 +1,8 @@
-baseURL = "https://ittechnetworkk.github.io"
+baseURL = "https://ittechnetworkk.github.io/"
 languageCode = "en-us"
 title = "ittechnetworkk"
 theme = "cactus"
-copyright = "ittechnetworkk" # cactus will use title if copyright is not set
-#disqusShortname = "ittechnetworkk" # Used when comments is enabled. Cactus will use site title if not set
-#googleAnalytics = "UA-1234-5"
-
-
-# summaryLength = 2
+copyright = "ittechnetworkk"
 
 # Main menu which appears below site header.
 [[menu.main]]
@@ -40,7 +35,6 @@ name = "About"
 url = "/about"
 weight = 6
 
-
 [markup]
   [markup.tableOfContents]
     endLevel = 4
@@ -58,37 +52,32 @@ weight = 6
     tabWidth = 4
 
 [params]
-
-  colortheme = "dark" # dark, light, white, or classic
-
-  # Home page settings
+  colortheme = "dark"
   showAllPostsArchive = true 
-  description = "Hello, I’m Soner from Turkey. I prefer working with the CLI rather than GUI. On this site, I share my expertise in various technologies, insights into newly learned tools, as well as details of the projects I have completed and those I plan to undertake. I run this blog with the motivation to learn, have fun, and help others along the way."
-  mainSection = "posts" # your main section
-  showAllPostsOnHomePage = true # default
-  postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
-  tagsOverview = true # show tags overview by default.
-  showProjectsList = true # show projects list by default (if projects data file exists).
-  projectsUrl = "https://ittechnetworkk.github.io" # title link for projects list
+  description = "Hello, I'm Soner from Turkey. I prefer working with the CLI rather than GUI. On this site, I share my expertise in various technologies, insights into newly learned tools, as well as details of the projects I have completed and those I plan to undertake. I run this blog with the motivation to learn, have fun, and help others along the way."
+  mainSection = "posts"
+  showAllPostsOnHomePage = true
+  postsOnHomePage = 5
+  tagsOverview = true
+  showProjectsList = true
+  projectsUrl = "https://ittechnetworkk.github.io/"
 
-  # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
-  dateFormat = "2006-01-02" # default
+  # Date format
+  dateFormat = "2006-01-02"
 
   # Post page settings
-  show_updated = true # default
-  showReadTime = true # default
+  show_updated = true
+  showReadTime = true
 
-  # the value of name should be an valid font awesome icon name (brands type)
-  # https://fontawesome.com/icons?d=gallery&s=brands
   [[params.social]]
     name = "github"
     link = "https://github.com/ittechnetworkk"
   [[params.social]]
     name = "linkedin"
     link = "https://www.linkedin.com/in/soner-sahin-943262174/"
- [[params.social]]
+  [[params.social]]
     name = "twitter"
-    link = "https://x.com/sonersahin1881"  
+    link = "https://x.com/sonersahin1881"
   [[params.social]]
     name = "email"
-    link = "ittechnetworkk@gmail.com"  # no need for "mailto:" in the head
+    link = "ittechnetworkk@gmail.com"
