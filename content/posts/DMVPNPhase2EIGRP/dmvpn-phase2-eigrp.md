@@ -2,6 +2,7 @@
 date = '2024-09-11T22:57:40+01:00'
 title = 'DMVPN Phase 2 EIGRP'
 tags = ["DMVPN", "cisco", "vpn", "eigrp"]
+categories = ["Network"]
 author = "Soner Sahin"
 +++
 

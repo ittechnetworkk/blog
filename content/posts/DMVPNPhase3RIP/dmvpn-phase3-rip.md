@@ -2,6 +2,7 @@
 date = '2024-09-11T22:57:40+01:00'
 title = 'DMVPN Phase 3 RIP'
 tags = ["DMVPN", "cisco", "vpn", "rip"]
+categories = ["Network"]
 author = "Soner Sahin"
 +++
 
