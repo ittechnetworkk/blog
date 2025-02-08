@@ -6,7 +6,7 @@ categories = ["Linux"]
 author = "Soner Sahin"
 +++
 
-Docker'a giriş notlarım. Bu notlar Özgür Öztürk'ün Docker Eğitiminden aldığım kendi notlarımdır.
+Docker'a giriş notlarım. Bu notlar Özgür Öztürk'ün Docker Eğitiminden aldığım notlarımdır.
 
 
 ```
