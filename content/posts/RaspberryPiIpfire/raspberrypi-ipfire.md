@@ -1,8 +1,8 @@
 +++
 title = "RaspberryPi Ipfire Kurulumu"
 date = "2024-05-19T23:00:44+01:00"
-tags = ["ipfire", "firewall", "iot", "raspberrypi"]
-categories = ["IoT", "Firewall"]
+tags = ["ipfire", "firewall", "IoT", "Raspberry Pi"]
+categories = ["IoT", "Firewall", "Raspberry Pi"]
 author = "Soner Sahin"
 +++
 

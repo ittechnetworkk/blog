@@ -1,8 +1,8 @@
 +++
 date = '2024-07-15T22:57:40+01:00'
 title = 'Raspberry Pi Syslog Server'
-tags = ["syslog", "raspberrypi", "logging", "cisco"]
-categories = ["Network", "IoT", "Linux"]
+tags = ["syslog", "Raspberry Pi", "logging", "cisco"]
+categories = ["Network", "IoT", "Linux", "Raspberry Pi"]
 author = "Soner Sahin"
 +++
 Merhaba, bu yazımda bi Raspberry Pi Zero'ya Syslog server rolü verip, bir Cisco Switch'e bu Syslog server konfigürasyonunu yapacağım.

@@ -1,8 +1,8 @@
 +++
 title = "RaspberryPi Zero'ya Pihole Kurulumu"
 date = "2025-05-13T12:22:24+01:00"
-tags = ["pihole", "raspberrypi", "iot"]
-categories = ["IoT"]
+tags = ["pihole", "Raspberry Pi", "IoT"]
+categories = ["IoT", "Raspberry Pi"]
 author = "Soner Sahin"
 +++
 
