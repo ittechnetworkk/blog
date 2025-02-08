@@ -8,7 +8,7 @@ author = "Soner Sahin"
 
 Details coming soon.
 
-Photos:
+**Photos:**
 
 ![skyforge](/images/Skyforge/1.jpg)
 
@@ -21,4 +21,30 @@ Photos:
 ![skyforge](/images/Skyforge/5.jpg)
 
 ![skyforge](/images/Skyforge/6.jpg)
+
+**Videos:**
+
+{{< video "/images/Skyforge/1.mp4" >}}
+
+--------------------------------------------
+
+{{< video "/images/Skyforge/2.mp4" >}}
+
+--------------------------------------------
+
+{{< video "/images/Skyforge/3.mp4" >}}
+
+--------------------------------------------
+
+{{< video "/images/Skyforge/4.mp4" >}}
+
+--------------------------------------------
+
+{{< video "/images/Skyforge/5.mp4" >}}
+
+--------------------------------------------
+
+{{< video "/images/Skyforge/6.mp4" >}}
+
+--------------------------------------------
 

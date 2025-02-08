@@ -1,1 +1,14 @@
- 
+{{ $video := .Get 0 }}
+<video controls width="100%" class="video-player">
+    <source src="{{ $video }}" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+<style>
+.video-player {
+    max-width: 100%;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+</style> 

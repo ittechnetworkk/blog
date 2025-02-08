@@ -291,7 +291,6 @@ ubuntu@client:~$ ssh Fedora
   ############  ###   ####   ####   #### ### ##### #####   QQQQQ#######QQQQQ
 
 Enter passphrase for key '/home/ubuntu/.abc/test': 
-Activate the web console with: systemctl enable --now cockpit.socket
 
 Last login: Sat Feb  8 13:51:38 2025 from 172.16.238.142
 fedora@fedora:~$ 
