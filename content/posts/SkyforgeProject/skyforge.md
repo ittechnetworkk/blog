@@ -26,11 +26,7 @@ Details coming soon.
 
 {{< video "/images/Skyforge/1.mp4" >}}
 
---------------------------------------------
-
 {{< video "/images/Skyforge/2.mp4" >}}
-
---------------------------------------------
 
 {{< video "/images/Skyforge/3.mp4" >}}
 

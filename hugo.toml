@@ -59,7 +59,7 @@ weight = 6
 [params]
   colortheme = "dark"
   showAllPostsArchive = true 
-  description = "Hello, I'm Soner from Turkey. I prefer working with the CLI rather than GUI. On this site, I share my expertise in various technologies, insights into newly learned tools, as well as details of the projects I have completed and those I plan to undertake. I run this blog with the motivation to learn, have fun, and help others along the way."
+  description = "Hello, I am Soner, in this blog page, I share articles about Network, Linux, Windows, Virtualization, Firewall, IoT etc. technologies. "
   mainSection = "posts"
   showAllPostsOnHomePage = true
   postsOnHomePage = 5
