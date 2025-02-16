@@ -2,12 +2,11 @@
 title = "Docker Notlarım"
 date = "2025-02-08T21:46:11+01:00"
 tags = ["Docker", "Linux"]
-categories = ["Linux"]
+categories = ["Docker"]
 author = "Soner Sahin"
 +++
 
 Docker'a giriş notlarım. Bu notlar Özgür Öztürk'ün Docker Eğitiminden aldığım notlarımdır.
-
 
 ```
 #Container oluşturulduktan sonra date uygulaması çalıştırılacak. Container başka bir uygulama ile başlatılacak.
@@ -63,11 +62,14 @@ docker container run -d --name cpukisit2 --cpuset-cpus="2,8" httpd
 
 #Container'de swap belirlemek için
 docker run -d --name swap --memory-swap=1G httpd
+
+#Tüm containerları topluca silmek için
+docker container prune
 ```
 
 ![docker](/images/Docker/1.png)
 
-Docker Volume:
+**Docker Volume:**
 
 ```
 #Volume'lar hos makinede bir klasör olarak durur. Container' bağlanan bir volume'da bir değişiklik yapılırsa host makinedeki o volume klasöründe de etkili olacaktır.
@@ -176,7 +178,7 @@ docker container run -it --name den2 --network=none busybox sh
 ip a
 ```
 
-Docker Hub:
+**Docker Hub:**
 
 ```
 Hali hazırda olan bir imajı kendimiz de tag'leyebiliriz.
@@ -189,9 +191,9 @@ Docker Hub'a CLI'den login olmak için
 docker login -u soner4444
 ```
 
-Docker Image Oluşturma:
+**Docker Image Oluşturma:**
 
-Dockerfile - 1:
+**Dockerfile - 1:**
 
 Docker'a özgü bir dil formatı ile conterner'a ne olacağını söylediğimiz dosyadır.
 Dockerfile'ı iyi dizayn etmemiz gerekiyor bekleme sürelerini minimalize etmek için. Değişiklik olan kısımları dosyanın altına doğru yazmamız gerekir ki Cache mekanizmasını daha efektif kullanılabilsin.
@@ -246,7 +248,7 @@ HEALTHCHECK --interval=5m --timeout=3s CMD curl -f http://localhost/ || exit 1
 #Gireceğimiz komutları hangi kullanıcı ile çalıştırmasını istiyorsak bu talimat ile onu seçebiliriz. 
 USER poweruser
 
-# İmaj metadata’sına key=value şeklinde değer çiftleri eklemek için kullanılır. Örneğin team=development şeklinde bir etiket eklenerek bu imajın development ekibinin kullanması için yaratıldığı belirtilebilir.
+# İmaj metadata'sına key=value şeklinde değer çiftleri eklemek için kullanılır. Örneğin team=development şeklinde bir etiket eklenerek bu imajın development ekibinin kullanması için yaratıldığı belirtilebilir.
 LABEL version:1.0.8
 
 #COPY Aynı işi yapar yani dosya ya da klasör kopyalarsınız. Fakat ADD bunun yanında dosya kaynağının bir url olmasına da izin verir. Ayrıca ADD ile kaynak olarak bir .tar dosyası belirtilirse bu dosya imaja .tar olarak sıkıştırılmış haliyle değil de açılarak kopyalanır. 
@@ -271,7 +273,7 @@ VOLUME /myvol
 SHELL ["powershell", "-command"]
 ```
 
-Dockerfile Örnekleri:
+**Dockerfile Örnekleri:**
 
 ```
 FROM ubuntu:18.04
@@ -299,7 +301,7 @@ EXPOSE 80
 CMD ["gunicorn","app:app","-b","0.0.0.0:80","--log-file","--access-logfile","-","--workers","4","--keep-alive","o"]
 ```
 
-Dockerfile çalıştırma:
+**Dockerfile çalıştırma:**
 
 ```
 docker image build -t besiktas .
@@ -312,13 +314,13 @@ docker container run --name alimetinfeyyaz besiktas
 docker image build -t besiktas1 -f Dockerfile.test
 ```
 
-Oluşturduğumuz imajdan bir container yaratma:
+**Oluşturduğumuz imajdan bir container yaratma:**
 
 ```
 docker run -d -p 8080:8080 --name deneme1 besiktas1
 ```
 
-Container'i Hub'a gönderme:
+**Container'i Hub'a gönderme:**
 
 ```
 #İlk olarak imajı repo ismiyle tag'lıyoruz.
@@ -331,33 +333,139 @@ docker push soner4444/besiktas:latest
 docker inspect 
 ```
 
+**Container Güvenliği:**
 
+```
+#İmaj içerisindeki güvenlik açıklarına bakmak için
+docker scout cves javadk
+```
+
+**Docker Multi-stage Build:**
+
+Bazı yazılım dillerinin çalıştırılması için compile edilmesi lazım örneğin java, c, c# gibi. Fakat eğer biz kodu aşağıdaki ilk Dockerfile'daki gibi ayağa kaldırırsak çalışacaktır fakat bu container'in hem boyutu büyük olacaktır hem de bir müşteriye göndermek istersek imajın içerisinde gereksiz paketler var aynı zamanda kaynak kodları mevcut. 
+
+```
+FROM mcr.microsoft.com/java/jdk:8-zulu-alpine
+COPY /source /usr/src/uygulama
+WORKDIR /usr/src/uygulama
+RUN javac uygulama.java
+CMD ["java", "uygulama"]
+```
+
+Bu sorunların üstesinden gelmek için ise bir imajın içerisinden compile edilen uygulamayı almak, sadece gerekli paketleri koymak ve yeniden bir container yaratmak gerekir. Aşağıdaki gibi.
+
+```
+docker cp javauygulama:/usr/src/uygulama .
+
+
+#Dockerfile
+FROM mcr.microsoft.com/java/jdk:8-zulu-alpine
+COPY /uygulama /uygulama
+WORKDIR /uygulama
+CMD ["java", "uygulama"]
+
+
+docker imaje build -t javajre Dockerfile .
+```
+
+Bu işlemler hem zaman hem de uğraştırıcı bir iştir. Bu sorunun üstesinden gelmek için Multi-stage build yöntemi kullanılır.
+
+Multi-stage build, bize bir Dockerfile'da iki işi halletmemizi sağlar aşağıdaki gibi.
+
+```
+FROM mcr.microsoft.com/java/jdk:8-zulu-alpine AS derleyici
+COPY /source /usr/src/uygulama
+WORKDIR /usr/src/uygulama
+RUN javac uygulama.java
+
+
+FROM mcr.microsoft.com/java/jre:8-zulu-alpine
+WORKDIR /usr/src/uygulama
+COPY --from=derleyici /usr/src/uygulama .
+CMD ["java", "uygulama"]
+
+
+docker build -t javadeneme .
+```
+
+**Build ARG:**
+
+Dockerfile'da imaje oluşturmak için değişken kullanmak istersek kullanılır. Örneğin aşağıdaki gibi VERSION adında bir ARG tanımladık bu sayede her Dockerfile çalıştırdığımızda komut satırında ilgili değeri değişken olarak gönderirsek imaj istediğimiz versiyonda oluşturulacaktır.
+
+```
+FROM ubuntu:latest
+WORKDIR /gecici
+ARG VERSION
+ADD https://www.python.org/ftp/python/${VERSION}/Python-${VERSION}.tgz .
+CMD ls -la
+
+
+docker image build -t deneme --build-arg VERSION=3.7.1
+```
+
+**Docker Compose:**
+
+YAML formatıyla containerları, volumeleri, networkleri vs. her şeyi ayağa kaldırdığımız dosyadır. Örnek docker-compose.yml dosyası.
+
+```
+#5 ana kısım vardır.
+
+version: "3.8"
+
+services:
+
+  mysqlsunucu:
+    image: mysql:latest
+    restart: always
+    environment:
+      MYSQL_DATABASE: wpdatabase
+      MYSQL_USER: wpuser
+      MYSQL_PASSWORD: Passwd123@
+      MYSQL_RANDOM_ROOT_PASSWORD: True
+    networks:
+      - wpnet
+    volumes:
+      - mysqlvolume:/var/lib/mysql
+
+  wpsunucu:
+    image: wordpress:latest
+    restart: always
+    depends_on:
+      - mysqlsunucu
+    ports:
+      - "8080:80"
+    environment:
+      WORDPRESS_DB_HOST: mysqlsunucu
+      WORDPRESS_DB_USER: wpuser
+      WORDPRESS_DB_PASSWORD: Passwd123@
+      WORDPRESS_DB_NAME: wpdatabase
+    networks:
+      - wpnet
+    volumes:
+      - wpvolume:/var/www/html
+networks:
+  wpnet:
+    driver: bridge
+
+volumes:
+  mysqlvolume:
+  wpvolume:
+```
+
+```
+#docker compose çalıştırma
+docker compose up -d
+
+#docker compose durdurma
+docker compose down
+```
+
+Docker compose durdurulduğunda oluşturduğu tüm containerları networkleri vs. silerek kapanır.
 
 **Kaynaklar:**
 
 https://www.udemy.com/course/adan-zye-docker
 
 https://www.youtube.com/@aytitech
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

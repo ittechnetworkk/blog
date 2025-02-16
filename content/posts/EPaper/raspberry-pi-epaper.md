@@ -1,6 +1,6 @@
 +++
 date = '2024-06-25T22:57:40+01:00'
-title = 'Raspberry Pi e-Paper Projesi'
+title = 'Raspberry Pi e-Paper Uygulaması'
 tags = ["Raspberry Pi", "IoT"]
 categories = ["IoT", "Linux", "Raspberry Pi"]
 author = "Soner Sahin"

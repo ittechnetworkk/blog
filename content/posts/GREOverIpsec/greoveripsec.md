@@ -149,3 +149,7 @@ sh crypto sessions
 sh ip route
 sh ip route ospf
 ```
+
+Teşekkürler,
+
+İyi Çalışmalar.
