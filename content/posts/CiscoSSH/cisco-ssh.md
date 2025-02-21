@@ -1,5 +1,5 @@
 +++
-title = "Cisco Ssh"
+title = "Cisco IOS SSH Konfigürasyonu"
 date = "2024-02-07T23:41:02+01:00"
 tags = ["Cisco", "SSH"]
 categories = ["Network"]
