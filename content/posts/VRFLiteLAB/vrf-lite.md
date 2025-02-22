@@ -6,9 +6,7 @@ categories = ["Network"]
 author = "Soner Sahin"
 +++
 
-Hello everyone, in this LAB I will configure VRF-Lite. 
-
-I will implement the following topology.
+Hello everyone, in this LAB I will configure GRE Tunnels with following topology.
 
 ![vrf-lite](/images/VRFLiteLAB/1.png)
 

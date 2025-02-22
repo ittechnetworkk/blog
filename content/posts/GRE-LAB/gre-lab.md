@@ -1,5 +1,5 @@
 +++
-title = "Gre Lab"
+title = "GRE LAB"
 date = "2025-02-21T22:18:30+01:00"
 tags = ["GRE", "Cisco", "IOS"]
 categories = ["Network"]
