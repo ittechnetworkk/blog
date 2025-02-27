@@ -1,0 +1,211 @@
+{{ define "main" }}
+{{ if eq .Title "Tools" }}
+<div class="post">
+    <div class="post-content">
+        <div class="tools-grid">
+            <!-- Subnet Calculator Card -->
+            <div class="tool-card" onclick="window.location.href='{{ .Site.BaseURL }}subnet-calculator'" style="background: #1a1a1a; border: 1px solid #333;">
+                <div class="tool-icon" style="color: #81c784;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="2" width="20" height="20" rx="2" ry="2"></rect>
+                        <line x1="2" y1="12" x2="22" y2="12"></line>
+                        <line x1="12" y1="2" x2="12" y2="22"></line>
+                    </svg>
+                </div>
+                <div class="tool-content">
+                    <h3 style="color: #81c784;">Subnet Calculator</h3>
+                    <p style="color: #aaa;">Professional subnet calculator with support for both IPv4 and IPv6. Calculate network addresses, broadcast addresses, usable IP ranges, and more. Perfect for network planning and administration.</p>
+                    <div class="tool-features">
+                        <span style="background: #1a1a1a; color: #81c784; border: 1px solid #333;">IPv4 & IPv6</span>
+                        <span style="background: #1a1a1a; color: #81c784; border: 1px solid #333;">VLSM</span>
+                        <span style="background: #1a1a1a; color: #81c784; border: 1px solid #333;">Binary View</span>
+                    </div>
+                    <div class="tool-link" style="color: #81c784;">Try Calculator →</div>
+                </div>
+            </div>
+
+            <!-- What is my IP Card -->
+            <div class="tool-card" onclick="window.location.href='{{ .Site.BaseURL }}what-is-my-ip'" style="background: #1a1a1a; border: 1px solid #333;">
+                <div class="tool-icon" style="color: #81c784;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="2" y1="12" x2="22" y2="12"></line>
+                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                    </svg>
+                </div>
+                <div class="tool-content">
+                    <h3 style="color: #81c784;">What is my IP?</h3>
+                    <p style="color: #aaa;">Get detailed information about your internet connection, including your public IP address, geolocation data, ISP details, and system information. Updated in real-time.</p>
+                    <div class="tool-features">
+                        <span style="background: #1a1a1a; color: #81c784; border: 1px solid #333;">Geolocation</span>
+                        <span style="background: #1a1a1a; color: #81c784; border: 1px solid #333;">ISP Info</span>
+                        <span style="background: #1a1a1a; color: #81c784; border: 1px solid #333;">Real-time</span>
+                    </div>
+                    <div class="tool-link" style="color: #81c784;">Check IP →</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            padding: 1rem;
+        }
+
+        .tool-card {
+            border-radius: 12px;
+            padding: 2rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            gap: 1.5rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .tool-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+            border-color: #333 !important;
+            background: #222 !important;
+        }
+
+        .tool-icon {
+            flex-shrink: 0;
+            width: 50px;
+            height: 50px;
+        }
+
+        .tool-icon svg {
+            width: 100%;
+            height: 100%;
+        }
+
+        .tool-content {
+            flex-grow: 1;
+        }
+
+        .tool-features {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .tool-features span {
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        .tool-link {
+            font-weight: 500;
+            display: inline-block;
+            transition: transform 0.2s;
+        }
+
+        .tool-card:hover .tool-link {
+            transform: translateX(5px);
+            color: #4CAF50 !important;
+        }
+
+        @media (max-width: 768px) {
+            .tools-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .tool-card {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .tool-icon {
+                margin: 0 auto;
+            }
+
+            .tool-features {
+                justify-content: center;
+            }
+        }
+    </style>
+</div>
+{{ else }}
+<div class="post">
+    {{ if eq .Title "Posts" }}
+        {{ $pages := .Pages.ByDate.Reverse }}
+        {{ $years := $pages.GroupByDate "2006" }}
+        
+        {{ range $years }}
+            <h2 style="color: var(--theme); margin-bottom: 1rem;">{{ .Key }}</h2>
+            {{ range .Pages }}
+                <div style="display: flex; margin-bottom: 0.5rem; color: #ccc;">
+                    <span style="width: 100px; color: #666;">{{ .Date.Format "2006-01-02" }}</span>
+                    <a href="{{ .RelPermalink }}" style="color: #ccc; text-decoration: none; margin-left: 1rem;">{{ .Title }}</a>
+                </div>
+            {{ end }}
+        {{ end }}
+    {{ else if eq .Title "Categories" }}
+        <h1>{{ .Title }}</h1>
+        <div class="category-list">
+            {{ range .Data.Terms.Alphabetical }}
+                <div class="category-item">
+                    <a href="{{ .Page.RelPermalink }}" class="category-link">
+                        <span class="category-name">{{ .Page.Title }}</span>
+                        <span class="category-count">{{ .Count }}</span>
+                    </a>
+                </div>
+            {{ end }}
+        </div>
+        <style>
+            .category-list {
+                margin-top: 2rem;
+            }
+            .category-item {
+                margin-bottom: 1rem;
+            }
+            .category-link {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 1rem;
+                background: #2d2d2d;
+                border-radius: 8px;
+                text-decoration: none;
+                color: #ccc;
+                transition: all 0.3s ease;
+                border: 1px solid #333;
+            }
+            .category-link:hover {
+                transform: translateX(5px);
+                border-color: var(--theme);
+                color: var(--theme);
+            }
+            .category-count {
+                background: #333;
+                padding: 0.2rem 0.8rem;
+                border-radius: 20px;
+                font-size: 0.9rem;
+            }
+        </style>
+    {{ else }}
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
+        {{ $pages := .Pages.ByDate.Reverse }}
+        {{ $years := $pages.GroupByDate "2006" }}
+        
+        {{ range $years }}
+            <h2 style="color: var(--theme); margin-bottom: 1rem;">{{ .Key }}</h2>
+            {{ range .Pages }}
+                <div style="display: flex; margin-bottom: 0.5rem; color: #ccc;">
+                    <span style="width: 100px; color: #666;">{{ .Date.Format "2006-01-02" }}</span>
+                    <a href="{{ .RelPermalink }}" style="color: #ccc; text-decoration: none; margin-left: 1rem;">{{ .Title }}</a>
+                </div>
+            {{ end }}
+        {{ end }}
+    {{ end }}
+</div>
+{{ end }}
+{{ end }} 

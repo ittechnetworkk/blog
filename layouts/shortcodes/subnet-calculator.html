@@ -1,0 +1,41 @@
+{{ $style := resources.Get "css/subnet-calculator.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+
+{{ $js := resources.Get "js/subnet-calculator.js" | resources.Minify | resources.Fingerprint }}
+<script src="{{ $js.RelPermalink }}"></script>
+
+<div class="tool-card">
+    <h1 class="tool-title">Advanced Subnet Calculator</h1>
+    <p class="tool-description">Calculate comprehensive subnet information including network address, broadcast address, usable IP range, and more. Supports both IPv4 and IPv6.</p>
+
+    <div class="subnet-calculator">
+        <div class="input-group">
+            <label for="ip">IP Address (IPv4 or IPv6):</label>
+            <input type="text" id="ip" placeholder="e.g., 192.168.1.0 or 2001:db8::">
+        </div>
+        <div class="input-group">
+            <label for="cidr">CIDR Notation:</label>
+            <input type="number" id="cidr" min="0" max="128" placeholder="e.g., 24 for IPv4, 64 for IPv6">
+        </div>
+        <div class="input-group">
+            <label for="numSubnets">Number of Subnets (optional):</label>
+            <input type="number" id="numSubnets" min="0" max="256" placeholder="Leave empty for no subdivision">
+        </div>
+        <button class="calculate-button" onclick="calculateSubnet()">Calculate</button>
+        <div id="result"></div>
+    </div>
+
+    <div class="features-list">
+        <h3>Features</h3>
+        <ul>
+            <li>IPv4 and IPv6 support</li>
+            <li>Binary representation of addresses</li>
+            <li>Network & Broadcast address calculation</li>
+            <li>Usable IP range determination</li>
+            <li>Wildcard mask calculation</li>
+            <li>IP address classification</li>
+            <li>Multiple subnet division calculator</li>
+            <li>VLSM support</li>
+        </ul>
+    </div>
+</div> 

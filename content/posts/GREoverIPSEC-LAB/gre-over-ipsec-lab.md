@@ -6,9 +6,9 @@ categories = ["Network"]
 author = "Soner Sahin"
 +++
 
-Hello everyone, in this LAB I will configure GRE over IPSec Tunnels. 
+Hello everyone, in this LAB I will configure GRE over IPSec Tunnels with following topology.
 
-I will implement the following topology. In this topology some configurations have been done. So networks can already reach with each other. I will just focus on GRE over IPSec Tunnels between the networks of Customer-A and Customer-B.
+In this topology some configurations have been done. So networks can already reach with each other. I will just focus on GRE over IPSec Tunnels between the networks of Customer-A and Customer-B.
 
 GRE Subnet for Customer-A: 192.168.1.0/24
 

@@ -26,19 +26,37 @@ url = "/projects"
 weight = 3
 
 [[menu.main]]
+name = "Tools"
+url = "/tools/"
+weight = 4
+identifier = "tools"
+
+[[menu.main]]
+name = "What is my IP?"
+url = "/what-is-my-ip"
+parent = "tools"
+weight = 1
+
+[[menu.main]]
+name = "Subnet Calculator"
+url = "/subnet-calculator"
+parent = "tools"
+weight = 2
+
+[[menu.main]]
 name = "Categories"
 url = "/categories/"
-weight = 4
+weight = 5
 
 [[menu.main]]
 name = "Tags"
 url = "/tags/"
-weight = 5
+weight = 6
 
 [[menu.main]]
 name = "About"
 url = "/about"
-weight = 6
+weight = 7
 
 [markup]
   [markup.tableOfContents]

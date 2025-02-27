@@ -1,0 +1,86 @@
+{{ $style := resources.Get "css/ip-checker.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+
+{{ $js := resources.Get "js/ip-checker.js" | resources.Minify | resources.Fingerprint }}
+<script src="{{ $js.RelPermalink }}"></script>
+
+<div class="tool-card">
+    <h4>What is my IP?</h4>
+    <p>This tool helps you quickly find out your current IP address and related information.</p>
+    
+    <div class="ip-checker">
+        <div class="ip-display">
+            <div class="ip-info">
+                <h5>Your IP Address:</h5>
+                <div id="ip-address" class="loading">Loading...</div>
+            </div>
+            <button id="refresh-ip" class="refresh-btn">
+                <i class="fas fa-sync-alt"></i> Refresh
+            </button>
+        </div>
+        
+        <div class="location-info">
+            <div class="country-info">
+                <div class="flag-container">
+                    <img id="country-flag" src="" alt="Country flag" class="country-flag">
+                </div>
+                <div class="country-details">
+                    <div class="info-row">
+                        <span class="label">Country:</span>
+                        <span id="country" class="value loading">Loading...</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="label">Region:</span>
+                        <span id="region" class="value loading">Loading...</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="label">City:</span>
+                        <span id="city" class="value loading">Loading...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="additional-info">
+            <div class="info-item">
+                <span class="label">Location:</span>
+                <span id="location" class="value loading">Loading...</span>
+            </div>
+            <div class="info-item">
+                <span class="label">ISP:</span>
+                <span id="isp" class="value loading">Loading...</span>
+            </div>
+            <div class="info-item">
+                <span class="label">Type:</span>
+                <span id="type" class="value loading">Loading...</span>
+            </div>
+        </div>
+
+        <div class="extended-info">
+            <h5>Additional Details</h5>
+            <div class="info-grid">
+                <div class="info-card">
+                    <i class="fas fa-clock"></i>
+                    <div class="info-content">
+                        <span class="label">Timezone</span>
+                        <span id="timezone" class="value loading">Loading...</span>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="info-content">
+                        <span class="label">Coordinates</span>
+                        <span id="coordinates" class="value loading">Loading...</span>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-globe"></i>
+                    <div class="info-content">
+                        <span class="label">Currency</span>
+                        <span id="currency" class="value loading">Loading...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
