@@ -44,6 +44,11 @@ parent = "tools"
 weight = 2
 
 [[menu.main]]
+name = "Resources"
+url = "/resources"
+weight = 6
+
+[[menu.main]]
 name = "Categories"
 url = "/categories/"
 weight = 5
@@ -51,12 +56,12 @@ weight = 5
 [[menu.main]]
 name = "Tags"
 url = "/tags/"
-weight = 6
+weight = 7
 
 [[menu.main]]
 name = "About"
 url = "/about"
-weight = 7
+weight = 8
 
 [markup]
   [markup.tableOfContents]
