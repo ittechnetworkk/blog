@@ -4,6 +4,7 @@ date = "2025-01-24T21:46:46+01:00"
 tags = ["Linux", "Network Manager"]
 categories = ["Linux"]
 author = "Soner Sahin"
+image = "/images/NetworkManagerInstallation/cover.jpg"
 +++
 
 Hi there, in this article, I will show you how to switch `netplan` to `NetworkManager` to manage network interfaces on Ubuntu.

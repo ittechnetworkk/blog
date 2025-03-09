@@ -4,6 +4,7 @@ date = "2025-02-21T22:18:30+01:00"
 tags = ["GRE", "Cisco", "IOS"]
 categories = ["Network"]
 author = "Soner Sahin"
+image = "/images/GRE-LAB/cover.jpg"
 +++
 
 Hello everyone, in this LAB I will configure GRE Tunnels. 

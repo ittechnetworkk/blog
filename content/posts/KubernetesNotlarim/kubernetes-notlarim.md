@@ -4,6 +4,7 @@ date = "2025-02-16T14:48:43+01:00"
 tags = ["Kubernetes"]
 categories = ["Kubernetes"]
 author = "Soner Sahin"
+image = "/images/KubernetesNotlarim/cover.jpg"
 +++
 
 Kubernetes'a giriş notlarım. Bu notlar Özgür Öztürk'ün Kubernetes Eğitiminden aldığım notlarımdır.

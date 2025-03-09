@@ -4,6 +4,7 @@ date = "2025-01-23T01:06:35+01:00"
 tags = ["dhcp", "server", "ubuntu"]
 categories = ["linux"]
 author = "Soner Sahin"
+image = "/images/UbuntuDHCPServer/cover.jpg"
 +++
 
 Hello there!

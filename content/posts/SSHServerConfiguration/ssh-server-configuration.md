@@ -4,6 +4,7 @@ date = "2025-02-08T15:23:57+01:00"
 tags = ["SSH", "Server", "Configuration"]
 categories = ["Linux"]
 author = "Soner Sahin"
+image = "/images/SSHServerConfiguration/cover.jpg"
 +++
 
 Hi everyone, in this article, I will show you how to configure an SSH server in detail.

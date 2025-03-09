@@ -4,6 +4,7 @@ date = "2025-02-21T22:19:46+01:00"
 tags = ["gre", "ipsec", "cisco", "ios"]
 categories = ["Network"]
 author = "Soner Sahin"
+image = "/images/GREoverIPSEC-LAB/cover.jpg"
 +++
 
 Hello everyone, in this LAB I will configure GRE over IPSec Tunnels with following topology.

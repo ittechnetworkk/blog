@@ -4,6 +4,7 @@ title = 'Adguard Kurulumu (NanoPi R2S)'
 tags = ["dietpi", "nanopi"]
 categories = ["IoT", "Linux"]
 author = "Soner Sahin"
+image = "/images/AdguardKurulumu/cover.jpg"
 +++
 
 Merhaba, bu yazımda önceden aldığım fakat değerlendiremediğim NanoPi R2S cihazına Adguard Home kurmayı anlatacağım.
@@ -24,7 +25,7 @@ Peki Adguard Home nedir?
 [Adguard Home](https://adguard.com/tr/adguard-home/overview.html) bilenler için Pi-Hole benzeri fakat daha gelişmiş özellikleri olan bir yazılımdır. 
 Bazı özellikleri aşağıdaki gibidir:
 
-| Feature                                                                 | AdGuard Home | Pi-Hole                                                 |
+| Feature                                                                 | AdGuard Home | Pi-Hole                                                 |
 | ----------------------------------------------------------------------- | ------------ | ------------------------------------------------------- |
 | Blocking ads and trackers                                               | ✅            | ✅                                                       |
 | Customizing blocklists                                                  | ✅            | ✅                                                       |
@@ -38,7 +39,7 @@ Bazı özellikleri aşağıdaki gibidir:
 | Force Safe search on search engines                                     | ✅            | ❌                                                       |
 | Per-client (device) configuration                                       | ✅            | ✅                                                       |
 | Access settings (choose who can use AGH DNS)                            | ✅            | ❌                                                       |
-| Running without root privileges                                         | ✅            | ❌                                                       |
+| Running without root privileges                                         | ✅            | ❌                                                       |
 | ----------------------------------------------------------------------- | ------------ | ------------------------------------------------------- |
 
 

@@ -4,6 +4,7 @@ date = "2025-01-24T22:16:16+01:00"
 tags = ["Cockpit"]
 categories = ["Linux"]
 author = "Soner Sahin"
+image = "/images/CockpitInstallation/cover.jpg"
 +++
 
 Selamlar, bu yazımda Linux sunucularda Cockpit kurulumuna değineceğim.

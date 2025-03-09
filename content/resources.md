@@ -8,10 +8,9 @@ draft: false
 
 ### Study Resources
 - [Cisco Learning Network](https://learningnetwork.cisco.com/) - Official resource for Cisco certifications and training
-- [Juniper Networks](https://www.juniper.net/) - Official website for Juniper Networks
+- [Juniper Learning Network](https://learningportal.juniper.net/juniper/user_activity_info.aspx?id=JUNIPER-OPEN-LEARNING&TrackId=jnet-nav#specialist-level) - Official resource for Juniper certifications and training
 - [CCNA Study](https://study-ccna.com/) - Free CCNA study guide
 - [CCNA/CCNP Study](https://networklessons.com/) - CCNA/CCNP study guide
-- [Juniper Learning Network](https://learningportal.juniper.net/juniper/user_activity_info.aspx?id=JUNIPER-OPEN-LEARNING&TrackId=jnet-nav#specialist-level) - Official resource for Juniper certifications and training
 - [Computer Networking Notes](https://www.computernetworkingnotes.com/) - Computer Networking Notes
 - [IP Cisco](https://ipcisco.com/) - Network Study Guide
 - [Orhan Ergun](https://orhanergun.net/) - Network/Firewall Study Materials
@@ -30,7 +29,10 @@ draft: false
 - [Wireshark](https://www.wireshark.org/) - Network protocol analyzer
 - [Nmap](https://nmap.org/) - Network discovery and security scanning
 - [Putty](https://www.putty.org/) - SSH client
+- [MobaXterm](https://mobaxterm.mobatek.net/) - SSH client
+- [SecureCRT](https://www.vandyke.com/products/securecrt/) - SSH client
 - [Tftpd64](https://pjo2.github.io/tftpd64/) - TFTP server
+
 
 ### Lab Resources
 - [Packet Tracer](https://www.netacad.com/courses/packet-tracer) - Free network simulation tool
@@ -186,7 +188,7 @@ draft: false
 
 ### Certifications
 - [CEH](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/) - Certified Ethical Hacker
-- [OSCP](https://www.oscp.info/) - Offensive Security Certified Professional
+- [OSCP](https://www.offsec.com/products/oscp-plus/) - Offensive Security Certified Professional
 - [OSCE](https://www.osce.com/) - Offensive Security Certified Expert
 - [CompTIA](https://www.comptia.org/) - CompTIA
 

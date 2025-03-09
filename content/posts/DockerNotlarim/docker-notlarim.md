@@ -4,6 +4,7 @@ date = "2025-02-08T21:46:11+01:00"
 tags = ["Docker", "Linux"]
 categories = ["Docker"]
 author = "Soner Sahin"
+image = "/images/Docker/cover.jpg"
 +++
 
 Docker'a giriş notlarım. Bu notlar Özgür Öztürk'ün Docker Eğitiminden aldığım notlarımdır.

@@ -143,7 +143,16 @@
             {{ range .Pages }}
                 <div style="display: flex; margin-bottom: 0.5rem; color: #ccc;">
                     <span style="width: 100px; color: #666;">{{ .Date.Format "2006-01-02" }}</span>
-                    <a href="{{ .RelPermalink }}" style="color: #ccc; text-decoration: none; margin-left: 1rem;">{{ .Title }}</a>
+                    <a href="{{ .RelPermalink }}" style="color: #ccc; text-decoration: none; margin-left: 1rem;">
+                        {{ if .Params.image }}
+                        <div style="display: flex; align-items: center;">
+                            <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" style="width: 50px; height: 50px; object-fit: cover; margin-right: 10px; border-radius: 4px;">
+                            <span>{{ .Title }}</span>
+                        </div>
+                        {{ else }}
+                        <span>{{ .Title }}</span>
+                        {{ end }}
+                    </a>
                 </div>
             {{ end }}
         {{ end }}
@@ -201,7 +210,16 @@
             {{ range .Pages }}
                 <div style="display: flex; margin-bottom: 0.5rem; color: #ccc;">
                     <span style="width: 100px; color: #666;">{{ .Date.Format "2006-01-02" }}</span>
-                    <a href="{{ .RelPermalink }}" style="color: #ccc; text-decoration: none; margin-left: 1rem;">{{ .Title }}</a>
+                    <a href="{{ .RelPermalink }}" style="color: #ccc; text-decoration: none; margin-left: 1rem;">
+                        {{ if .Params.image }}
+                        <div style="display: flex; align-items: center;">
+                            <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" style="width: 50px; height: 50px; object-fit: cover; margin-right: 10px; border-radius: 4px;">
+                            <span>{{ .Title }}</span>
+                        </div>
+                        {{ else }}
+                        <span>{{ .Title }}</span>
+                        {{ end }}
+                    </a>
                 </div>
             {{ end }}
         {{ end }}
