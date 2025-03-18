@@ -1,5 +1,5 @@
 +++
-title = "ESXi Installation"
+title = "[EN] ESXi Installation"
 date = "2025-03-09T23:13:13+01:00"
 tags = ["esxi", "virtualization", "vmware"]
 categories = ["Virtualization"]
