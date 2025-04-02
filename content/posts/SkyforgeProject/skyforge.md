@@ -4,6 +4,7 @@ date = "2025-02-08T15:35:41+01:00"
 tags = ["Skyforge", "Raspberry Pi", "IoT"]
 categories = ["IoT", "Raspberry Pi"]
 author = "Soner Sahin"
+image = "/images/Skyforge/cover.jpg"
 +++
 
 Details coming soon.

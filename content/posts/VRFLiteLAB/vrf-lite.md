@@ -4,6 +4,7 @@ date = "2025-02-21T02:36:28+01:00"
 tags = ["VRF-Lite", "Cisco", "IOS"]
 categories = ["Network"]
 author = "Soner Sahin"
+image = "/images/VRFLiteLAB/cover.jpg"
 +++
 
 Hello everyone, in this LAB I will configure GRE Tunnels with following topology.

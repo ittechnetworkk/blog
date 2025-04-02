@@ -4,6 +4,7 @@ date = "2025-01-03T23:31:39+01:00"
 tags = ["Cisco", "CML"]
 categories = ["Network"]
 author = "Soner Sahin"
+image = "/images/CiscoCMLFreeTrial/cover.jpg"
 +++
 CiscoCMLFreeTrial
 Merhabalar, bu yazımda Cml Freetrial konusunu anlatacağım. 

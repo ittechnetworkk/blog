@@ -4,6 +4,7 @@ date = "2025-01-19T22:51:26+01:00"
 tags = ["Linux", "IP", "Fedora"]
 categories = ["Linux"]
 author = "Soner Sahin"
+image = "/images/FedoraIP/cover.jpg"
 +++
 
 Selamlar, bu yazımda Fedora Server'a nasıl statik veya dinamik IP tanımlanacağını göstereceğim.

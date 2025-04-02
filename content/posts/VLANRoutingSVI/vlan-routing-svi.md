@@ -4,6 +4,7 @@ date = "2025-01-10T11:43:33+01:00"
 tags = ["Network", "vlan", "routing"]
 categories = ["Network"]
 author = "Soner Sahin"
+image = "/images/VLANRoutingSVI/cover.jpg"
 +++
 
 Selamlar, bu yazımda VLAN Routing'in L3 bir Switch ile nasıl yapılacağını bir LAB senaryosu üzerinde yapacağım..

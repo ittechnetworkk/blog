@@ -4,6 +4,7 @@ title = 'GRE Over Ipsec'
 tags = ["ipsec", "gre", "tunnelling"]
 categories = ["Network"]
 author = "Soner Sahin"
+image = "/images/greoveripsec/cover.jpg"
 +++
 
 

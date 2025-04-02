@@ -4,6 +4,7 @@ date = "2025-01-03T23:00:44+01:00"
 tags = ["ipfire", "firewall", "iot", "nanopi"]
 categories = ["IoT", "Firewall"]
 author = "Soner Sahin"
+image = "/images/NanoPiR2SIPFireKurulumu/cover.jpg"
 +++
 
 Merhaba, bu yazıda, NanoPi R2S cihazıma IPFire kurulumunu anlatacağım.

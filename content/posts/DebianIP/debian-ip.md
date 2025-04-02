@@ -4,6 +4,7 @@ date = "2025-01-19T23:56:33+01:00"
 tags = ["Linux", "IP", "Debian"]
 categories = ["Linux"]
 author = "Soner Sahin"
+image = "/images/DebianIP/cover.jpg"
 +++
 
 Selamlar, bu yazımda Debian Server'a nasıl statik veya dinamik IP tanımlanacağını göstereceğim.

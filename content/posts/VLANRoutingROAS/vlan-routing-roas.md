@@ -4,6 +4,7 @@ date = "2025-01-10T11:43:17+01:00"
 tags = ["Network", "vlan", "routing"]
 categories = ["Network"]
 author = "Soner Sahin"
+image = "/images/VLANRoutingROAS/cover.jpg"
 +++
 
 Selamlar, bu yazımda VLAN Routing'in bir Router ile nasıl yapılacağını bir LAB senaryosu üzerinde yapacağım..

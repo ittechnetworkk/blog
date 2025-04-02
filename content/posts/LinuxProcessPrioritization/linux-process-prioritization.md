@@ -4,6 +4,7 @@ date = "2025-01-11T05:03:17+01:00"
 tags = ["linux"]
 categories = ["Linux"]
 author = "Soner Sahin"
+image = "/images/LinuxProcessPrioritization/cover.jpg"
 +++
 
 In this article I am going to talk about Linux process Prioritization. 
