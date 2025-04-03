@@ -15,6 +15,12 @@ Quickly find out your current IP address and related information like location a
 ### [Subnet Calculator](/tools/subnet-calculator/)
 Calculate subnet information including network address, broadcast address, usable IP range, and more.
 
+### [Cisco IOS Config Generator](/tools/cisco-ios-config/)
+Generate Cisco IOS configuration files for routers, switches, and other networking devices with a user-friendly interface.
+
+### [Junos Config Generator](/tools/junos-config/)
+Create Juniper Junos configuration files for routers and switches with support for routing protocols, security policies, and network services.
+
 ### Features
 
 All our tools come with:
