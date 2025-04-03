@@ -1,54 +1,5 @@
 {{ define "main" }}
 <article class="post" id="tools">
-    <header>
-        <h1 class="post-title">{{ .Title }}</h1>
-    </header>
-
-    {{ $style := resources.Get "css/subnet-calculator.css" | resources.Minify | resources.Fingerprint }}
-    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
-
-    {{ $js := resources.Get "js/subnet-calculator.js" | resources.Minify | resources.Fingerprint }}
-    <script src="{{ $js.RelPermalink }}"></script>
-
-    <div class="post-content">
-        <h2>Our Tools and Services</h2>
-
-        <p>Welcome to our tools section! Here you'll find various online tools and services that we've developed to help make your work easier and more efficient.</p>
-
-        <div class="tools-container">
-            <!-- Subnet Calculator Card -->
-            <div class="tool-card">
-                <h4>Subnet Calculator</h4>
-                <p>Our Subnet Calculator helps network administrators and IT professionals quickly calculate subnet information including network address, broadcast address, usable IP range, and more.</p>
-                
-                <div class="subnet-calculator">
-                    <div class="input-group">
-                        <label for="ip">IP Address:</label>
-                        <input type="text" id="ip" placeholder="e.g., 192.168.1.0">
-                    </div>
-                    <div class="input-group">
-                        <label for="cidr">CIDR Notation (0-32):</label>
-                        <input type="number" id="cidr" min="0" max="32" placeholder="e.g., 24">
-                    </div>
-                    <button class="calculate-btn" onclick="calculateSubnet()">Calculate</button>
-                    <div id="result"></div>
-                </div>
-            </div>
-
-            <!-- Additional tool cards can be added here -->
-        </div>
-
-        <div class="features-list">
-            <h3>Features</h3>
-            <ul>
-                <li>Professional-grade tools</li>
-                <li>Easy to use interfaces</li>
-                <li>Regular updates and improvements</li>
-                <li>Technical support</li>
-            </ul>
-        </div>
-
-        <p>Stay tuned for more tools and services. We're working hard to bring you solutions that will enhance your productivity and workflow.</p>
-    </div>
+    {{ .Content }}
 </article>
 {{ end }} 

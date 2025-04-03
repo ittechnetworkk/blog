@@ -44,6 +44,18 @@ parent = "tools"
 weight = 2
 
 [[menu.main]]
+name = "Cisco IOS Config Generator"
+url = "/cisco-ios-config"
+parent = "tools"
+weight = 3
+
+[[menu.main]]
+name = "Junos Config Generator"
+url = "/junos-config"
+parent = "tools"
+weight = 4
+
+[[menu.main]]
 name = "Resources"
 url = "/resources"
 weight = 6
