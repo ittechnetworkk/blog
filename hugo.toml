@@ -58,12 +58,17 @@ weight = 4
 [[menu.main]]
 name = "Resources"
 url = "/resources"
-weight = 6
+weight = 8
+
+[[menu.main]]
+name = "Library"
+url = "/library"
+weight = 9
 
 [[menu.main]]
 name = "Categories"
 url = "/categories/"
-weight = 5
+weight = 6
 
 [[menu.main]]
 name = "Tags"
@@ -73,7 +78,7 @@ weight = 7
 [[menu.main]]
 name = "About"
 url = "/about"
-weight = 8
+weight = 10
 
 [markup]
   [markup.tableOfContents]
@@ -94,7 +99,7 @@ weight = 8
 [params]
   colortheme = "dark"
   showAllPostsArchive = true 
-  description = "Hello, I am Soner, in this blog page, I share articles about Network, Linux, Windows, Virtualization, Firewall, IoT etc. technologies. "
+  description = "Hi, I’m Soner, and this is my personal blog where I share insights, guides, and articles on various tech topics, including Networking, Linux, Windows, Virtualization, Firewalls, IoT, and more. I'm constantly learning and exploring new technologies, and this blog is where I document my journey. "
   mainSection = "posts"
   showAllPostsOnHomePage = true
   postsOnHomePage = 5
