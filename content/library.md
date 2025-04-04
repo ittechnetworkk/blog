@@ -275,6 +275,8 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 - **Fallout (2024)** - Action/Adventure/Sci-fi
 
+- **The Day of the Jackal (2024)** - Thriller
+
 - **Obliterated (2023)** - Action/Adventure/Sci-fi
 
 - **The Expanse (2015)** - Adventure/Sci-fi/Drama

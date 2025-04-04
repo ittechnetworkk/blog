@@ -4,7 +4,7 @@ date: 2024-02-27
 draft: false
 ---
 
-## 🌐 Network Technologies
+# 🌐 Network Technologies
 
 ### Study Resources
 - [Cisco Learning Network](https://learningnetwork.cisco.com/) - Official resource for Cisco certifications and training
@@ -42,15 +42,15 @@ draft: false
 - [Cisco Modeling Labs](https://www.cisco.com/site/us/en/learn/training-certifications/training/modeling-labs/index.html) - Cisco Modeling Labs
 - [Boson NetSim](https://www.boson.com/netsim-cisco-network-simulator) - Network simulation tool
 
-## 💻 Linux and System Administration
+# 💻 Linux and System Administration
 
 ### Linux Training
 - [Linux Journey](https://linuxjourney.com/) - Interactive resource for learning Linux
 - [Linux Documentation Project](https://tldp.org/) - Comprehensive Linux documentation
-- [Açık Kaynak Fikirler](https://acikkaynakfikirler.com/egitimler/) - Linux, Scripting, Docker, Ansible Training
+- [Açık Kaynak Fikirler](https://acikkaynakfikirler.com/) - Linux, Scripting, Docker, Ansible Training
 - [Linux Training](https://www.linuxdersleri.net/) - Linux Training
 
-### Linux Certification
+### Certifications
 - [Linux Foundation](https://training.linuxfoundation.org/) - Linux Foundation training
 - [Linux Professional Institute](https://www.lpi.org/) - Linux Professional Institute
 - [CompTIA Linux+](https://www.comptia.org/certifications/linux) - CompTIA Linux+ certification
@@ -110,7 +110,7 @@ draft: false
 - [hashcat](https://terminaltrove.com/hashcat/) - World's fastest and most advanced password recovery utility.
 - [impala](https://terminaltrove.com/impala/) - TUI for managing WiFi on Linux.
 
-## 🔒 Firewalls
+# 🔒 Firewalls
 
 ### Enterprise Firewalls
 - [Fortinet](https://www.fortinet.com/) - Fortinet
@@ -138,16 +138,14 @@ draft: false
 - [Palo Alto](https://www.paloaltonetworks.com/services/education/certification) - Palo Alto Certification
 - [Check Point](https://training-certifications.checkpoint.com/#/?affChecked=1) - Check Point Certification
 
-
-
-### Firewall Certification
+### Certifications
 - [Fortinet](https://www.fortinet.com/training/certifications) - Fortinet Certification
 - [Juniper](https://www.juniper.net/us/en/training/certification.html) - Juniper Certification
 - [Palo Alto](https://www.paloaltonetworks.com/services/education/certification) - Palo Alto Certification
 - [Check Point](https://training-certifications.checkpoint.com/#/?affChecked=1) - Check Point Certification
 
 
-## 🔒 Cybersecurity
+# 🔒 Cybersecurity
 
 
 ### CVE's
@@ -193,7 +191,7 @@ draft: false
 - [CompTIA](https://www.comptia.org/) - CompTIA
 
 
-## 🛠 Virtualization and Containers
+# 🛠 Virtualization and Containers
 
 ### Virtualization
 - [VirtualBox](https://www.virtualbox.org/) - Open-source virtualization software
@@ -228,7 +226,7 @@ draft: false
 - [VMware Certifications](https://www.broadcom.com/support/education/vmware/certification) - VMware Certified Professional
 - [Red Hat Certified Specialist in Virtualization](https://www.redhat.com/en/services/certification/rhcs-virtualization?pfe-n2yhi859i=skills) - Red Hat Certified Specialist
 
-## � Monitoring and Observability
+# � Monitoring and Observability
 
 ### Monitoring Tools
 - [Prometheus](https://prometheus.io/) - Monitoring tool
