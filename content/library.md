@@ -10,7 +10,7 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 # 🎬 Movies
 
-### Watched (91)
+### Watched (95)
 
 - **Sixty Minutes (2024)** - Action/Sport
 
@@ -88,6 +88,8 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 - **Bumblebee (2018)** - Action/Adventure/Sci-fi
 
+- **Müslüm (2018)** - Biography/Drama
+
 - **Arif ve 216 (2017)** - Comedy/Family
 
 - **Baby Driver (2017)** - Action/Thriller
@@ -104,6 +106,8 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 - **Jason Bourne (2016)** - Action/Thriller
 
+- **Dağ 2 (2016)** - Action/Drama/War
+
 - **Almost Christmas (2016)** - Comedy/Family
 
 - **Snowden (2016)** - Thriller/Biography
@@ -111,6 +115,8 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 - **13 Hours: The Secret Soldiers of Benghazi (2016)** - Action/War/History
 
 - **Dedemin Fişi (2015)** - Comedy/Family
+
+- **Ted 2 (2015)** - Comedy
 
 - **San Andreas (2015)** - Action/Thriller
 
@@ -151,6 +157,8 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 - **Journey 2: The Mysterious Island (2012)** - Adventure/Family/Sci-fi
 
 - **Ted (2012)** - Comedy/Family
+
+- **Dağ (2012)** - Drama/Adventure/War
 
 - **Fast Five (2011)** - Action/Adventure/Crime
 
@@ -261,6 +269,8 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 ### Watched (3)
 
+- **Peacemaker (2022)** - Action/Adventure/Sci-fi/Comedy
+
 - **Bio Hackers (2020)** - Thriller/Sci-fi
 
 - **Money Heist (2017)** - Action/Thriller
@@ -269,7 +279,7 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 ### Currently Watching
 
-- **Peacemaker (2022)** - Action/Adventure/Sci-fi
+- **The Office (2001)** - Comedy/Drama
 
 ### To Watch
 
@@ -283,7 +293,7 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 - **Sherlock (2010)** - Mystery/Drama/Crime
 
-- **The Office (2001)** - Comedy/Drama
+
 
 # 📖 Books
 
