@@ -4,6 +4,7 @@ title = "Proxmox'a PNET Lab Kurulumu"
 tags = ["pnetlab", "proxmox"]
 categories = ["Virtualization"]
 author = "Soner Sahin"
+image = "/images/ProxmoxVmwareMigration/cover.jpg"
 +++
 Proxmox'a normal bir ISO dosyası yükleyerek sanal makine oluşturulabilir. Fakat .ova uzantılı bir dosya için farklı bir yöntemle yüklemek gerek. 
 

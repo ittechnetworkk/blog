@@ -4,6 +4,7 @@ title = 'Dell PowerEdge R640 Proxmox'
 tags = ["proxmox", "virtualization", "server"]
 categories = ["Virtualization"]
 author = "Soner Sahin"
+image = "/images/DellPoweredgeR640Proxmox/cover.jpg"
 +++
 
 Bu yazımda, Dell Poweredge R640 Server'a Proxmox kurulumunu anlatacağım.
