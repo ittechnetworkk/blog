@@ -32,6 +32,8 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 - **Hava Muhalefeti (2023)** - Comedy/Family
 
+- **Oppenheimer (2023)** - Thriller/History
+
 - **The Super Mario Bros. Movie (2023)** - Adventure/Family/Comedy
 
 - **Cyberbunker: The Criminal Underworld (2023)** - Documentary/Crime
@@ -69,8 +71,6 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 - **6 Underground (2019)** - Action/Adventure/Sci-fi
 
 - **The Last Summer (2019)** - Romance/Comedy
-
-- **The Great Hack (2019)** - Documentary
 
 - **Aykut Enişte 1 (2019)** - Comedy/Family
 
@@ -443,6 +443,34 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 - **Sherlock (2010)** - Mystery/Drama/Crime
 
 
+# 📺 Documentary
+
+### Watched (1)
+
+- **["NEW SPACE" Frontier Film](https://www.youtube.com/watch?v=eOOppenheimerlpKN7ZOTo&ab_channel=S3)**
+
+### To Watch
+
+- **[The Research Lab The US Government Shutdown in 1984](https://www.youtube.com/watch?v=c-cSeTz3dMg&ab_channel=S3)**
+
+- **[Moore's Law is Dead — Welcome to Light Speed Computers](https://www.youtube.com/watch?v=wBqfzj6CEzI&ab_channel=S3)**
+
+- **[Why The First Computers Were Made Out Of Light Bulbs](https://www.youtube.com/watch?v=FU_YFpfDqqA&ab_channel=Veritasium)**
+
+- **[I built a QR code with my bare hands to see how it works](https://www.youtube.com/watch?v=w5ebcowAJD8&ab_channel=Veritasium)**
+
+- **[Putting Man on The Moon in 11 Years | The Apollo Program](https://www.youtube.com/watch?v=jUW_1XlrWmg&ab_channel=S3)**
+
+- **[What the Internet Was Like in 1995](https://www.youtube.com/watch?v=QqiUSbXx7Wg&ab_channel=NationSquid)**
+
+- **[How Does the Internet Work? - Glad You Asked S1](https://www.youtube.com/watch?v=TNQsmPf24go&ab_channel=Vox0)**
+
+- **[The Most Destructive Hack Ever Used: NotPetya](https://www.youtube.com/watch?v=3-MSlNVqzYY&ab_channel=Cybernews)**
+
+- **[How the Greatest Hacker Manipulated Everyone](https://www.youtube.com/watch?v=aLUDhbQojxA&ab_channel=Newsthink)**
+
+- **[Dark Sides of Artificial Intelligence | 60 Minutes Full Episodes](https://www.youtube.com/watch?v=LgUjLcxJxVg&ab_channel=60Minutes)**
+
 
 # 📖 Books
 
@@ -475,7 +503,7 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 - **İnce Memed Seri** - Yaşar Kemal
 
 
-## 🏆 Favorites
+# 🏆 Favorites
 
 ### Favorite Movies
 
@@ -500,6 +528,9 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 ### Favorite TV Series
 
 - **Mr. Robot (2015)** - Thriller/Sci-fi
+
+### Favorite Documentary
+
 
 ### Favorite Books
 
