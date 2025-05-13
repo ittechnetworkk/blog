@@ -16,13 +16,13 @@ NAT (Network Address Translation) is a method used in routers and firewalls that
 Since private IP addresses (e.g., 192.168.x.x, 10.x.x.x, 172.16.x.x–172.31.x.x) are not routable on the internet, NAT translates these private IP addresses into a public IP before forwarding traffic. It also translates incoming public traffic back to the appropriate private IP inside the network.
 
 The primary reason NAT exists is because of the limited number of IPv4 addresses available globally.
-#### There are 3 types of NAT:
+## **There are 3 types of NAT:**
 
 - **Static NAT:** A single private IP is always mapped to the same public IP.
 - **Dynamic NAT:** Private IPs are mapped to a pool of public IPs, but not fixed; the router picks an available public IP dynamically.
 - **PAT or NAT-Overload:** Many private IPs are mapped to a single public IP using different ports.
 
-#### Static NAT Configuration:
+## **Static NAT Configuration:**
 
 ```
 R1>enable
@@ -37,7 +37,7 @@ R1(config)#ip nat inside source static 192.168.1.1 50.65.84.74
 OR
 R1(config)#ip nat inside source static 192.168.1.1 interface g0/1
 ```
-#### Dynamic NAT Configuration:
+## **Dynamic NAT Configuration:**
 
 ```
 R1>enable
@@ -52,7 +52,7 @@ R1(config)#ip nat pool NATPool 80.60.50.10 80.60.50.20 netmask 255.255.255.0
 R1(config)#access-list 10 permit 192.168.1.0 0.0.0.255
 R1(config)#ip nat inside source list 10 pool NATPool
 ```
-#### PAT Configuration:
+## **PAT Configuration:**
 
 ```
 R1>enable
@@ -66,14 +66,14 @@ R1(config-if)#exit
 R1(config)#access-list 10 permit 192.168.1.0 0.0.0.255
 R1(config)#ip nat inside source list 10 interface g0/1 overload
 ```
-#### Show Commands:
+## **Show Commands:**
 
 ```
 show ip nat translations
 show ip nat statistics
 show running-config | include nat
 ```
-#### Debugging Commands:
+## **Debugging Commands:**
 
 ```
 debug ip nat

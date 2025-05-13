@@ -15,23 +15,23 @@ In modern networks, accurate time synchronization is crucial for tasks such as l
 - Each hop increases the Stratum value.
 - Maximum supported stratum level is 15
 
-#### Configuring Clock and Date Manually:
+## **Configuring Clock and Date Manually:**
 
 ```
 SW-1#clock set 12:00:00 1 AUG 2019
 ```
-#### Setting the Time Zone:
+## **Setting the Time Zone:*
 
 ```
 SW-1#conf t
 SW-1(config)#clock timezone EST +2
 ```
-#### Configuring Daylight Saving Time:
+## **Configuring Daylight Saving Time:**
 
 ```
 SW-1(config)#clock summer-time CEST recurring last Sun Mar 2:00 last Sun Oct 3:00  
 ```
-#### NTP Server Configuration:
+## **NTP Server Configuration:**
 
 ```
 SW-1(config)#ip domain-lookup                  # DNS
@@ -43,17 +43,18 @@ SW-1(config)#ntp update-calendar
 ```
 
 If you want to use an external source for NTP information, you can visit [this site](https://www.ntppool.org/en/) to find NTP servers suitable for your location.
-#### Configuring a Cisco Device as an NTP Server:
+
+## **Configuring a Cisco Device as an NTP Server:**
 
 ```
 SW-1(config)#ntp master 2
 ```
-#### NTP Peering:
+## **NTP Peering:**
 
 ```
 SW-1(config)#ntp peer 10.53.56.100 source gigabitEthernet 0/0
 ```
-#### NTP Authentication:
+## **NTP Authentication:**
 
 ```
 #On the NTP Server:
@@ -67,12 +68,12 @@ SW-1(config)#ntp authentication-key 5 md5 Password123!
 SW-1(config)#ntp trusted-key 5
 SW-1(config)#ntp server 192.168.254.1 key 5
 ```
-#### Enable NTP Logging:
+## **Enable NTP Logging:**
 
 ```
 SW-1(config)#ntp logging
 ```
-#### Show Commands:
+## **Show Commands:**
 
 ```
 show clock
@@ -81,7 +82,7 @@ show ntp status
 show ntp associations
 show ntp associations detail 
 ```
-#### Debug Commands:
+## **Debug Commands:**
 
 ```
 debug ntp packet
