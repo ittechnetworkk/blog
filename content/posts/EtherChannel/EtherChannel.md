@@ -4,6 +4,7 @@ title = 'EtherChannel'
 tags = ["Etherchannel", "LACP", "PaGP", "Switch"]
 categories = ["Network"]
 author = "Soner Sahin"
+image = "/images/etherchannel/cover.jpg"
 +++
 
 EtherChannel Protokolü switchlerin birden fazla fiziksel portunu tek bir mantıksal port yapan protokoldür. Yapılmasının amacı şudur örneğin iki switch arasına 4 kablo çekip bırakırsak Stp (Spanning Tree Protocol) devreye girecek ve bu portlardan bazılarını kapatacaktır loop'u engellemek için. Eğer EtherChannel yaparsak bu portlar tek bir mantıksal port gibi görünecektir ve STP'ye gerek kalmayacaktır. Konfigüre etmek için karşılıklı portların yapısı aynı olmalıdır. Örneğin bir taraf GigabitEthernet diğeri FastEthernet olamaz. 

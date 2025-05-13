@@ -4,6 +4,7 @@ date = "2023-12-31T23:44:03+01:00"
 tags = ["Cisco", "DHCP", "Snooping"]
 categories = ["Network"]
 author = "Soner Sahin"
+image = "/images/DHCPRelayAgent/cover.jpg"
 +++
 
 DHCP(Dynamic Host Configuration Protocol), ağdaki cihazlarımıza otomatik olarak IP, DNS, Default Gateway bilgilerini dağıtan servistir. Ağa yeni bir cihaz katıldığında, kablo takılır takılmaz IP almak için Broadcast yayın yapar. Eğer ortamda DHCP servisi varsa o da karşılık verir. Toplam 4 aşamada IP alma işlemi tamamlanır. 

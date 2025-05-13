@@ -4,6 +4,7 @@ title = 'Raspberry Pi e-Paper Uygulaması'
 tags = ["Raspberry Pi", "IoT"]
 categories = ["IoT", "Linux", "Raspberry Pi"]
 author = "Soner Sahin"
+image = "/images/EPaper/cover.jpg"
 +++
 
 Merhabalar, bu yazıda Raspbery Pi Zero kullanarak anlık olarak Saati, Tarihi, IP bilgisini, Hostname'i ve Download/Upload değerlerini gösteren bir proje yapacağım.

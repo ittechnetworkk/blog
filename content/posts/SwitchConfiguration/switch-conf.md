@@ -4,6 +4,7 @@ title = 'Temel Switch Konfigürasyonu'
 tags = ["Cisco", "Switch"]
 categories = ["Network"]
 author = "Soner Sahin"
+image = "/images/temel-switch/cover.jpg"
 +++
 
 Merhaba, bu yazıda Cisco bir Switch'in temel bir konfigürasyonunu göstereceğim. 

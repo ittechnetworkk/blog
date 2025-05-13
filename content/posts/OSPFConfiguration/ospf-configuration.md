@@ -4,6 +4,7 @@ title = 'OSPF Konfigürasyonu'
 tags = ["IPv4", "routing", "ospf"]
 categories = ["Network"]
 author = "Soner Sahin"
+image = "/images/OSPFLAB/cover.jpg"
 +++
 
 OSPF (Open Short Path First), dinamik bir yönlendirme protokolüdür. OSPF bir Link State Routing protokolüdür. Bundan dolayı network haritasının tamamına hakimdir Bazı özellikleri şöyledir:

@@ -4,6 +4,7 @@ title = 'Raspberry Pi Syslog Server'
 tags = ["syslog", "Raspberry Pi", "logging", "cisco"]
 categories = ["Network", "IoT", "Linux", "Raspberry Pi"]
 author = "Soner Sahin"
+image = "/images/RaspberryPiSyslogServer/cover.jpg"
 +++
 Merhaba, bu yazımda bi Raspberry Pi Zero'ya Syslog server rolü verip, bir Cisco Switch'e bu Syslog server konfigürasyonunu yapacağım.
 

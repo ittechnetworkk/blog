@@ -4,6 +4,7 @@ title = 'Cisco ASA Password Recovery'
 tags = ["asa", "cisco", "firewall"]
 categories = ["Firewall"]
 author = "Soner Sahin"
+image = "/images/ASA-SSH/cover.jpg"
 +++
 
 Merhabalar bu yazımda Cisco ASA 5500 serisi cihazın password recovery işlemini göstereceğim.

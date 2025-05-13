@@ -4,6 +4,7 @@ date = "2024-01-21T23:44:58+01:00"
 tags = ["Cisco", "EIGRP"]
 categories = ["Network"]
 author = "Soner Sahin"
+image = "/images/EIGRP/cover.jpg"
 +++
 
 EIGRP (Enchanced Interior Gateway Routing Protocol), Cisco tarafından geliştirilen bir dinamik yönlendirme protokolüdür. Daha sonradan diğer firmaların kullanımına sunulmuştur. RFC7868de tanımlanmıştır. Hem Distance Vector hem de Link State protokol özelliklerini aldığı için Hybrid Protokol olarak da geçer. Bazı özellikleri şöyledir:

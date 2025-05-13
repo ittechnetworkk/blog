@@ -4,6 +4,7 @@ date = "2024-05-19T23:00:44+01:00"
 tags = ["ipfire", "firewall", "IoT", "Raspberry Pi"]
 categories = ["IoT", "Firewall", "Raspberry Pi"]
 author = "Soner Sahin"
+image = "/images/NanoPiR2SIPFireKurulumu/cover.jpg"
 +++
 
 Bu yazımda yeni aldığım Raspberry Pi 4 B modeline IPFire kurulumunu anlatacağım.

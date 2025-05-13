@@ -4,6 +4,7 @@ title = 'UTP Kablo Yapımı'
 tags = ["cable"]
 categories = ["Network"]
 author = "Soner Sahin"
+image = "/images/UTPKabloYapimi/cover.jpg"
 +++
 
 UTP Kablo yani ağ kabloları, internet iletişiminde cihazların birbirleriyle iletişim kurması için kullanılan kablolardır.

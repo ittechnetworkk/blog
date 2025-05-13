@@ -4,6 +4,7 @@ title = 'Juniper CLI Help Komutları'
 tags = ["junos", "juniper"]
 categories = ["Network"]
 author = "Soner Sahin"
+image = "/images/Juniper/cover.jpg"
 +++
 JunOS'da Cli yardım alma komutları oldukça detaylı ve kullanışlıdır. Junos sadece bir işletim sistemi değil aynı zamanda içinde bir kütüphanedir. 
 

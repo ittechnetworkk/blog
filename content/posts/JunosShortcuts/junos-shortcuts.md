@@ -4,6 +4,7 @@ title = 'Juniper Shortcuts'
 tags = ["junos", "juniper"]
 categories = ["Network"]
 author = "Soner Sahin"
+image = "/images/Juniper/cover.jpg"
 +++
 Junos Shortcuts, JunOS CLI ekranında bize pratiklik sağlayan kısayollardır. Başlıcaları aşağıdaki gibidir.
 

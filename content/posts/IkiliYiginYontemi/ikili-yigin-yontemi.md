@@ -4,6 +4,7 @@ title = 'IPv6 Geçiş Çalışmaları İkili Yığın Yöntemi'
 tags = ["ipv6", "dual-stack"]
 categories = ["Network"]
 author = "Soner Sahin"
+image = "/images/ipv6/cover.jpg"
 +++
 
 Bu yöntem, IPv4'den IPv6'ya geçiş yöntemlerinden biri olan tünelleme tekniğidir. Bu yöntemde, cihazların hem IPv4 hem de IPv6 adreslerini birlikte kullanması yöntemidir. 

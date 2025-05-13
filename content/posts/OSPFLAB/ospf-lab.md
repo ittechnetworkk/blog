@@ -4,7 +4,9 @@ title = 'OSPF LAB'
 tags = ["IPv4", "routing", "ospf"]
 categories = ["Network"]
 author = "Soner Sahin"
+image = "/images/OSPFLAB/cover.jpg"
 +++
+
 Bu Lab’daki amacım OSPF’in genel bir tekrarını yapmak olacak. Komutları uzun uzun yazıyor olacağım.
 
 Aşağıdaki topolojiyi uygulayacağım.

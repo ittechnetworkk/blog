@@ -4,6 +4,7 @@ date = "2024-02-07T23:44:36+01:00"
 tags = ["Cisco", "EIGRP"]
 categories = ["Network"]
 author = "Soner Sahin"
+image = "/images/EIGRP/cover.jpg"
 +++
 
 EIGRP Cisco tarafından geliştirilen, daha sonra kaynak kodları açılan bir dinamik yönlendirme protokolüdür. Kimlik doğrulama yapılmasının amacı networkte bir şekilde bulunan yetkisiz routerların, yetkili olan routerların routing tablosunu bozmasını engellemektir. Trafiği şifrelemez. Sadece kimlik doğrulama yapar. Authentication 2 aşamada yapılır.

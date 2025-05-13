@@ -4,7 +4,9 @@ title = 'Juniper Rollback'
 tags = ["junos", "juniper"]
 categories = ["Network"]
 author = "Soner Sahin"
+image = "/images/Juniper/cover.jpg"
 +++
+
 Rollback, cihazda yapılan önceki konfigürasyonlara dönebilmeyi sağlayan komuttur. Örneğin cihazda bir konfigürasyon yaptık ve commit ettik. Fakat yapılan konfigürasyon hatalıydı veya başka bir sebepten dolayı eski konfigürasyonu bir şekilde geri almamız gerekiyor. Bu durumda Rollback kullanılır.
 
 Rollback dosyalar 50 adettir, 0'dan başlar ve sıfırıncı dosya cihazda hali hazırda çalışan konfigürasyon dosyasıdır. 

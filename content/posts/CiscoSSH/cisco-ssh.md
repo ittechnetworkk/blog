@@ -4,6 +4,7 @@ date = "2024-02-07T23:41:02+01:00"
 tags = ["Cisco", "SSH"]
 categories = ["Network"]
 author = "Soner Sahin"
+image = "/images/cisco-ssh/cover.jpg"
 +++
 
 SSH uzak bir cihaza bağlanmak için kullanılan kriptolu ve güvenli bir protokoldür. Defaultta 22 TCP portunu kullanır. Şimdi bir Cisco Router'a nasıl SSH konfigürasyonu yapılır bakalım.

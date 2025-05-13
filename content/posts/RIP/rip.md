@@ -4,6 +4,7 @@ date = "2023-12-17T23:45:55+01:00"
 tags = ["routing", "Rip"]
 categories = ["Network"]
 author = "Soner Sahin"
+image = "/images/RIP/cover.jpg"
 +++
 
 - RIP(Router Information Protokol), bir dinamik yönlendirme protokolüdür. 

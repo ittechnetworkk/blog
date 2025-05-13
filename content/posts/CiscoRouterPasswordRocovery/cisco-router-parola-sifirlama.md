@@ -4,6 +4,7 @@ title = 'Cisco Router Parola Sıfırlama'
 tags = ["Cisco", "Router"]
 categories = ["Network"]
 author = "Soner Sahin"
+image = "/images/CiscoRouterPasswordRocovery/cover.jpg"
 +++
 
 Cisco Router ve Switch'lerde unutulan parolayı cihazı fabrika ayarlarına döndürmeden nasıl sıfırlayabiliriz?

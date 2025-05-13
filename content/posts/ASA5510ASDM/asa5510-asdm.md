@@ -4,6 +4,7 @@ title = 'Cisco ASA ASDM Enable'
 tags = ["asa", "cisco", "firewall"]
 categories = ["Firewall"]
 author = "Soner Sahin"
+image = "/images/ASA-SSH/cover.jpg"
 +++
 
 Merhaba, bu yazımda Cisco ASA 5510 cihazını web arayüzünden yönetebilmek için gerekli konfigürasyonları göstereceğim.

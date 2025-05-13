@@ -4,6 +4,8 @@ title = 'Static Routing'
 tags = ["IPv4", "routing"]
 categories = ["Network"]
 author = "Soner Sahin"
+image = "/images/StaticRouting/cover.jpg"
+
 +++
 Static Routing, yönlendirme tablosuna manuel olarak route eklenmesidir.
 Topoloji değişikliklerinde networklerin de yine güncellenmesi manuel olarak yapılmalıdır.

@@ -4,6 +4,7 @@ title = 'Windows Server NIC Teaming'
 tags = ["server", "windows"]
 categories = ["Windows"]
 author = "Soner Sahin"
+image = "/images/WindowsNICTeaming/cover.jpg"
 +++
 
 Windows Server'da NIC Teaming, birden fazla ethernet kartının tek bir kart gibi kullanılmasına denir. Örneğin 4 x 1Gb kartlarımız var, bunları NIC Teaming yaparsak 4Gb olarak çalışan bir kart haline gelecektir.

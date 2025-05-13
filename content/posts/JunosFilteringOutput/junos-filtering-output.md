@@ -4,6 +4,7 @@ title = 'Juniper Filtering Output'
 tags = ["junos", "juniper"]
 categories = ["Network"]
 author = "Soner Sahin"
+image = "/images/Juniper/cover.jpg"
 +++
 JunOS işletim sisteminde çıktıları filtrelemek çoğu zaman hayat kurtarır. JunOS'da bazı çıktılar çok uzun olabiliyor, bu çıktıları filtrelemek amacımıza ulaşmak için zamandan tasarruf sağlıyor.
 

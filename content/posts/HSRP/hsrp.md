@@ -4,6 +4,7 @@ date = "2024-01-07T23:45:22+01:00"
 tags = ["Cisco", "HSRP"]
 categories = ["Network"]
 author = "Soner Sahin"
+image = "/images/HSRP/cover.jpg"
 +++
 
   

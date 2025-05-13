@@ -4,6 +4,7 @@ title = 'IPv4 IPv6 Tünelleme'
 tags = ["ipv6", "tunnelling"]
 categories = ["Network"]
 author = "Soner Sahin"
+image = "/images/ipv6/cover.jpg"
 +++
 
 Bu yöntem, IPv4'den IPv6'ya geçiş yöntemlerinden biri olan tünelleme tekniğidir. Bu yöntemde, IPv6 networkleri IPv4 üzerinden tünellenerek birbirleriyle haberleşirler. IPv4-IPv6 geçiş aşamalarında kullanılabilecek bu yöntemin yanı sıra Dual Stack, Translation yöntemleri de vardır.

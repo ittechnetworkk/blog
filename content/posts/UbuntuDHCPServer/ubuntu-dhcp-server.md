@@ -4,6 +4,7 @@ title = 'Ubuntu 22.04 DHCP Server Konfigürasyonu'
 tags = ["linux", "ubuntu", "dhcp"]
 categories = ["Linux"]
 author = "Soner Sahin"
+image = "/images/ubuntu-dhcp/cover.jpg"
 +++
 
 Merhabalar bu yazımda, Ubuntu-22.04 Server'a DHCP rolü kurup konfigürasyonunu yapacağım.

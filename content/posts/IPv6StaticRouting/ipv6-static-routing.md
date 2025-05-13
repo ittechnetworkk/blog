@@ -4,6 +4,7 @@ title = 'IPv6 Static Routing'
 tags = ["ipv6", "routing"]
 categories = ["Network"]
 author = "Soner Sahin"
+image = "/images/ipv6/cover.jpg"
 +++
 
 Static Route hedefe gitmek için manuel olarak yazılan rotadır. Static Route küçük networkler için kullanılabilir. Fakat orta ve büyük networklerde iş yükünü fazlaca artırabilir.

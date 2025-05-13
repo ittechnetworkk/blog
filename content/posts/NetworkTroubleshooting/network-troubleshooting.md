@@ -4,6 +4,7 @@ title = 'Network Troubleshooting'
 tags = ["troubleshooting"]
 categories = ["Network"]
 author = "Soner Sahin"
+image = "/images/network-troubleshooting/cover.jpg"
 +++
 
 İlk olarak eğer hatanın nereden kaynaklandığını az çok tahmin edebiliyorsak ilk o noktaya yoğunlaşmakta fayda olacağını düşünüyorum diyerek başlamak istiyorum.

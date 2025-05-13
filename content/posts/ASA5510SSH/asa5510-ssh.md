@@ -4,6 +4,7 @@ title = 'Cisco ASA SSH Konfigürasyonu'
 tags = ["asa", "cisco", "firewall", "ssh"]
 categories = ["Firewall"]
 author = "Soner Sahin"
+image = "/images/ASA-SSH/cover.jpg"
 +++
 
 Merhabalar, bu yazımda Cisco ASA 5510'a SSH konfigürasyonu yapmayı göstereceğim.

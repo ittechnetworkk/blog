@@ -4,6 +4,7 @@ title = 'DMVPN Phase 3 RIP'
 tags = ["DMVPN", "cisco", "vpn", "rip"]
 categories = ["Network"]
 author = "Soner Sahin"
+image = "/images/DMVPNPhase3OSPF/cover.jpg"
 +++
 
 Merhaba bu yazıda DMVPN Phase 1 ve RIP protokolü ile Hub ve Spoke'ların dinamik bir şekilde haberleşmesinden bahsedeceğim.

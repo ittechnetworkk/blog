@@ -4,6 +4,8 @@ title = 'DHCPv6'
 tags = ["DHCP", "ipv6"]
 categories = ["Network"]
 author = "Soner Sahin"
+image = "/images/ipv6/cover.jpg"
+
 +++
 
 DHCP(Dynamic Host Configuration Protocol), bir networkteki bir cihaza IP, DNS, Default Gateway parametrelerini dağıtan servistir. Yani networkteki bir cihazın başka bir cihaz ile konuşmasını sağlayacak parametlereleri dağıtan servistir.

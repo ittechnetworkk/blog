@@ -1,9 +1,10 @@
 +++
-title = "Dhcp Relay Agent"
+title = "DHCP Relay Agent"
 date = "2024-01-14T23:43:35+01:00"
 tags = ["Cisco", "DHCP", "Relay"]
 categories = ["Network"]
 author = "Soner Sahin"
+image = "/images/DHCPRelayAgent/cover.jpg"
 +++
 
 DHCP, cihazlara IP, DNS, Default Gateway dağıtan protokoldür. Bu protokol client-server mantığıyla çalışır. İstemci talep eder ve server hizmet verir. UDP çalışır ve 4 aşamada işlem tamamlanır.

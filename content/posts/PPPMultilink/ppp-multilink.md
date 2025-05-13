@@ -4,6 +4,7 @@ title = 'PPP Multilink Konfigürasyonu'
 tags = ["ppp", "multilink"]
 categories = ["Network"]
 author = "Soner Sahin"
+image = "/images/ppp-multilink/cover.jpg"
 +++
 
 PPP Multilink, routerlar arasındaki birden fazla fiziksel bağlantıyı tek bir mantıksal bağlantı yapmak amacıyla kullanılır. 

@@ -4,6 +4,7 @@ title = 'GRE Tunnel'
 tags = ["gre", "cisco", "tunnelling"]
 categories = ["Network"]
 author = "Soner Sahin"
+image = "/images/GREoverIPSEC-LAB/cover.jpg"
 +++
 
 GRE(Generic Routing Encapsulation) Protokolü, paketin kaynaktan hedefe, oluşturulan tünel sayesinde iletilmesini sağlayan protokoldür. 

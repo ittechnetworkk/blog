@@ -4,6 +4,7 @@ title = 'OSPF Authentication'
 tags = ["ospf", "authentication"]
 categories = ["Network"]
 author = "Soner Sahin"
+image = "/images/OSPFLAB/cover.jpg"
 +++
 
 OSPF Authentication, OSPF network trafiğinin güvenliğini artırmak amacıyla kullanılır. 

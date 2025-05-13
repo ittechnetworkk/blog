@@ -4,7 +4,9 @@ title = 'Juniper Commit Usage'
 tags = ["junos", "juniper"]
 categories = ["Network"]
 author = "Soner Sahin"
+image = "/images/Juniper/cover.jpg"
 +++
+
 JunOS sistemlerde bir diğer önemli konu ise Commit kullanımıdır.
 
 JunOS'da commit işlemi, yapılan konfigürasyonu etkinleştirmek için kullanılır. Yani yapılan konfigürasyonu commit etmezsek yaptığımız konfigürasyon geçerli olmaz.

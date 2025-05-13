@@ -4,6 +4,7 @@ date = "2024-02-08T23:39:19+01:00"
 tags = ["Cisco", "CDP", "LLDP"]
 categories = ["Network"]
 author = "Soner Sahin"
+image = "/images/cdp-lldp/cover.jpg"
 +++
 
 **A-CDP Protokolü:**

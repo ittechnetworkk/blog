@@ -4,6 +4,7 @@ title = "GPG Nedir?"
 tags = ["gpg", "linux"]
 categories = ["Linux"]
 author = "Soner Sahin"
+image = "/images/GPGNedir/cover.jpg"
 +++
 GPG (GNU Privacy Guard )[RFC4880](https://datatracker.ietf.org/doc/html/rfc4880) , GPL Lisanslı bir şifreleme ve imzalama aracıdır. Linux'da defaultta gelir, Windows için [Web Sitesi](https://www.gnupg.org/download/)'nden indirilebilir. 
 

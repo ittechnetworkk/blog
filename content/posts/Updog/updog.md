@@ -4,6 +4,7 @@ title = 'Updog'
 tags = ["updog", "http"]
 categories = ["Linux"]
 author = "Soner Sahin"
+image = "/images/Updog/cover.jpg"
 +++
 
 Updog, SimpleHTTPServer alternatifi bir araçtır. Çok hızlı ve kolay bir şekilde localinizde bir HTTP Server ayağa kaldırmanızı sağlayan Python ile yazılmış [açık kaynak kodlu](https://github.com/sc0tfree/updog) bir araçtır.
