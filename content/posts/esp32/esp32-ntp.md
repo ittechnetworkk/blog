@@ -1,8 +1,8 @@
 +++
 title = "ESP32-NTP Server Project"
 date = "2025-06-07T06:50:06+02:00"
-tags = [""]
-categories = [""]
+tags = ["esp32", "ntp", "iot"]
+categories = ["IoT"]
 author = "Soner Sahin"
 image = "/images/esp32/cover.jpg"
 +++

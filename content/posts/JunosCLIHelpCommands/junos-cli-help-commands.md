@@ -6,6 +6,7 @@ categories = ["Network"]
 author = "Soner Sahin"
 image = "/images/Juniper/cover.jpg"
 +++
+
 JunOS'da Cli yardım alma komutları oldukça detaylı ve kullanışlıdır. Junos sadece bir işletim sistemi değil aynı zamanda içinde bir kütüphanedir. 
 
 JunOS'da birden fazla yardım alma komutu vardır ve her biri birbirinden kulanıcı dostudur.

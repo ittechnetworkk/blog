@@ -6,6 +6,7 @@ categories = ["Network"]
 author = "Soner Sahin"
 image = "/images/Juniper/cover.jpg"
 +++
+
 JunOS işletim sisteminde çıktıları filtrelemek çoğu zaman hayat kurtarır. JunOS'da bazı çıktılar çok uzun olabiliyor, bu çıktıları filtrelemek amacımıza ulaşmak için zamandan tasarruf sağlıyor.
 
 JunOS FreeBSD tabanlı olduğu için Linux işletim sistemi bilenler için komutlara aşağı yukarı aşinalık gösterir.
