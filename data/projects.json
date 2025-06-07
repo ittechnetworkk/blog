@@ -1,19 +1,26 @@
 {
     "list": [
-       {
-          "name":"Raspberry Pi e-Paper Uygulaması",
-          "url":"https://ittechnetworkk.github.io/posts/epaper/raspberry-pi-epaper/",
-          "desc":" Raspberry Pi Zero ve E-Paper Ekran İle Saat Uygulaması "
-       },
-       {
-         "name":"Skyforge Project",
-         "url":"https://ittechnetworkk.github.io/posts/skyforgeproject/skyforge/",
-         "desc":"Skyforge Project "
+
+      {
+        "name":"ESP32-NTP",
+         "url":"https://ittechnetworkk.github.io/posts/esp32-ntp/esp32-ntp/",
+         "desc":"ESP32-NTP Project "
       },
       {
          "name":"EvilTwin Project",
          "url":"https://ittechnetworkk.github.io/posts/eviltwin/eviltwin/",
          "desc":"EvilTwin Project "
+      },
+      {
+         "name":"Skyforge Project",
+         "url":"https://ittechnetworkk.github.io/posts/skyforgeproject/skyforge/",
+         "desc":"Skyforge Project "
+      },
+      {
+          "name":"Raspberry Pi e-Paper Uygulaması",
+          "url":"https://ittechnetworkk.github.io/posts/epaper/raspberry-pi-epaper/",
+          "desc":" Raspberry Pi Zero ve E-Paper Ekran İle Saat Uygulaması "
       }
+
     ]
 }

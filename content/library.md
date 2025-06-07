@@ -10,7 +10,7 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 # 🎬 Movies
 
-### Watched (168)
+### Watched (170)
 
 - **Red One (2024)** - Action/Adventure/Sci-fi
 
@@ -51,6 +51,8 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 - **Infinite Storm (2022)** - Thriller/Adventure/Sci-fi
 
 - **Aykut Enişte 2 (2022)** - Comedy/Family
+
+- **The Man From Toronto (2022)** - Comedy/Action 
 
 - **The Lost City (2022)** - Action/Adventure/Comedy
 
@@ -220,6 +222,8 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 - **Fast Five (2011)** - Action/Adventure/Crime
 
+- **Anadolu Kartalları (2011)** - Adventure/Action
+
 - **İncir Reçeli 1 (2011)** - Drama/Romance
 
 - **Almanya: Welcome to Germany (2011)** - Comedy/Family
@@ -376,8 +380,6 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 - **Freelancer (2023)** - Action/Adventure/Sci-fi
 
-- **Oppenheimer (2023)** - Drama/Biography/History
-
 - **The Velveteen Rabbit (2023)** - Adventure/Family/Comedy
 
 - **Black Adam (2022)** - Action/Adventure/Sci-fi
@@ -474,7 +476,7 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 # 📖 Books
 
-### Read (4)
+### Read (5)
 
 - **Abim Deniz** - Can Dündar
 
@@ -484,9 +486,13 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 - **Hayvan Çiftliği** - George Orwell
 
+- **Bir Ömür Nasıl Yaşanır** - İlber Ortaylı
+
 ### Currently Reading
 
-- **Bir Ömür Nasıl Yaşanır** - İlber Ortaylı
+- **Atomic Habits** - James Clear
+
+- **Nutuk** - Mustafa Kemal Atatürk
 
 ### To Read
 
@@ -500,7 +506,7 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 - **Sefiller** - Victor Hugo
 
-- **İnce Memed Seri** - Yaşar Kemal
+- **İnce Memed Serisi** - Yaşar Kemal
 
 
 # 🏆 Favorites

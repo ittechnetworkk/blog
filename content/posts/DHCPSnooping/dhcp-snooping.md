@@ -18,7 +18,7 @@ DHCP Snooping'in yaptığı ise belirli bir port veya portlar üzerinden DHCP tr
 
 **UYGULAMA**
 Topoloji:
-![[Network/DHCP Snooping/Topoloji.png]]
+![dhcp](/images/DHCPSnooping/11.png)
 
 Yukarıdaki yapıda henüz IP adresi almamış 3 cihaz 2 de DHCP Server bulunuyor.
 

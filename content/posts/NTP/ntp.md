@@ -20,7 +20,7 @@ In modern networks, accurate time synchronization is crucial for tasks such as l
 ```
 SW-1#clock set 12:00:00 1 AUG 2019
 ```
-## **Setting the Time Zone:*
+## **Setting the Time Zone:**
 
 ```
 SW-1#conf t

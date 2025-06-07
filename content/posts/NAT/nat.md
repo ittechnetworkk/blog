@@ -16,7 +16,8 @@ NAT (Network Address Translation) is a method used in routers and firewalls that
 Since private IP addresses (e.g., 192.168.x.x, 10.x.x.x, 172.16.x.x–172.31.x.x) are not routable on the internet, NAT translates these private IP addresses into a public IP before forwarding traffic. It also translates incoming public traffic back to the appropriate private IP inside the network.
 
 The primary reason NAT exists is because of the limited number of IPv4 addresses available globally.
-## **There are 3 types of NAT:**
+
+**There are 3 types of NAT:**
 
 - **Static NAT:** A single private IP is always mapped to the same public IP.
 - **Dynamic NAT:** Private IPs are mapped to a pool of public IPs, but not fixed; the router picks an available public IP dynamically.
