@@ -418,7 +418,7 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 # 📺 Series
 
-### Watched (3)
+### Watched (4)
 
 - **Peacemaker (2022)** - Action/Adventure/Sci-fi/Comedy
 
@@ -447,31 +447,16 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 # 📺 Documentary
 
-### Watched (1)
+### Watched (4)
 
-- **["NEW SPACE" Frontier Film](https://www.youtube.com/watch?v=eOOppenheimerlpKN7ZOTo&ab_channel=S3)**
+- **["NEW SPACE" Frontier Film](https://www.youtube.com/watch?v=eOlpKN7ZOTo&t=2178s&ab_channel=S3)**
 
-### To Watch
+- **[Is Social Media Hurting Your Mental Health? | Bailey Parnell | TEDxRyersonU](https://www.youtube.com/watch?v=Czg_9C7gw0o&ab_channel=TEDxTalks)**
 
-- **[The Research Lab The US Government Shutdown in 1984](https://www.youtube.com/watch?v=c-cSeTz3dMg&ab_channel=S3)**
+- **[Learning a language? Speak it like you’re playing a video game | Marianna Pascal | TEDxPenangRoad](https://www.youtube.com/watch?v=Ge7c7otG2mk&t=212s&ab_channel=TEDxTalks)**
 
-- **[Moore's Law is Dead — Welcome to Light Speed Computers](https://www.youtube.com/watch?v=wBqfzj6CEzI&ab_channel=S3)**
+- **[The mind behind Linux | Linus Torvalds | TED](https://www.youtube.com/watch?v=o8NPllzkFhE&t=457s&ab_channel=TED)**
 
-- **[Why The First Computers Were Made Out Of Light Bulbs](https://www.youtube.com/watch?v=FU_YFpfDqqA&ab_channel=Veritasium)**
-
-- **[I built a QR code with my bare hands to see how it works](https://www.youtube.com/watch?v=w5ebcowAJD8&ab_channel=Veritasium)**
-
-- **[Putting Man on The Moon in 11 Years | The Apollo Program](https://www.youtube.com/watch?v=jUW_1XlrWmg&ab_channel=S3)**
-
-- **[What the Internet Was Like in 1995](https://www.youtube.com/watch?v=QqiUSbXx7Wg&ab_channel=NationSquid)**
-
-- **[How Does the Internet Work? - Glad You Asked S1](https://www.youtube.com/watch?v=TNQsmPf24go&ab_channel=Vox0)**
-
-- **[The Most Destructive Hack Ever Used: NotPetya](https://www.youtube.com/watch?v=3-MSlNVqzYY&ab_channel=Cybernews)**
-
-- **[How the Greatest Hacker Manipulated Everyone](https://www.youtube.com/watch?v=aLUDhbQojxA&ab_channel=Newsthink)**
-
-- **[Dark Sides of Artificial Intelligence | 60 Minutes Full Episodes](https://www.youtube.com/watch?v=LgUjLcxJxVg&ab_channel=60Minutes)**
 
 
 # 📖 Books
@@ -507,6 +492,21 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 - **Sefiller** - Victor Hugo
 
 - **İnce Memed Serisi** - Yaşar Kemal
+
+
+# 🎷 Playlists
+
+- **[hitTheGym](https://open.spotify.com/playlist/6fTwMMe935gwZpTAD8imxl?si=8a433ded5d3a45a9)**
+
+- **[anatoliaR](https://open.spotify.com/playlist/7HdXzjvZQfkK211etXbgUc?si=ac25978069f340cd)**
+
+- **[Sleep](https://open.spotify.com/playlist/37i9dQZF1DWZd79rJ6a7lp?si=abd459191bf64518)**
+
+
+# 🎤 Podcast
+
+- **[Kırılma Noktası](https://open.spotify.com/show/47oitY6KjTVPnxlnWPqGhP?si=134b16158e6042ef)**
+
 
 
 # 🏆 Favorites

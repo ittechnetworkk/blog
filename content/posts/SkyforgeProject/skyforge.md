@@ -7,7 +7,8 @@ author = "Soner Sahin"
 image = "/images/Skyforge/cover.jpg"
 +++
 
-Details coming soon.
+https://github.com/ssnrshnn/skyforge_project
+
 
 **Photos:**
 
