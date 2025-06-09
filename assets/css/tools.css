@@ -79,5 +79,45 @@
 @media (max-width: 768px) {
     .tools-grid {
         grid-template-columns: 1fr;
+        gap: 1.5rem;
+        padding: 15px;
+    }
+
+    .tool-item {
+        padding: 25px;
+        margin: 0 10px;
+    }
+
+    .tool-item h4 {
+        font-size: 1.3em;
+        margin-bottom: 20px;
+    }
+
+    .tool-item p {
+        font-size: 1.1em;
+        line-height: 1.6;
+    }
+
+    .tool-features {
+        padding: 20px;
+        margin: 15px 0;
+    }
+
+    .tool-features li {
+        padding: 10px 0 10px 25px;
+        font-size: 1.1em;
+    }
+
+    .tool-features li:before {
+        font-size: 1.2em;
+        top: 12px;
+    }
+
+    .tool-link {
+        width: 100%;
+        text-align: center;
+        padding: 15px 20px;
+        font-size: 1.1em;
+        margin-top: 20px;
     }
 } 

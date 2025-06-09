@@ -102,4 +102,75 @@
     .nav-dropdown::before {
         display: none;
     }
+
+    /* Improve tap targets */
+    .nav-dropdown a {
+        padding: 15px 20px;
+        font-size: 16px;
+    }
+
+    /* Better spacing for mobile */
+    .nav-container {
+        margin-top: 15px;
+    }
+
+    /* Ensure text is readable */
+    body {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    /* Improve button/link tap targets */
+    a, button {
+        min-height: 44px;
+        min-width: 44px;
+        padding: 12px;
+        display: inline-flex;
+        align-items: center;
+    }
+
+    /* Prevent horizontal scrolling */
+    .content {
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    /* Better spacing for content */
+    article {
+        padding: 0 15px;
+    }
+
+    /* Improve form elements on mobile */
+    input, select, textarea {
+        font-size: 16px;
+        padding: 12px;
+        margin: 8px 0;
+        width: 100%;
+        border-radius: 8px;
+    }
+
+    /* Improve table display on mobile */
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    /* Better image handling */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* Touch-friendly hover states */
+@media (hover: none) {
+    a:hover, button:hover {
+        opacity: 1 !important;
+    }
+    
+    .nav-dropdown {
+        opacity: 1;
+        transform: none;
+    }
 } 
