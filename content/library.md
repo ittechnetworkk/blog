@@ -514,7 +514,7 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 ### Favorite Movies
 
 
-- **Tetris (2023)** - Thriller/History
+- **Tetris (2023)** - Thriller/History 
 
 - **Top Gun: Maverick (2022)** - Action/Adventure/Drama
 
