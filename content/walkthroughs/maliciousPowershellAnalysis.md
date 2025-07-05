@@ -96,6 +96,8 @@ We will export answers from this code.
 
 The answer of first question can be noticeable in this code.
 
+### **Question 1**
+
 **What security protocol is being used for the communication with a malicious domain?**
 
 ```
@@ -104,6 +106,8 @@ sEcuRITYproTocol"=Tls12
 
 **Answer:** `TLS 1.2`
 
+
+### **Question 2**
 
 **What directory does the obfuscated PowerShell create? (Starting from \HOME\)**
 
@@ -115,6 +119,8 @@ $HOME{0}Db_bh30{0}Yf5be5g{0}
 
 **Answer:** `\HOME\Db_bh30\Yf5be5g\`
 
+
+### **Question 3**
 
 **What file is being downloaded (full name)?**
 
@@ -128,6 +134,7 @@ This suggests a DLL named `A69S.dll` is being created or downloaded.
 
 **Answer:** `A69S.dll`
 
+### **Question 4**
 
 **What is used to execute the downloaded file?**
 
@@ -140,6 +147,8 @@ This shows that the file is executed using `rundll32`.
 **Answer:** `rundll32`
 
 
+### **Question 5**
+
 **What is the domain name of the URI ending in ‘/6F2gd/’**
 
 ```
@@ -148,6 +157,8 @@ wm.mcdevelop.net/content/6F2gd/
 
 **Answer:** `wm.mcdevelop.net`
 
+
+### **Question 6**
 
 **Based on the analysis of the obfuscated code, what is the name of the malware?**
 

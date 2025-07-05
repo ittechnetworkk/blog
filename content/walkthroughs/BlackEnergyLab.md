@@ -31,7 +31,7 @@ vol.py -f CYBERDEF-567078-20230213-171333.raw --profile=WinXPSP2x86 pslist
 **Answer:** 19
 
 
-![maliciousPowershellAnalysis](/images/Walkthroughs/BlackEnergyLab/2.png)
+![BlackEnergy](/images/Walkthroughs/BlackEnergyLab/2.png)
 
 
 ### **Question 3**
@@ -45,7 +45,7 @@ vol.py -f CYBERDEF-567078-20230213-171333.raw --profile=WinXPSP2x86 pslist |grep
 **Answer:** 1960
 
 
-![maliciousPowershellAnalysis](/images/Walkthroughs/BlackEnergyLab/3.png)
+![BlackEnergy](/images/Walkthroughs/BlackEnergyLab/3.png)
 
 
 ### **Question 4**
@@ -59,7 +59,7 @@ vol.py -f CYBERDEF-567078-20230213-171333.raw --profile=WinXPSP2x86 pslist
 **Answer:** rootkit.exe
 
 
-![maliciousPowershellAnalysis](/images/Walkthroughs/BlackEnergyLab/4.png)
+![BlackEnergy](/images/Walkthroughs/BlackEnergyLab/4.png)
 
 
 ### **Question 5**
@@ -74,7 +74,7 @@ vol3 -f CYBERDEF-567078-20230213-171333.raw windows.malfind
 
 
 
-![maliciousPowershellAnalysis](/images/Walkthroughs/BlackEnergyLab/5.png)
+![BlackEnergy](/images/Walkthroughs/BlackEnergyLab/5.png)
 
 
 ### **Question 6**
@@ -88,7 +88,7 @@ vol3 -f CYBERDEF-567078-20230213-171333.raw windows.handles --pid 880 |grep -i "
 **Answer:** C:\WINDOWS\system32\drivers\str.sys
 
 
-![maliciousPowershellAnalysis](/images/Walkthroughs/BlackEnergyLab/6.png)
+![BlackEnergy](/images/Walkthroughs/BlackEnergyLab/6.png)
 
 
 ### **Question 7**
@@ -104,7 +104,7 @@ vol3 -f CYBERDEF-567078-20230213-171333.raw windows.dlllist --pid 880
 **Answer:** msxml3r.dll
 
 
-![maliciousPowershellAnalysis](/images/Walkthroughs/BlackEnergyLab/7.png)
+![BlackEnergy](/images/Walkthroughs/BlackEnergyLab/7.png)
 
 
 ### **Question 8**
@@ -117,7 +117,7 @@ vol3 -f CYBERDEF-567078-20230213-171333.raw windows.malfind --pid 880
 **Answer:** 0x980000
 
 
-![maliciousPowershellAnalysis](/images/Walkthroughs/BlackEnergyLab/8.png)
+![BlackEnergy](/images/Walkthroughs/BlackEnergyLab/8.png)
 
 
 Thank you for taking the time to read this write-up! I hope you found it insightful and helpful.
