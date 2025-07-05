@@ -4,6 +4,9 @@ title = "ittechnetworkk"
 theme = "cactus"
 copyright = "ittechnetworkk"
 
+# ignoreLogs
+ignoreLogs = ['warning-goldmark-raw-html']
+
 # Enable categories taxonomy
 [taxonomies]
   category = "categories"
@@ -21,14 +24,19 @@ url = "/posts"
 weight = 2
 
 [[menu.main]]
+name = "Walkthroughs"
+url = "/walkthroughs"
+weight = 3
+
+[[menu.main]]
 name = "Projects"
 url = "/projects"
-weight = 3
+weight = 4
 
 [[menu.main]]
 name = "Tools"
 url = "/tools/"
-weight = 4
+weight = 5
 identifier = "tools"
 
 [[menu.main]]
@@ -58,27 +66,22 @@ weight = 4
 [[menu.main]]
 name = "Resources"
 url = "/resources"
+weight = 6
+
+[[menu.main]]
+name = "Categories"
+url = "/categories/"
 weight = 7
 
 [[menu.main]]
 name = "Library"
 url = "/library"
-weight = 9
-
-[[menu.main]]
-name = "Categories"
-url = "/categories/"
-weight = 6
-
-[[menu.main]]
-name = "Tags"
-url = "/tags/"
 weight = 8
 
 [[menu.main]]
 name = "About"
 url = "/about"
-weight = 10
+weight = 9
 
 [markup]
   [markup.tableOfContents]
@@ -99,13 +102,19 @@ weight = 10
 [params]
   colortheme = "dark"
   showAllPostsArchive = true 
-  description = "Hi, I’m Soner, and this is my personal blog where I share insights, guides, and articles on various tech topics, including Networking, Linux, Windows, Virtualization, Firewalls, IoT, and more. I'm constantly learning and exploring new technologies, and this blog is where I document my journey. "
+  description = "Hi, I'm Soner, and this is my personal blog where I share insights, guides, and articles on various tech topics, including Networking, Linux, Windows, Virtualization, Firewalls, IoT, and more. I'm constantly learning and exploring new technologies, and this blog is where I document my journey. "
   mainSection = "posts"
   showAllPostsOnHomePage = true
   postsOnHomePage = 5
   tagsOverview = true
   showProjectsList = true
   projectsUrl = "https://ittechnetworkk.github.io/"
+  
+  # Custom logo - using Font Awesome military badge icon
+  logo = "fas fa-medal"
+  
+  # Custom CSS files
+  css = ["css/custom.css"]
 
   # Date format
   dateFormat = "2006-01-02"

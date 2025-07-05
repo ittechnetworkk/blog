@@ -3,11 +3,19 @@ title: "Projects"
 type: "page"
 ---
 
-### [Raspberry Pi e-Paper Uygulaması](https://ittechnetworkk.github.io/posts/epaper/raspberry-pi-epaper/)
+### [ESP32-NTP Server-Client Project](https://ittechnetworkk.github.io/posts/eviltwin/eviltwin/)
 
-Raspberry Pi Zero ve E-Paper Ekran İle Saat Uygulaması.
+ESP32-NTP Server-Client Project is a project that based on ESP32 that provide us NTP server.
 
-[View Project Details →](https://ittechnetworkk.github.io/posts/epaper/raspberry-pi-epaper/)
+[View Project Details →](https://ittechnetworkk.github.io/posts/esp32/esp32-ntp/)
+
+---
+
+### [EvilTwin Project](https://ittechnetworkk.github.io/posts/eviltwin/eviltwin/)
+
+EvilTwin Project is a project that based on ESP32 that provide us Deauth and EvilTwin attack.
+
+[View Project Details →](https://ittechnetworkk.github.io/posts/eviltwin/eviltwin/)
 
 ---
 
@@ -19,11 +27,13 @@ SkyForge Project is a project that based on Raspberry Pi Zero that shows the wea
 
 ---
 
-### [EvilTwin Project](https://ittechnetworkk.github.io/posts/eviltwin/eviltwin/)
+### [Raspberry Pi e-Paper Uygulaması](https://ittechnetworkk.github.io/posts/epaper/raspberry-pi-epaper/)
 
-EvilTwin Project is a project that based on ESP32 that provide us Deauth and EvilTwin attack.
+Raspberry Pi Zero ve E-Paper Ekran İle Saat Uygulaması.
 
-[View Project Details →](https://ittechnetworkk.github.io/posts/eviltwin/eviltwin/)
+[View Project Details →](https://ittechnetworkk.github.io/posts/epaper/raspberry-pi-epaper/)
 
 ---
+
+
 

@@ -7,10 +7,16 @@
   {{ if (isset .Site.Params "gravatar") }}
     <div id="logo" style="background-image: url(https://www.gravatar.com/avatar/{{ md5 .Site.Params.gravatar }}?s=100&d=identicon)"></div>
   {{ else if (isset .Site.Params "logo") }}
-    <div id="logo" style="background-image: url({{ .Site.Params.logo | absURL }})"></div>
+    {{ if hasPrefix .Site.Params.logo "fa" }}
+      <div id="logo" class="font-awesome-logo">
+        <i class="{{ .Site.Params.logo }} fa-4x" aria-hidden="true" style="color: #2bbc8a;"></i>
+      </div>
+    {{ else }}
+      <div id="logo" style="background-image: url({{ .Site.Params.logo | absURL }})"></div>
+    {{ end }}
   {{ else }}
     <div id="logo" style="background-image: url({{ "images/logo.png" | absURL }})"></div>
-  {{ end}}
+  {{ end }}
   <div id="title">
     <h1>{{ .Site.Title }}</h1>
   </div>
