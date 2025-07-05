@@ -4,7 +4,7 @@ date = "2025-04-02T22:02:02+02:00"
 tags = ["Cisco", "Cisco IOS"]
 categories = ["Network"]
 author = "Soner Sahin"
-image = "/images/Dynamic Trunking Protocol/cover.jpg"
+image = "/images/DynamicTrunkingProtocol/cover.jpg"
 +++
 
 Hi everyone, in this article, I will explain what DTP is and how it works.
