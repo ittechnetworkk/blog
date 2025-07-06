@@ -10,13 +10,19 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 # 🎬 Movies
 
-### Watched (170)
+### Watched (175)
+
+- **A Working Man (2025)** - Action/Thriller
 
 - **Red One (2024)** - Action/Adventure/Sci-fi
 
 - **Sixty Minutes (2024)** - Action/Sport
 
 - **Sonic the Hedgehog 3 (2024)** - Action/Family/Comedy
+
+- **Dune: Part Two (2024)** - Sci-fi/Adventure/Action
+
+- **Cem Karaca'nın Gözyaşları (2024)** - Biography/Drama/Music
 
 - **Einstein and the Bomb (2024)** - Documentary
 
@@ -65,6 +71,8 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 - **Tomorrow's War: The War (2021)** - Action/Sci-fi
 
 - **Don't Look Up (2021)** - Comedy/Drama/Sci-fi
+
+- **Dune I (2021)** - Sci-fi/Adventure/Action
 
 - **Bad Boys for Life (2020)** - Action/Comedy
 
@@ -165,6 +173,8 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 - **Patron Mutlu Son İstiyor (2014)** - Comedy/Family
 
 - **John Wick (2014)** - Action/Thriller
+
+- **Yağmur: Kıyamet Çiçeği (2014)** - Biography/Drama
 
 - **Interstellar (2014)** - Sci-fi/Adventure
 
@@ -358,8 +368,6 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 ### To Watch
 
-- **Dune: Part Two (2024)** - Adventure/Sci-fi/Action
-
 - **The Garfield Movie (2024)** - Adventure/Family/Comedy
 
 - **The Antisocial Network: Memes to Mayhem (2024)** - Documentary
@@ -388,8 +396,6 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 - **Cyber Hell: Exposing an Internet Horror (2022)** - Documentary
 
-- **Dune (2021)** - Adventure/Sci-fi/Action
-
 - **Tom & Jerry (2021)** - Family/Comedy/Adventure
 
 - **Wrath of Man (2021)** - Action/Adventure/Crime
@@ -401,8 +407,6 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 - **John Wick: Chapter 3 Parabellum (2019)** - Action/Thriller
 
 - **Assassin's Creed (2016)** - Action/Adventure/Sci-fi
-
-- **Ted 2 (2015)** - Comedy/Family
 
 - **Unstoppable (2010)** - Action/Adventure/Sci-fi
 
@@ -477,7 +481,7 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 - **Atomic Habits** - James Clear
 
-- **Nutuk** - Mustafa Kemal Atatürk
+- **Mustafa Kemal** - Yılmaz Özdil
 
 ### To Read
 
@@ -492,6 +496,8 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 - **Sefiller** - Victor Hugo
 
 - **İnce Memed Serisi** - Yaşar Kemal
+
+- **Nutuk** - Mustafa Kemal Atatürk
 
 
 # 🎷 Playlists
@@ -539,6 +545,8 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 
 ### Favorite Books
+
+- **Mustafa Kemal** - Yılmaz Özdil
 
 - **Hayvan Çiftliği** - George Orwell
 
