@@ -57,5 +57,3 @@ Last view:
 
 Thank you for taking the time to read this article. I hope you found it useful.
 
-Keep up the great work!
-

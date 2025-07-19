@@ -1,10 +1,9 @@
 +++
 title = "{{ replace .Name "-" " " | title }}"
 date = "{{ .Date }}"
-tags = [""]
-categories = [""]
+tags = []
+categories = []
 author = "Soner Sahin"
-image = "/images/{{ .Name }}/cover.jpg"
-+++
-
-Merhabalar, bu yazımda {{ replace .Name "-" " " | title }} konusunu anlatacağım. 
+image = ""
+draft = true
++++ 

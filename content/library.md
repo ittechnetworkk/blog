@@ -434,7 +434,7 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 ### Currently Watching
 
-- **The Office (2001)** - Comedy/Drama
+- **The Day of the Jackal (2024)** - Action/Spy/Thriller
 
 ### To Watch
 
@@ -477,11 +477,13 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 - **Bir Ömür Nasıl Yaşanır** - İlber Ortaylı
 
+- **Mustafa Kemal** - Yılmaz Özdil
+
 ### Currently Reading
 
 - **Atomic Habits** - James Clear
 
-- **Mustafa Kemal** - Yılmaz Özdil
+- **Nutuk** - Mustafa Kemal Atatürk
 
 ### To Read
 
@@ -496,8 +498,6 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 - **Sefiller** - Victor Hugo
 
 - **İnce Memed Serisi** - Yaşar Kemal
-
-- **Nutuk** - Mustafa Kemal Atatürk
 
 
 # 🎷 Playlists

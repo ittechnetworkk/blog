@@ -12,7 +12,7 @@
         <i class="{{ .Site.Params.logo }} fa-4x" aria-hidden="true" style="color: #2bbc8a;"></i>
       </div>
     {{ else }}
-      <div id="logo" style="background-image: url({{ .Site.Params.logo | absURL }})"></div>
+    <div id="logo" style="background-image: url({{ .Site.Params.logo | absURL }})"></div>
     {{ end }}
   {{ else }}
     <div id="logo" style="background-image: url({{ "images/logo.png" | absURL }})"></div>

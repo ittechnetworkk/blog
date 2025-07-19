@@ -3,7 +3,8 @@ title: "Projects"
 type: "page"
 ---
 
-### [ESP32-NTP Server-Client Project](https://ittechnetworkk.github.io/posts/eviltwin/eviltwin/)
+
+### [ESP32-NTP Server-Client Project](https://ittechnetworkk.github.io/posts/esp32/esp32-ntp/)
 
 ESP32-NTP Server-Client Project is a project that based on ESP32 that provide us NTP server.
 

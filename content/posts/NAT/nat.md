@@ -82,11 +82,7 @@ debug ip nat detailed
 ```
 
 
-Thank you for taking time to read this article, I hope you will 
-
 Thank you for taking time to read this article, I hope you will find it helpful.
-
-Keep up the great work!
 
 
 

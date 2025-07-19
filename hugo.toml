@@ -69,19 +69,14 @@ url = "/resources"
 weight = 6
 
 [[menu.main]]
-name = "Categories"
-url = "/categories/"
-weight = 7
-
-[[menu.main]]
 name = "Library"
 url = "/library"
-weight = 8
+weight = 7
 
 [[menu.main]]
 name = "About"
 url = "/about"
-weight = 9
+weight = 8
 
 [markup]
   [markup.tableOfContents]
@@ -114,7 +109,7 @@ weight = 9
   logo = "fas fa-medal"
   
   # Custom CSS files
-  css = ["css/custom.css", "css/lightbox.css"]
+  css = ["css/custom.css", "css/lightbox.css", "css/tools.css"]
 
   # Date format
   dateFormat = "2006-01-02"

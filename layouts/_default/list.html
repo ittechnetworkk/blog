@@ -1,205 +1,494 @@
 {{ define "main" }}
 {{ if eq .Title "Tools" }}
+<!-- Load Tools Cards CSS -->
+<link rel="stylesheet" href="{{ "css/tools-cards.css" | relURL }}">
+
 <div class="post">
-    <div class="post-content">
-        <div class="tools-grid">
-            <!-- Subnet Calculator Card -->
-            <div class="tool-card" onclick="window.location.href='{{ .Site.BaseURL }}subnet-calculator'" style="background: #1a1a1a; border: 1px solid #333;">
-                <div class="tool-icon" style="color: #81c784;">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <rect x="2" y="2" width="20" height="20" rx="2" ry="2"></rect>
-                        <line x1="2" y1="12" x2="22" y2="12"></line>
-                        <line x1="12" y1="2" x2="12" y2="22"></line>
-                    </svg>
-                </div>
-                <div class="tool-content">
-                    <h3 style="color: #81c784;">Subnet Calculator</h3>
-                    <p style="color: #aaa;">Professional subnet calculator with support for both IPv4 and IPv6. Calculate network addresses, broadcast addresses, usable IP ranges, and more. Perfect for network planning and administration.</p>
-                    <div class="tool-features">
-                        <span style="background: #1a1a1a; color: #81c784; border: 1px solid #333;">IPv4 & IPv6</span>
-                        <span style="background: #1a1a1a; color: #81c784; border: 1px solid #333;">VLSM</span>
-                        <span style="background: #1a1a1a; color: #81c784; border: 1px solid #333;">Binary View</span>
-                    </div>
-                    <div class="tool-link" style="color: #81c784;">Try Calculator →</div>
-                </div>
+    <div class="tools-grid">
+        <!-- Subnet Calculator Card -->
+        <div class="tool-card card-subnet" onclick="window.location.href='{{ .Site.BaseURL }}subnet-calculator'">
+            <div class="tool-card-badge">Calculator</div>
+            <div class="tool-card-icon">
+                <i class="fas fa-calculator"></i>
             </div>
+            <div class="tool-card-title">Subnet Calculator</div>
+            <div class="tool-card-description">Professional subnet calculator with support for both IPv4 and IPv6. Calculate network addresses, broadcast addresses, usable IP ranges, and more.</div>
+            <div class="tool-features">
+                <span>IPv4 & IPv6</span>
+                <span>VLSM</span>
+                <span>Binary View</span>
+            </div>
+            <div class="tool-card-link">Try Calculator →</div>
+        </div>
 
-            <!-- What is my IP Card -->
-            <div class="tool-card" onclick="window.location.href='{{ .Site.BaseURL }}what-is-my-ip'" style="background: #1a1a1a; border: 1px solid #333;">
-                <div class="tool-icon" style="color: #81c784;">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <line x1="2" y1="12" x2="22" y2="12"></line>
-                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
-                    </svg>
-                </div>
-                <div class="tool-content">
-                    <h3 style="color: #81c784;">What is my IP?</h3>
-                    <p style="color: #aaa;">Get detailed information about your internet connection, including your public IP address, geolocation data, ISP details, and system information. Updated in real-time.</p>
-                    <div class="tool-features">
-                        <span style="background: #1a1a1a; color: #81c784; border: 1px solid #333;">Geolocation</span>
-                        <span style="background: #1a1a1a; color: #81c784; border: 1px solid #333;">ISP Info</span>
-                        <span style="background: #1a1a1a; color: #81c784; border: 1px solid #333;">Real-time</span>
-                    </div>
-                    <div class="tool-link" style="color: #81c784;">Check IP →</div>
-                </div>
+        <!-- What is my IP Card -->
+        <div class="tool-card card-ip-checker" onclick="window.location.href='{{ .Site.BaseURL }}what-is-my-ip'">
+            <div class="tool-card-badge">Live</div>
+            <div class="tool-card-icon">
+                <i class="fas fa-globe"></i>
             </div>
+            <div class="tool-card-title">What is my IP?</div>
+            <div class="tool-card-description">Get detailed information about your internet connection, including your public IP address, geolocation data, ISP details, and system information.</div>
+            <div class="tool-features">
+                <span>Geolocation</span>
+                <span>ISP Info</span>
+                <span>Real-time</span>
+            </div>
+            <div class="tool-card-link">Check IP →</div>
+        </div>
 
-            <!-- Cisco IOS Config Generator Card -->
-            <div class="tool-card" onclick="window.location.href='{{ .Site.BaseURL }}cisco-ios-config'" style="background: #1a1a1a; border: 1px solid #333;">
-                <div class="tool-icon" style="color: #81c784;">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <rect x="2" y="2" width="20" height="20" rx="2" ry="2"></rect>
-                        <line x1="6" y1="6" x2="18" y2="6"></line>
-                        <line x1="6" y1="10" x2="18" y2="10"></line>
-                        <line x1="6" y1="14" x2="18" y2="14"></line>
-                        <line x1="6" y1="18" x2="18" y2="18"></line>
-                    </svg>
-                </div>
-                <div class="tool-content">
-                    <h3 style="color: #81c784;">Cisco IOS Config Generator</h3>
-                    <p style="color: #aaa;">Create customized Cisco IOS configuration files for routers, switches, and networking devices. Configure interfaces, routing protocols, security settings, and network services with an intuitive interface.</p>
-                    <div class="tool-features">
-                        <span style="background: #1a1a1a; color: #81c784; border: 1px solid #333;">Device Setup</span>
-                        <span style="background: #1a1a1a; color: #81c784; border: 1px solid #333;">Routing</span>
-                        <span style="background: #1a1a1a; color: #81c784; border: 1px solid #333;">Security</span>
-                    </div>
-                    <div class="tool-link" style="color: #81c784;">Generate Config →</div>
-                </div>
+        <!-- Cisco IOS Config Generator Card -->
+        <div class="tool-card card-cisco" onclick="window.location.href='{{ .Site.BaseURL }}cisco-ios-config'">
+            <div class="tool-card-badge">Generator</div>
+            <div class="tool-card-icon">
+                <i class="fas fa-cog"></i>
             </div>
+            <div class="tool-card-title">Cisco IOS Config Generator</div>
+            <div class="tool-card-description">Generate Cisco IOS configuration files for routers and switches. Configure interfaces, routing protocols, security settings, and services.</div>
+            <div class="tool-features">
+                <span>Router Config</span>
+                <span>Switch Config</span>
+                <span>Security</span>
+            </div>
+            <div class="tool-card-link">Generate Config →</div>
+        </div>
 
-            <!-- Junos Config Generator Card -->
-            <div class="tool-card" onclick="window.location.href='{{ .Site.BaseURL }}junos-config'" style="background: #1a1a1a; border: 1px solid #333;">
-                <div class="tool-icon" style="color: #81c784;">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M20 16V7a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v9m16 0a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2m16 0V5a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v11"></path>
-                        <path d="M12 16v.01"></path>
-                    </svg>
-                </div>
-                <div class="tool-content">
-                    <h3 style="color: #81c784;">Junos Config Generator</h3>
-                    <p style="color: #aaa;">Generate Juniper Junos configuration files for routers and switches. Easily configure interfaces, routing protocols, security policies, and services with an intuitive web interface.</p>
-                    <div class="tool-features">
-                        <span style="background: #1a1a1a; color: #81c784; border: 1px solid #333;">Routing</span>
-                        <span style="background: #1a1a1a; color: #81c784; border: 1px solid #333;">Security</span>
-                        <span style="background: #1a1a1a; color: #81c784; border: 1px solid #333;">Policies</span>
-                    </div>
-                    <div class="tool-link" style="color: #81c784;">Generate Config →</div>
-                </div>
+        <!-- Junos Config Generator Card -->
+        <div class="tool-card card-junos" onclick="window.location.href='{{ .Site.BaseURL }}junos-config'">
+            <div class="tool-card-badge">Generator</div>
+            <div class="tool-card-icon">
+                <i class="fas fa-network-wired"></i>
             </div>
+            <div class="tool-card-title">Junos Config Generator</div>
+            <div class="tool-card-description">Generate Juniper Junos configuration files for routers and switches. Configure interfaces, routing protocols, security policies, and services.</div>
+            <div class="tool-features">
+                <span>Routing</span>
+                <span>Security</span>
+                <span>Policies</span>
+            </div>
+            <div class="tool-card-link">Generate Config →</div>
         </div>
     </div>
-
-    <style>
-        .tools-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 2rem;
-            padding: 1rem;
-        }
-
-        .tool-card {
-            border-radius: 12px;
-            padding: 2rem;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            display: flex;
-            gap: 1.5rem;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .tool-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-            border-color: #333 !important;
-            background: #222 !important;
-        }
-
-        .tool-icon {
-            flex-shrink: 0;
-            width: 50px;
-            height: 50px;
-        }
-
-        .tool-icon svg {
-            width: 100%;
-            height: 100%;
-        }
-
-        .tool-content {
-            flex-grow: 1;
-        }
-
-        .tool-features {
-            display: flex;
-            gap: 1rem;
-            margin-bottom: 1.5rem;
-            flex-wrap: wrap;
-        }
-
-        .tool-features span {
-            padding: 0.3rem 0.8rem;
-            border-radius: 20px;
-            font-size: 0.9rem;
-        }
-
-        .tool-link {
-            font-weight: 500;
-            display: inline-block;
-            transition: transform 0.2s;
-        }
-
-        .tool-card:hover .tool-link {
-            transform: translateX(5px);
-            color: #4CAF50 !important;
-        }
-
-        @media (max-width: 768px) {
-            .tools-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .tool-card {
-                flex-direction: column;
-                text-align: center;
-            }
-
-            .tool-icon {
-                margin: 0 auto;
-            }
-
-            .tool-features {
-                justify-content: center;
-            }
-        }
-    </style>
 </div>
-{{ else }}
+{{ else if eq .Title "Posts" }}
+<!-- Load Posts Cards CSS -->
+<link rel="stylesheet" href="{{ "css/posts-cards.css" | relURL }}">
+
 <div class="post">
-    {{ if eq .Title "Posts" }}
-        {{ $pages := .Pages.ByDate.Reverse }}
-        {{ $years := $pages.GroupByDate "2006" }}
+    <div class="posts-grid">
+        {{ $categories := .Site.Taxonomies.categories }}
+        {{ $categoryData := dict 
+            "network" (dict "icon" "fas fa-network-wired" "description" "Networking protocols, configurations, and infrastructure guides")
+            "linux" (dict "icon" "fab fa-linux" "description" "Linux system administration, configurations, and tutorials") 
+            "windows" (dict "icon" "fab fa-windows" "description" "Windows server administration and configuration guides")
+            "virtualization" (dict "icon" "fas fa-server" "description" "VMware, Proxmox, ESXi and virtualization technologies")
+            "iot" (dict "icon" "fas fa-microchip" "description" "Internet of Things projects and embedded systems")
+            "firewall" (dict "icon" "fas fa-shield-alt" "description" "Network security and firewall configuration guides")
+            "kubernetes" (dict "icon" "fas fa-dharmachakra" "description" "Container orchestration and Kubernetes deployments")
+            "docker" (dict "icon" "fab fa-docker" "description" "Containerization technologies and Docker guides")
+            "raspberry pi" (dict "icon" "fab fa-raspberry-pi" "description" "Raspberry Pi projects and IoT implementations")
+            "walkthroughs" (dict "icon" "fas fa-search" "description" "Step-by-step security analysis and CTF walkthroughs")
+            "soc" (dict "icon" "fas fa-eye" "description" "Security Operations Center monitoring and incident response")
+            "monitoring" (dict "icon" "fas fa-chart-line" "description" "Network monitoring, logging, and observability tools")
+        }}
         
-        {{ range $years }}
-            <h2 style="color: var(--theme); margin-bottom: 1rem;">{{ .Key }}</h2>
-            {{ range .Pages }}
-                <div style="display: flex; margin-bottom: 0.5rem; color: #ccc;">
-                    <span style="width: 100px; color: #666;">{{ .Date.Format "2006-01-02" }}</span>
-                    <a href="{{ .RelPermalink }}" style="color: #ccc; text-decoration: none; margin-left: 1rem;">
-                        {{ if .Params.image }}
-                        <div style="display: flex; align-items: center;">
-                            <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" style="width: 50px; height: 50px; object-fit: cover; margin-right: 10px; border-radius: 4px;">
-                            <span>{{ .Title }}</span>
-                        </div>
-                        {{ else }}
-                        <span>{{ .Title }}</span>
-                        {{ end }}
-                    </a>
-                </div>
+        {{ range $categoryName, $category := $categories }}
+            {{ $catInfo := index $categoryData $categoryName }}
+            {{ $icon := "fas fa-folder" }}
+            {{ $description := "Technical guides and tutorials" }}
+            {{ $cardClass := "card-default" }}
+            
+            {{ if $catInfo }}
+                {{ $icon = $catInfo.icon }}
+                {{ $description = $catInfo.description }}
+                {{ $cardClass = printf "card-%s" (lower (replace $categoryName " " "-")) }}
             {{ end }}
+            
+            <a href="{{ $category.Page.RelPermalink }}" class="category-card {{ $cardClass }}">
+                <div class="category-card-count">{{ $category.Count }}+</div>
+                <div class="category-card-icon">
+                    <i class="{{ $icon }}"></i>
+                </div>
+                <div class="category-card-title">{{ $categoryName }}</div>
+                <div class="category-card-description">{{ $description }}</div>
+            </a>
         {{ end }}
-    {{ else if eq .Title "Categories" }}
+    </div>
+</div>
+{{ else if eq .Title "Walkthroughs" }}
+<!-- Load Post Cards CSS -->
+<link rel="stylesheet" href="{{ "css/post-cards.css" | relURL }}">
+
+<style>
+/* Modern Walkthroughs Design */
+.walkthroughs-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 3rem 2rem 4rem 2rem;
+}
+
+.walkthroughs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.walkthrough-card {
+    background: linear-gradient(145deg, #1a1a1a, #2d2d2d);
+    border: 1px solid #333;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    min-height: 320px;
+}
+
+.walkthrough-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #2bbc8a, #239a70);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.walkthrough-card:hover::before {
+    transform: scaleX(1);
+}
+
+.walkthrough-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 20px 60px rgba(43, 188, 138, 0.15);
+    border-color: #2bbc8a;
+}
+
+.walkthrough-image {
+    position: relative;
+    height: 180px;
+    overflow: hidden;
+    background: linear-gradient(135deg, #1a1a1a, #2d2d2d);
+}
+
+.walkthrough-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.walkthrough-card:hover .walkthrough-image img {
+    transform: scale(1.1);
+}
+
+.walkthrough-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+        135deg,
+        rgba(43, 188, 138, 0.1) 0%,
+        rgba(0, 0, 0, 0.4) 100%
+    );
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.walkthrough-card:hover .walkthrough-overlay {
+    opacity: 1;
+}
+
+.walkthrough-date {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #2bbc8a;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-align: left;
+    border-radius: 16px 16px 0 0;
+}
+
+.walkthrough-content {
+    padding: 1.5rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 180px);
+}
+
+.walkthrough-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.3;
+    margin-bottom: 1rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.walkthrough-excerpt {
+    color: #bbb;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    flex-grow: 1;
+}
+
+.walkthrough-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    padding-top: 1rem;
+    border-top: 1px solid #333;
+}
+
+.walkthrough-tags {
+    display: flex;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.walkthrough-tag {
+    background: rgba(43, 188, 138, 0.15);
+    color: #2bbc8a;
+    padding: 0.2rem 0.6rem;
+    border-radius: 10px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    border: 1px solid rgba(43, 188, 138, 0.3);
+    transition: all 0.3s ease;
+}
+
+.walkthrough-tag:hover {
+    background: rgba(43, 188, 138, 0.25);
+    transform: translateY(-1px);
+}
+
+.walkthrough-read-more {
+    color: #2bbc8a;
+    font-size: 0.85rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-left: 1rem;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.walkthrough-card:hover .walkthrough-read-more {
+    color: #fff;
+    transform: translateX(5px);
+}
+
+/* Fallback for walkthroughs without images */
+.walkthrough-no-image {
+    background: linear-gradient(145deg, #1a1a1a, #2d2d2d);
+    border: 2px solid #333;
+}
+
+.walkthrough-no-image .walkthrough-content {
+    padding: 2rem 1.5rem;
+    height: 100%;
+}
+
+.walkthrough-no-image .walkthrough-date {
+    position: static;
+    background: #2bbc8a;
+    color: #fff;
+    margin: -2rem -1.5rem 1rem -1.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 16px 16px 0 0;
+    font-weight: 700;
+}
+
+/* Year headers with modern design */
+.walkthroughs-year-header {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #2bbc8a;
+    margin: 3rem 0 2rem 0;
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.walkthroughs-year-header::after {
+    content: '';
+    position: absolute;
+    bottom: -0.8rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, #2bbc8a, #239a70);
+    border-radius: 2px;
+}
+
+/* Loading animation */
+.walkthrough-card {
+    animation: slideInUp 0.6s ease-out forwards;
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+.walkthrough-card:nth-child(1) { animation-delay: 0.1s; }
+.walkthrough-card:nth-child(2) { animation-delay: 0.2s; }
+.walkthrough-card:nth-child(3) { animation-delay: 0.3s; }
+.walkthrough-card:nth-child(4) { animation-delay: 0.4s; }
+.walkthrough-card:nth-child(5) { animation-delay: 0.5s; }
+.walkthrough-card:nth-child(6) { animation-delay: 0.6s; }
+
+@keyframes slideInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive design for 2-3 containers per line */
+@media (min-width: 1200px) {
+    .walkthroughs-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.5rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .walkthroughs-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .walkthroughs-container {
+        padding: 2rem 1rem 3rem 1rem;
+    }
+    
+    .walkthroughs-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .walkthrough-content {
+        padding: 1.25rem;
+    }
+    
+    .walkthrough-title {
+        font-size: 1.2rem;
+    }
+    
+    .walkthroughs-year-header {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .walkthrough-image {
+        height: 160px;
+    }
+    
+    .walkthrough-content {
+        padding: 1rem;
+    }
+    
+    .walkthrough-title {
+        font-size: 1.1rem;
+    }
+    
+    .walkthrough-meta {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.8rem;
+    }
+    
+    .walkthrough-read-more {
+        margin-left: 0;
+    }
+}
+</style>
+
+<!-- Walkthroughs Grid -->
+<div class="walkthroughs-container">
+    {{ $pages := .Pages.ByDate.Reverse }}
+    {{ $years := $pages.GroupByDate "2006" }}
+    
+    {{ range $years }}
+        <h2 class="walkthroughs-year-header">{{ .Key }}</h2>
+        <div class="walkthroughs-grid">
+            {{ range .Pages }}
+                <a href="{{ .RelPermalink }}" class="walkthrough-card{{ if not .Params.image }} walkthrough-no-image{{ end }}" 
+                   {{ if .Params.categories }}data-category="{{ index .Params.categories 0 }}"{{ end }}>
+                    
+                    {{ if .Params.image }}
+                    <div class="walkthrough-image">
+                        <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" loading="lazy">
+                        <div class="walkthrough-overlay"></div>
+                        
+                        <div class="walkthrough-date">{{ .Date.Format "Jan 2, 2006" }}</div>
+                    </div>
+                    {{ end }}
+                    
+                    <div class="walkthrough-content">
+                        {{ if not .Params.image }}
+                            <div class="walkthrough-date">{{ .Date.Format "Jan 2, 2006" }}</div>
+                        {{ end }}
+                        
+                        <h3 class="walkthrough-title">{{ .Title }}</h3>
+                        
+                        {{ if .Summary }}
+                        {{ $firstParagraph := index (split .Summary "\n\n") 0 }}
+                        <p class="walkthrough-excerpt">{{ $firstParagraph | plainify | truncate 100 }}</p>
+                        {{ else if .Description }}
+                        <p class="walkthrough-excerpt">{{ .Description | plainify | truncate 100 }}</p>
+                        {{ else }}
+                        <p class="walkthrough-excerpt">Comprehensive step-by-step walkthrough for security analysis and penetration testing procedures.</p>
+                        {{ end }}
+                        
+                        <div class="walkthrough-meta">
+                            {{ if .Params.tags }}
+                            <div class="walkthrough-tags">
+                                {{ range (first 3 .Params.tags) }}
+                                <span class="walkthrough-tag"># {{ . }}</span>
+                                {{ end }}
+                            </div>
+                            {{ end }}
+                            
+                            <div class="walkthrough-read-more">
+                                View Walkthrough <i class="fas fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            {{ end }}
+        </div>
+    {{ end }}
+</div>
+{{ else if eq .Title "Categories" }}
         <h1>{{ .Title }}</h1>
         <div class="category-list">
             {{ range .Data.Terms.Alphabetical }}
@@ -242,30 +531,73 @@
                 font-size: 0.9rem;
             }
         </style>
-    {{ else }}
-        <h1>{{ .Title }}</h1>
-        {{ .Content }}
-        {{ $pages := .Pages.ByDate.Reverse }}
-        {{ $years := $pages.GroupByDate "2006" }}
-        
-        {{ range $years }}
-            <h2 style="color: var(--theme); margin-bottom: 1rem;">{{ .Key }}</h2>
+{{ else }}
+<!-- Load Post Cards CSS -->
+<link rel="stylesheet" href="{{ "css/post-cards.css" | relURL }}">
+
+<div class="posts-container">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+    
+    {{ $pages := .Pages.ByDate.Reverse }}
+    {{ $years := $pages.GroupByDate "2006" }}
+    
+    {{ range $years }}
+        <h2 class="posts-year-header">{{ .Key }}</h2>
+        <div class="posts-grid">
             {{ range .Pages }}
-                <div style="display: flex; margin-bottom: 0.5rem; color: #ccc;">
-                    <span style="width: 100px; color: #666;">{{ .Date.Format "2006-01-02" }}</span>
-                    <a href="{{ .RelPermalink }}" style="color: #ccc; text-decoration: none; margin-left: 1rem;">
-                        {{ if .Params.image }}
-                        <div style="display: flex; align-items: center;">
-                            <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" style="width: 50px; height: 50px; object-fit: cover; margin-right: 10px; border-radius: 4px;">
-                            <span>{{ .Title }}</span>
-                        </div>
-                        {{ else }}
-                        <span>{{ .Title }}</span>
+                <a href="{{ .RelPermalink }}" class="post-card{{ if not .Params.image }} post-card-no-image{{ end }}" 
+                   {{ if .Params.categories }}data-category="{{ index .Params.categories 0 }}"{{ end }}>
+                    
+                    {{ if .Params.image }}
+                    <div class="post-card-image">
+                        <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" loading="lazy">
+                        <div class="post-card-overlay"></div>
+                        
+                        {{ if .Params.categories }}
+                        <div class="post-card-category">{{ index .Params.categories 0 }}</div>
                         {{ end }}
-                    </a>
-                </div>
+                        
+                        <div class="post-card-date">{{ .Date.Format "Jan 2, 2006" }}</div>
+                    </div>
+                    {{ end }}
+                    
+                    <div class="post-card-content">
+                        {{ if not .Params.image }}
+                            {{ if .Params.categories }}
+                            <div class="post-card-category">{{ index .Params.categories 0 }}</div>
+                            {{ end }}
+                            <div class="post-card-date">{{ .Date.Format "Jan 2, 2006" }}</div>
+                        {{ end }}
+                        
+                        <h3 class="post-card-title">{{ .Title }}</h3>
+                        
+                        {{ if .Summary }}
+                        {{ $firstParagraph := index (split .Summary "\n\n") 0 }}
+                        <p class="post-card-excerpt">{{ $firstParagraph | plainify | truncate 100 }}</p>
+                        {{ else if .Description }}
+                        <p class="post-card-excerpt">{{ .Description | plainify | truncate 100 }}</p>
+                        {{ else }}
+                        <p class="post-card-excerpt">Read this technical guide to learn more about networking, system administration, and best practices.</p>
+                        {{ end }}
+                        
+                        <div class="post-card-meta">
+                            {{ if .Params.tags }}
+                            <div class="post-card-tags">
+                                {{ range (first 3 .Params.tags) }}
+                                <span class="post-tag"># {{ . }}</span>
+                                {{ end }}
+                            </div>
+                            {{ end }}
+                            
+                            <div class="post-card-read-more">
+                                Read More <i class="fas fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </a>
             {{ end }}
-        {{ end }}
+        </div>
     {{ end }}
 </div>
 {{ end }}
