@@ -5,7 +5,7 @@ tags = ["monitoring", "cacti", "linux"]
 categories = ["Monitoring"]
 author = "Soner Sahin"
 image = "/images/Cacti/cover.png"
-draft = true
+draft = false
 +++ 
 
 Merhabalar, bu yazımda Cacti Monitoring yazılımını Rasperry pi Zero'ya kurulumunu göstereceğim.
