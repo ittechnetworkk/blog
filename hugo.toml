@@ -109,7 +109,7 @@ weight = 8
   logo = "fas fa-medal"
   
   # Custom CSS files
-  css = ["css/custom.css", "css/lightbox.css", "css/tools.css"]
+  css = ["css/custom.css", "css/lightbox.css", "css/tools.css", "css/tools-cards.css", "css/post-cards.css", "css/posts-cards.css"]
 
   # Date format
   dateFormat = "2006-01-02"
