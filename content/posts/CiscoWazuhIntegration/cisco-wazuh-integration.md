@@ -1,5 +1,5 @@
 +++
-title = "Cisco Device Syslog Integration with Wazuh SIEM"
+title = "[EN] Cisco Device Syslog Integration with Wazuh SIEM"
 date = "2025-07-19T14:50:44+02:00"
 tags = ["SOC", "cisco", "switch", "router", "wazuh", "siem", "syslog"]
 categories = ["soc", "Network"]
@@ -111,7 +111,7 @@ Restart the Wazuh server to apply the changes:
 sudo systemctl restart wazuh-manager
 ```
 
-## Verification
+## **Verification**
 
 After completing the configuration, you should be able to see Cisco device logs in the Wazuh server dashboard. The logs will include:
 
@@ -121,7 +121,7 @@ After completing the configuration, you should be able to see Cisco device logs 
 - Security alerts
 - Performance metrics
 
-## Additional Configuration
+## **Additional Configuration**
 
 You can enhance the monitoring by:
 
@@ -130,7 +130,7 @@ You can enhance the monitoring by:
 3. **Configuring log retention policies** based on your requirements
 4. **Implementing log correlation** to detect patterns across multiple devices
 
-## Troubleshooting
+## **Troubleshooting**
 
 If logs are not appearing in Wazuh:
 

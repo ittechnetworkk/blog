@@ -3,6 +3,13 @@ title: "Projects"
 type: "page"
 ---
 
+### [Windows EventID Lookup](https://eventlookup.vercel.app/)
+
+A comprehensive, interactive web-based dashboard for Windows Event ID analysis designed specifically for SOC (Security Operations Center) analysts. 
+
+[View Project Details →](https://eventlookup.vercel.app/)
+
+
 
 ### [ESP32-NTP Server-Client Project](https://ittechnetworkk.github.io/posts/esp32/esp32-ntp/)
 

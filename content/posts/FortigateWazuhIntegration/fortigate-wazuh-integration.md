@@ -1,5 +1,5 @@
 +++
-title = "Fortigate Wazuh Integration"
+title = "[EN] Fortigate Wazuh Integration"
 date = "2025-07-19T15:26:52+02:00"
 tags = ["fortigate", "wazuh", "soc", "siem", "syslog", "firewall"]
 categories = ["soc", "Firewall"]

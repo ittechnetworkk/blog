@@ -362,10 +362,6 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 - **Salak Milyoner (1974)** - Comedy/Family
 
-
-
-
-
 ### To Watch
 
 - **The Garfield Movie (2024)** - Adventure/Family/Comedy
@@ -432,19 +428,13 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 - **Mr. Robot (2015)** - Thriller/Sci-fi
 
-### Currently Watching
-
 - **The Day of the Jackal (2024)** - Action/Spy/Thriller
 
+### Currently Watching
+
+
+
 ### To Watch
-
-- **Fallout (2024)** - Action/Adventure/Sci-fi
-
-- **The Day of the Jackal (2024)** - Thriller
-
-- **Obliterated (2023)** - Action/Adventure/Sci-fi
-
-- **The Expanse (2015)** - Adventure/Sci-fi/Drama
 
 - **Sherlock (2010)** - Mystery/Drama/Crime
 
@@ -492,12 +482,6 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 - **Kuyucaklı Yusuf** - Sabahattin Ali
 
 - **Zübük** - Aziz Nesin
-
-- **Kürk Mantolu Madonna** - Sabahattin Ali
-
-- **Sefiller** - Victor Hugo
-
-- **İnce Memed Serisi** - Yaşar Kemal
 
 
 # 🎷 Playlists
