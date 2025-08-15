@@ -3,6 +3,14 @@ title: "Projects"
 type: "page"
 ---
 
+
+### [Windows EventID Lookup](https://windows-process-tree.vercel.app/)
+
+A comprehensive web-based reference tool for analyzing Windows process trees, including legitimate usage patterns, suspicious indicators, and associated MITRE ATT&CK techniques.
+
+[View Project Details →](https://windows-process-tree.vercel.app/)
+
+
 ### [Windows EventID Lookup](https://eventlookup.vercel.app/)
 
 A comprehensive, interactive web-based dashboard for Windows Event ID analysis designed specifically for SOC (Security Operations Center) analysts. 

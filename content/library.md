@@ -10,13 +10,19 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 # 🎬 Movies
 
-### Watched (175)
+### Watched (184)
 
 - **A Working Man (2025)** - Action/Thriller
 
 - **Red One (2024)** - Action/Adventure/Sci-fi
 
+- **Paddington in Peru (2024)** - Adventure/Family
+
+- **Road House (2024)** - Action/Thriller
+
 - **Sixty Minutes (2024)** - Action/Sport
+
+- **İllegal Hayatlar: Meclis (2024)** - Comedy
 
 - **Sonic the Hedgehog 3 (2024)** - Action/Family/Comedy
 
@@ -98,7 +104,11 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 - **Robin Hood (2018)** - Action/Adventure/Sci-fi
 
+- **Rampage (2018)** - Action/Adventure/Sci-Fi
+
 - **Skyscraper (2018)** - Action/Adventure/Sci-fi
+
+- **Tomb Raider (2018)** - Adventure/Action/Fantasy
 
 - **The Grinch (2018)** - Animation/Family/Comedy
 
@@ -200,6 +210,8 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 - **Kelebeğin Rüyası (2013)** - Biography/Drama/Romance/History
 
+- **Escape Plan (2013)** - Action/Thriller    
+
 - **Pain & Gain (2013)** - Action/Comedy
 
 - **Fast & Furious 6 (2013)** - Action/Adventure/Crime
@@ -266,11 +278,15 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 - **Blood and Bone (2009)** - Action/Crime/Drama
 
+- **G.I. Joe: The Rise of Cobra (2009)** - Action/Adventure/Thriller/Sci-Fi
+
 - **2012 (2009)** - Action/Adventure/Sci-fi
 
 - **AROG (2008)** - Action/Comedy/Sci-fi
 
 - **Rambo (2008)** - Action/Adventure/Thriller
+
+- **The Dark Knight (2008)** - Action/Superhero/Crime
 
 - **Never Back Down (2008)** - Action/Drama/Sport
 
@@ -285,6 +301,8 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 - **The Fast and the Furious: Tokyo Drift (2006)** - Action/Adventure/Crime
 
 - **Undisputed 2: Last Man Standing (2006)** - Action/Adventure/Crime
+
+- **Pirates of the Caribbean: Dead Man's Chest (2006)** - Adventure/Family/Action
 
 - **Rocky Balboa (2006)** - Boxing/Drama
 
@@ -361,6 +379,14 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 - **Köyden İndim Şehire (1974)** - Comedy/Family
 
 - **Salak Milyoner (1974)** - Comedy/Family
+
+
+
+
+
+
+
+
 
 ### To Watch
 

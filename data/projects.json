@@ -2,6 +2,11 @@
     "list": [
 
       {
+         "name":"Windows Process Tree Reference",
+         "url":"https://windows-process-tree.vercel.app/",
+         "desc":"A comprehensive, interactive web-based dashboard for Windows Event ID analysis designed specifically for SOC (Security Operations Center) analysts.  "
+       },
+      {
          "name":"Windows EventID Lookup",
          "url":"https://eventlookup.vercel.app/",
          "desc":"A comprehensive, interactive web-based dashboard for Windows Event ID analysis designed specifically for SOC (Security Operations Center) analysts.  "
