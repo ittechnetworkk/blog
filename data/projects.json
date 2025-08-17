@@ -2,6 +2,11 @@
     "list": [
 
       {
+         "name":"Security Operation Center",
+         "url":"https://ittechnetworkk.github.io/posts/securityoperationcenterinstallation/security-operation-center-installation/",
+         "desc":"Security Operation Center Installation Guide"
+       },
+      {
          "name":"Windows Process Tree Reference",
          "url":"https://windows-process-tree.vercel.app/",
          "desc":"A comprehensive, interactive web-based dashboard for Windows Event ID analysis designed specifically for SOC (Security Operations Center) analysts.  "
