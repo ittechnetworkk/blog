@@ -5,7 +5,6 @@ tags = ["wazuh", "windows", "sysmon"]
 categories = ["soc", "windows"]
 author = "Soner Sahin"
 image = "/images/wazuhsysmon/cover.png"
-draft = false
 +++ 
 
 

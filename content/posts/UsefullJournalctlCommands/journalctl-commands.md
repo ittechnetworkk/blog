@@ -5,7 +5,6 @@ tags = ["linux", "journalctl"]
 categories = ["Linux"]
 author = "Soner Sahin"
 image = "/images/journalctl/cover.png"
-draft = false
 +++ 
 
 
