@@ -4,7 +4,7 @@ date = "2025-08-12T00:33:51+02:00"
 tags = ["wazuh", "windows", "sysmon"]
 categories = ["soc", "windows"]
 author = "Soner Sahin"
-image = "/images/wazuhsysmon/cover.png"
+image = "/images/wazuh-forti/cover.png"
 +++ 
 
 
