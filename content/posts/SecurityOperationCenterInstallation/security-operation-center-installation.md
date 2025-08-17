@@ -411,6 +411,12 @@ Here are some images of my Security Operation Center.
 
 Pretty cool, isn't it?
 
+
+## **Resources**
+
+
+
+
 Thank you for taking the time to read this article. I hope you find it helpful.
 
 Keep up the great work!
