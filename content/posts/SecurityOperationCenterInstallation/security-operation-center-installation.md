@@ -1,5 +1,5 @@
 +++
-title = "[EN] Security Operation Center"
+title = "[EN] Security Operation Center Setup"
 date = "2025-08-17T15:38:38+02:00"
 tags = ["soc", "security operation center", "proxmox", "wazuh", "firewall", "pfsense", "volacilaptor", "thehive", "cortex", "network", "windows", "linux", "honeypot"]
 categories = ["SOC", "Virtualization", "Windows", "Linux", "Firewall"]
@@ -409,13 +409,35 @@ Here are some images of my Security Operation Center.
 
 
 
-Pretty cool, isn't it?
-
 
 ## **Resources**
 
+A huge thanks to [Huseyin Eksi](https://www.linkedin.com/in/hacksi/)
+
+https://github.com/tallcyberguy/opensoc
+
+https://www.youtube.com/watch?v=0ekj_5hMiBw
+
+https://documentation.wazuh.com/current/index.html
+
+https://community.hetzner.com/tutorials
+
+https://docs.netgate.com/pfsense/en/latest/
+
+https://github.com/telekom-security/tpotce
+
+https://docs.velociraptor.app/docs/
+
+https://docs.checkmk.com/latest/en/
+
+https://bobcares.com/blog/pfsense-dmz-setup/
+
+https://www.heimnetz.de/anleitungen/firewall/pfsense/pfsense-openvpn-server-einrichten/
+
+https://www.comparitech.com/blog/vpn-privacy/openvpn-server-pfsense/
 
 
+--------------
 
 Thank you for taking the time to read this article. I hope you find it helpful.
 

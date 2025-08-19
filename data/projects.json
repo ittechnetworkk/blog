@@ -2,9 +2,9 @@
     "list": [
 
       {
-         "name":"Security Operation Center",
+         "name":"Security Operation Center Setup",
          "url":"https://ittechnetworkk.github.io/posts/securityoperationcenterinstallation/security-operation-center-installation/",
-         "desc":"Security Operation Center Installation Guide"
+         "desc":"Security Operation Center Setup Guide"
        },
       {
          "name":"Windows Process Tree Reference",
