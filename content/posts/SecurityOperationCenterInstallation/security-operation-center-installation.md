@@ -439,6 +439,16 @@ https://www.comparitech.com/blog/vpn-privacy/openvpn-server-pfsense/
 
 --------------
 
+## **What's next?**
+
+- Sending critical alerts via mail.
+
+- Raspberry Pi Zero alert notification.
+
+- Telegram Bot.
+
+------------
+
 Thank you for taking the time to read this article. I hope you find it helpful.
 
 Keep up the great work!

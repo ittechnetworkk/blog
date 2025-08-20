@@ -4,14 +4,14 @@ type: "page"
 ---
 
 
-### [Security Operation Center Setup](https://windows-process-tree.vercel.app/)
+### [Security Operation Center Setup](https://ittechnetworkk.github.io/posts/securityoperationcenterinstallation/security-operation-center-installation/)
 
 A comprehensive web-based reference tool for analyzing Windows process trees, including legitimate usage patterns, suspicious indicators, and associated MITRE ATT&CK techniques.
 
-[View Project Details →](https://windows-process-tree.vercel.app/)
+[View Project Details →](https://ittechnetworkk.github.io/posts/securityoperationcenterinstallation/security-operation-center-installation/)
 
 
-### [Security Operation Center](https://windows-process-tree.vercel.app/)
+### [Windows Process Tree Reference](https://windows-process-tree.vercel.app/)
 
 A comprehensive web-based reference tool for analyzing Windows process trees, including legitimate usage patterns, suspicious indicators, and associated MITRE ATT&CK techniques.
 
