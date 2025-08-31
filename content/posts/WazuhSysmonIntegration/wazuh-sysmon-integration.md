@@ -83,8 +83,6 @@ That's all.
 
 After this configuration, you will be able to view Sysmon logs in Wazuh SIEM.
 
-![wazuh](/images/wazuhsysmon/7.png)
-
 
 Thank you for taking time to read this article, I hope you will find it helpful.
 
