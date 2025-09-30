@@ -10,7 +10,9 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 # 🎬 Movies
 
-### Watched (184)
+### Watched (185)
+
+- **F1 (2025)** - Action/Sport
 
 - **A Working Man (2025)** - Action/Thriller
 
