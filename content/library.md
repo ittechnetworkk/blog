@@ -10,7 +10,7 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 # 🎬 Movies
 
-### Watched (185)
+### Watched (187)
 
 - **F1 (2025)** - Action/Sport
 
@@ -47,6 +47,10 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 - **Hava Muhalefeti (2023)** - Comedy/Family
 
 - **Oppenheimer (2023)** - Thriller/History
+
+- **Barbie (2023)** - Fantasy/Adventure
+
+- **Mission: Impossible - Dead Reckoning Part One (2023)** - Action/Adventure/Sci-fi
 
 - **The Super Mario Bros. Movie (2023)** - Adventure/Family/Comedy
 
@@ -384,51 +388,18 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 
 
-
-
-
-
-
-
 ### To Watch
 
-- **The Garfield Movie (2024)** - Adventure/Family/Comedy
 
 - **The Antisocial Network: Memes to Mayhem (2024)** - Documentary
 
-- **Meg 2: The Trench (2023)** - Adventure/Sci-fi/Action
-
-- **Fast X (2023)** - Action/Adventure/Crime
-
 - **Transformers: Rise of the Beasts (2023)** - Action/Adventure/Sci-fi
-
-- **Mission: Impossible - Dead Reckoning Part One (2023)** - Action/Adventure/Sci-fi
-
-- **Chicken Run: Dawn of the Nugget (2023)** - Adventure/Family/Comedy
-
-- **John Wick: Chapter 4 (2023)** - Action/Thriller
-
-- **The Bikeriders (2023)** - Action/Adventure/Sci-fi
-
-- **Freelancer (2023)** - Action/Adventure/Sci-fi
-
-- **The Velveteen Rabbit (2023)** - Adventure/Family/Comedy
 
 - **Black Adam (2022)** - Action/Adventure/Sci-fi
 
-- **DC League of Super-Pets (2022)** - Adventure/Family/Comedy
-
 - **Cyber Hell: Exposing an Internet Horror (2022)** - Documentary
 
-- **Tom & Jerry (2021)** - Family/Comedy/Adventure
-
 - **Wrath of Man (2021)** - Action/Adventure/Crime
-
-- **Scoob! (2020)** - Adventure/Family/Comedy
-
-- **Müstakbel Damat (2020)** - Comedy/Family
-
-- **John Wick: Chapter 3 Parabellum (2019)** - Action/Thriller
 
 - **Assassin's Creed (2016)** - Action/Adventure/Sci-fi
 
@@ -499,11 +470,9 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 ### Currently Reading
 
-- **Atomic Habits** - James Clear
-
-- **Nutuk** - Mustafa Kemal Atatürk
 
 ### To Read
+
 
 - **Cosmos** - Carl Sagan
 
