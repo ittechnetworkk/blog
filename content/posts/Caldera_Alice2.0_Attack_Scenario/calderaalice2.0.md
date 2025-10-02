@@ -7,9 +7,7 @@ author = "Soner Sahin"
 image = "/images/calderaalice/cover.png"
 +++ 
 
-
-
-I will perform an attack scenario using Caldera and will show its effects in Wazuh (SIEM/XDR) and LimaCharlie (EDR).
+Hi everyone, In this article I will perform an attack scenario using Caldera and will show its effects in Wazuh (SIEM/XDR) and LimaCharlie (EDR).
 
 LimaCharlie can integrate with the Atomic Red Team extension, which I will use in Caldera to perform the attack. Therefore, you don't need to install Atomic Red Team separately.
 
