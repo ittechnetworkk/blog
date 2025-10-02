@@ -1,7 +1,7 @@
 +++
 title = "[EN] Caldera Alice 2.0 Adversary Emulation"
 date = "2025-09-30T19:28:28+02:00"
-tags = ["caldera", "wazuh", "limacharlie", "edr", "windows", "siem", "soc"]
+tags = ["caldera", "wazuh", "limacharlie", "edr", "windows", "siem", "soc", "mitre"]
 categories = ["SOC"]
 author = "Soner Sahin"
 image = "/images/calderaalice/cover.png"
