@@ -10,7 +10,9 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 # 🎬 Movies
 
-### Watched (187)
+### Watched (190)
+
+- **Play Dirty (2025)** - Action/Thriller
 
 - **F1 (2025)** - Action/Sport
 
@@ -65,6 +67,8 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 - **Sonic the Hedgehog 2 (2022)** - Action/Family/Comedy
 
 - **The Takeover (2022)** - Action/Adventure
+
+- **Elif Ana (2022)** - Drama
 
 - **Infinite Storm (2022)** - Thriller/Adventure/Sci-fi
 
@@ -344,6 +348,8 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 - **Titanic (1997)** - Adventure/Drama/Romance
 
+- **Baby's Day Out (1994)** - Family/Comedy 
+
 - **Home Alone 2: Lost in New York (1992)** - Comedy/Family
 
 - **Home Alone (1990)** - Comedy/Family
@@ -387,37 +393,30 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 - **Salak Milyoner (1974)** - Comedy/Family
 
 
+# 🎬 Short Films
 
-### To Watch
+### Watched (8)
 
+- **Timepiece (2024)**
 
-- **The Antisocial Network: Memes to Mayhem (2024)** - Documentary
+- **The English Teacher (2020)**
 
-- **Transformers: Rise of the Beasts (2023)** - Action/Adventure/Sci-fi
+- **COPE (2025)**
 
-- **Black Adam (2022)** - Action/Adventure/Sci-fi
+- **O.C.D. ft. Steven Ogg (2025)**
 
-- **Cyber Hell: Exposing an Internet Horror (2022)** - Documentary
+- **The Crush (2021)**
 
-- **Wrath of Man (2021)** - Action/Adventure/Crime
+- **The Bread (2021)**
 
-- **Assassin's Creed (2016)** - Action/Adventure/Sci-fi
+- **Hair Love (2020)**
 
-- **Unstoppable (2010)** - Action/Adventure/Sci-fi
+- **SITUATIONSHIP (2023)**
 
-- **The Dark Knight (2008)** - Action/Adventure/Crime
-
-- **Pirates of the Caribbean** - Adventure/Action
-
-- **Harry Potter Series** - Family/Fantasy/Adventure
-
-- **The Shawshank Redemption (1994)** - Thriller/Crime
-
-- **Matrix Series** - Sci-fi/Action
 
 # 📺 Series
 
-### Watched (4)
+### Watched (5)
 
 - **Peacemaker (2022)** - Action/Adventure/Sci-fi/Comedy
 
@@ -428,14 +427,6 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 - **Mr. Robot (2015)** - Thriller/Sci-fi
 
 - **The Day of the Jackal (2024)** - Action/Spy/Thriller
-
-### Currently Watching
-
-
-
-### To Watch
-
-- **Sherlock (2010)** - Mystery/Drama/Crime
 
 
 # 📺 Documentary
@@ -454,7 +445,7 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 # 📖 Books
 
-### Read (5)
+### Read (6)
 
 - **Abim Deniz** - Can Dündar
 
@@ -468,24 +459,27 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 - **Mustafa Kemal** - Yılmaz Özdil
 
-### Currently Reading
-
-
-### To Read
-
-
-- **Cosmos** - Carl Sagan
-
-- **Kuyucaklı Yusuf** - Sabahattin Ali
-
-- **Zübük** - Aziz Nesin
 
 
 # 🎷 Playlists
 
+- **[Akp gidince son ses dinlenecek](https://open.spotify.com/playlist/3B40W0KzrbtbJzOzegiT7n?si=ab6436f62498466a)**
+
+- **[CHP iktidara geldiği gece dinlenecek şarkılar](https://open.spotify.com/playlist/42F9Dl8SuQa5Iy9uK9Yw9C?si=a484500ec67841a0)**
+
+- **[En İyi Yunanca Şarkılar](https://open.spotify.com/playlist/7FTd8SvVxnICel4JipJUWx?si=bda1a60a59b54e6d)**
+
+- **[Viral in Germany](https://open.spotify.com/playlist/4vLmZhowA06yPQl30ufI6g?si=d36e8e2753734961)**
+
 - **[hitTheGym](https://open.spotify.com/playlist/6fTwMMe935gwZpTAD8imxl?si=8a433ded5d3a45a9)**
 
+- **[WORKOUT PLAYLIST 2025](https://open.spotify.com/playlist/2SM6rniZl84fEyMCB5KMQB?si=13e931232ae84254)**
+
 - **[anatoliaR](https://open.spotify.com/playlist/7HdXzjvZQfkK211etXbgUc?si=ac25978069f340cd)**
+
+- **[Babalar](https://open.spotify.com/playlist/37i9dQZF1DX9azIhpBmNbd?si=941d18fd0be84d67)**
+
+- **[i'm ready, come!](https://open.spotify.com/playlist/7lU81zYotWExlXSrMcHu2W?si=13de3bfa78a34a41)**
 
 - **[Sleep](https://open.spotify.com/playlist/37i9dQZF1DWZd79rJ6a7lp?si=abd459191bf64518)**
 
@@ -521,8 +515,6 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 ### Favorite TV Series
 
 - **Mr. Robot (2015)** - Thriller/Sci-fi
-
-### Favorite Documentary
 
 
 ### Favorite Books
