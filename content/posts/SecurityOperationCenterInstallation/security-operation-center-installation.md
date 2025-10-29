@@ -133,8 +133,6 @@ Once the installation is complete, reboot the server and wait a couple of minute
 
 Then navigate to your IP address and the relevant port for Proxmox, which is **8006** by default.
 
-![SOC](/images/SecurityOperationCenter/proxmox-install-3.png)
-
 Here is Proxmox successfully installed.
 
 Here you can upload the ISO images you plan to use.
