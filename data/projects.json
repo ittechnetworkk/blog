@@ -2,6 +2,12 @@
     "list": [
 
       {
+         "name":"Beelzebub Honeypot Dashboard",
+         "url":"https://ittechnetworkk.github.io/posts/beelzebubdashboard/beelzebub-dashboard/",
+         "desc":"Beelzebub Honeypot Dashboard"
+       },
+
+      {
          "name":"Security Operation Center Setup",
          "url":"https://ittechnetworkk.github.io/posts/securityoperationcenterinstallation/security-operation-center-installation/",
          "desc":"Security Operation Center Setup Guide"

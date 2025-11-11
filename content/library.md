@@ -10,7 +10,7 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 # 🎬 Movies
 
-### Watched (190)
+### Watched (210)
 
 - **Play Dirty (2025)** - Action/Thriller
 
@@ -46,6 +46,8 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 - **The Mother (2023)** - Thriller/Action
 
+- **İllegal Hayatlar(2023)** - Comedy
+
 - **Hava Muhalefeti (2023)** - Comedy/Family
 
 - **Oppenheimer (2023)** - Thriller/History
@@ -64,6 +66,8 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 - **Bullet Train (2022)** - Action/Adventure/Comedy
 
+- **Çakallarla Dans 6(2022)** - Comedy
+
 - **Sonic the Hedgehog 2 (2022)** - Action/Family/Comedy
 
 - **The Takeover (2022)** - Action/Adventure
@@ -75,6 +79,10 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 - **Aykut Enişte 2 (2022)** - Comedy/Family
 
 - **The Man From Toronto (2022)** - Comedy/Action 
+
+ **Recep İvedik 7 (2022)** - Comedy
+
+- **Aşıklar Bayramı (2022)** - Drama
 
 - **The Lost City (2022)** - Action/Adventure/Comedy
 
@@ -92,6 +100,8 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 - **Bad Boys for Life (2020)** - Action/Comedy
 
+- **Bayi Toplantısı(2020)** - Comedy
+
 - **The Old Guard (2020)** - Action/Fantasy
 
 - **6 Underground (2019)** - Action/Adventure/Sci-fi
@@ -99,6 +109,8 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 - **The Last Summer (2019)** - Romance/Comedy
 
 - **Aykut Enişte 1 (2019)** - Comedy/Family
+
+ **Recep İvedik 6 (2019)** - Comedy
 
 - **Naim Süleymanoğlu (2019)** - Biography/Drama/Sport
 
@@ -120,6 +132,8 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 - **Tomb Raider (2018)** - Adventure/Action/Fantasy
 
+- **Çakallarla Dans 5 (2018)** - Comedy
+
 - **The Grinch (2018)** - Animation/Family/Comedy
 
 - **Bumblebee (2018)** - Action/Adventure/Sci-fi
@@ -127,6 +141,8 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 - **Müslüm (2018)** - Biography/Drama
 
 - **Arif ve 216 (2017)** - Comedy/Family
+
+ **Recep İvedik 5 (2017)** - Comedy
 
 - **Baby Driver (2017)** - Action/Thriller
 
@@ -151,6 +167,12 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 - **Dağ 2 (2016)** - Action/Drama/War
 
 - **Her Şey Aşktan (2016)** - Romance/Comedy
+
+- **Çakallarla Dans 4(2016)** - Comedy
+
+- **Osman Pazarlama (2016)** - Comedy
+
+- **Bizans Oyunları (2016)** - Comedy
 
 - **Almost Christmas (2016)** - Comedy/Family
 
@@ -202,6 +224,8 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 - **The Fifty Estate (2013)** - Thriller/Documentary
 
+- **Celal ile Ceren (2013)** - Comedy
+
 - **Who Am I (2014)** - Action/Thriller
 
 - **İncir Reçeli 2 (2014)** - Drama/Romance
@@ -211,6 +235,10 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 - **Eyyvah Eyvah 3 (2014)** - Comedy/Family
 
 - **300: Rise of an Empire (2014)** - Action/Epic/Drama
+
+ **Çakallarla Dans 3: Sıfır Sıkıntı(2014)** - Comedy
+
+ - **Recep İvedik 4 (2014)** - Comedy
 
 - **The Expendables 3 (2014)** - Action/Adventure/Crime
 
@@ -225,8 +253,6 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 - **Pain & Gain (2013)** - Action/Comedy
 
 - **Fast & Furious 6 (2013)** - Action/Adventure/Crime
-
-- **Gravity (2013)** - Sci-fi/Thriller
 
 - **Su ve Ateş (2013)** - Romance/Drama
 
@@ -252,6 +278,8 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 - **Sağ Salim 1 (2012)** - Comedy
 
+- **Çakallarla Dans 2: Hastasiyiz Dede (2012)** - Comedy
+
 - **Fast Five (2011)** - Action/Adventure/Crime
 
 - **Anadolu Kartalları (2011)** - Adventure/Action
@@ -274,6 +302,10 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 - **The Expendables (2010)** - Action/Adventure/Crime
 
+- **Çakallarla Dans 1 (2010)** - Comedy
+
+- **Recep İvedik 3 (2010)** - Comedy
+
 - **Eyvah Eyvah (2010)** - Comedy/Family
 
 - **Ip Man 2 (2010)** - Action/Biography/Sport
@@ -292,7 +324,11 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 - **2012 (2009)** - Action/Adventure/Sci-fi
 
+- **Recep İvedik 2 (2009)** - Comedy
+
 - **AROG (2008)** - Action/Comedy/Sci-fi
+
+- **Recep İvedik 1 (2008)** - Comedy
 
 - **Rambo (2008)** - Action/Adventure/Thriller
 
@@ -392,6 +428,8 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 - **Salak Milyoner (1974)** - Comedy/Family
 
+- **The Godfather (1972)** - Crime/Mafia
+
 
 # 🎬 Short Films
 
@@ -465,8 +503,6 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 - **[Akp gidince son ses dinlenecek](https://open.spotify.com/playlist/3B40W0KzrbtbJzOzegiT7n?si=ab6436f62498466a)**
 
-- **[CHP iktidara geldiği gece dinlenecek şarkılar](https://open.spotify.com/playlist/42F9Dl8SuQa5Iy9uK9Yw9C?si=a484500ec67841a0)**
-
 - **[En İyi Yunanca Şarkılar](https://open.spotify.com/playlist/7FTd8SvVxnICel4JipJUWx?si=bda1a60a59b54e6d)**
 
 - **[Viral in Germany](https://open.spotify.com/playlist/4vLmZhowA06yPQl30ufI6g?si=d36e8e2753734961)**
@@ -504,6 +540,8 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 - **Almanya: Welcome to Germany (2011)** - Comedy/Family
 
 - **The Lord of The Rings: The Fellowship of the Ring (2001)** - Adventure/Fantasy/Action
+
+- **The Godfather (1972)** - Crime/Mafia
 
 - **Harry Potter Series** - Family/Fantasy/Adventure
 
