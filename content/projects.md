@@ -3,6 +3,12 @@ title: "Projects"
 type: "page"
 ---
 
+### [Beelzebub Honeypot Dashboard](https://ittechnetworkk.github.io//posts/beelzebubdashboard/beelzebub-dashboard/)
+
+Hi everyone, in this article I would like to introduce you to my new project about visualizing [Beelzebub](https://github.com/mariocandela/beelzebub) logs, which is an AI-supported open-source honeypot solution that I modified slightly to achieve higher efficiency.
+
+[View Project Details →](https:https://ittechnetworkk.github.io//posts/beelzebubdashboard/beelzebub-dashboard/)
+
 
 ### [Security Operation Center Setup](https://ittechnetworkk.github.io/posts/securityoperationcenterinstallation/security-operation-center-installation/)
 

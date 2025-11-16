@@ -34,49 +34,19 @@ url = "/projects"
 weight = 4
 
 [[menu.main]]
-name = "Tools"
-url = "/tools/"
-weight = 5
-identifier = "tools"
-
-[[menu.main]]
-name = "What is my IP?"
-url = "/what-is-my-ip"
-parent = "tools"
-weight = 1
-
-[[menu.main]]
-name = "Subnet Calculator"
-url = "/subnet-calculator"
-parent = "tools"
-weight = 2
-
-[[menu.main]]
-name = "Cisco IOS Config Generator"
-url = "/cisco-ios-config"
-parent = "tools"
-weight = 3
-
-[[menu.main]]
-name = "Junos Config Generator"
-url = "/junos-config"
-parent = "tools"
-weight = 4
-
-[[menu.main]]
 name = "Resources"
 url = "/resources"
-weight = 6
+weight = 5
 
 [[menu.main]]
 name = "Library"
 url = "/library"
-weight = 7
+weight = 6
 
 [[menu.main]]
 name = "About"
 url = "/about"
-weight = 8
+weight = 7
 
 [markup]
   [markup.tableOfContents]
@@ -109,7 +79,7 @@ weight = 8
   logo = "fas fa-medal"
   
   # Custom CSS files
-  css = ["css/custom.css", "css/lightbox.css", "css/tools.css", "css/tools-cards.css", "css/post-cards.css", "css/posts-cards.css"]
+  css = ["css/custom.css", "css/lightbox.css", "css/post-cards.css", "css/posts-cards.css"]
 
   # Date format
   dateFormat = "2006-01-02"
