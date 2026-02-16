@@ -86,7 +86,11 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 - **The Man From Toronto (2022)** - Comedy/Action 
 
+<<<<<<< HEAD
 - **Recep İvedik 7 (2022)** - Comedy
+=======
+-  **Recep İvedik 7 (2022)** - Comedy
+>>>>>>> 98f6dccaf582f8fdddab0a92d1d8ba4acc0ef523
 
 - **Aşıklar Bayramı (2022)** - Drama
 
@@ -116,7 +120,11 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 - **Aykut Enişte 1 (2019)** - Comedy/Family
 
+<<<<<<< HEAD
 - **Recep İvedik 6 (2019)** - Comedy
+=======
+-  **Recep İvedik 6 (2019)** - Comedy
+>>>>>>> 98f6dccaf582f8fdddab0a92d1d8ba4acc0ef523
 
 - **Naim Süleymanoğlu (2019)** - Biography/Drama/Sport
 
@@ -148,7 +156,11 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 - **Arif ve 216 (2017)** - Comedy/Family
 
+<<<<<<< HEAD
 - **Recep İvedik 5 (2017)** - Comedy
+=======
+-  **Recep İvedik 5 (2017)** - Comedy
+>>>>>>> 98f6dccaf582f8fdddab0a92d1d8ba4acc0ef523
 
 - **Baby Driver (2017)** - Action/Thriller
 
@@ -242,9 +254,13 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 - **300: Rise of an Empire (2014)** - Action/Epic/Drama
 
+<<<<<<< HEAD
 - **Çakallarla Dans 3: Sıfır Sıkıntı(2014)** - Comedy
+=======
+-  **Çakallarla Dans 3: Sıfır Sıkıntı(2014)** - Comedy
+>>>>>>> 98f6dccaf582f8fdddab0a92d1d8ba4acc0ef523
 
- - **Recep İvedik 4 (2014)** - Comedy
+- **Recep İvedik 4 (2014)** - Comedy
 
 - **The Expendables 3 (2014)** - Action/Adventure/Crime
 
