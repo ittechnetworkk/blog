@@ -10,13 +10,17 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 # 🎬 Movies
 
-### Watched (210)
+### Watched (215)
+
+- **The Wrecking Crew (2026)** - Action/Crime/Comedy
 
 - **Play Dirty (2025)** - Action/Thriller
 
 - **F1 (2025)** - Action/Sport
 
 - **A Working Man (2025)** - Action/Thriller
+
+- **Ice Road: Vengeance (2025)** - Action/Thriller/Adventure
 
 - **Red One (2024)** - Action/Adventure/Sci-fi
 
@@ -52,6 +56,8 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 - **Oppenheimer (2023)** - Thriller/History
 
+- **Expend4bles (2023)** - Action/Thriller/War
+
 - **Barbie (2023)** - Fantasy/Adventure
 
 - **Mission: Impossible - Dead Reckoning Part One (2023)** - Action/Adventure/Sci-fi
@@ -80,7 +86,7 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 - **The Man From Toronto (2022)** - Comedy/Action 
 
- **Recep İvedik 7 (2022)** - Comedy
+- **Recep İvedik 7 (2022)** - Comedy
 
 - **Aşıklar Bayramı (2022)** - Drama
 
@@ -110,7 +116,7 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 - **Aykut Enişte 1 (2019)** - Comedy/Family
 
- **Recep İvedik 6 (2019)** - Comedy
+- **Recep İvedik 6 (2019)** - Comedy
 
 - **Naim Süleymanoğlu (2019)** - Biography/Drama/Sport
 
@@ -142,7 +148,7 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 - **Arif ve 216 (2017)** - Comedy/Family
 
- **Recep İvedik 5 (2017)** - Comedy
+- **Recep İvedik 5 (2017)** - Comedy
 
 - **Baby Driver (2017)** - Action/Thriller
 
@@ -171,6 +177,8 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 - **Çakallarla Dans 4(2016)** - Comedy
 
 - **Osman Pazarlama (2016)** - Comedy
+
+- **Sully (2016)** - Biography/Disaster
 
 - **Bizans Oyunları (2016)** - Comedy
 
@@ -222,9 +230,7 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 - **The Theory of Everything (2014)** - Drama/Biography
 
-- **The Fifty Estate (2013)** - Thriller/Documentary
-
-- **Celal ile Ceren (2013)** - Comedy
+- **Fury (2014)** - War/Drama/Action
 
 - **Who Am I (2014)** - Action/Thriller
 
@@ -236,7 +242,7 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 - **300: Rise of an Empire (2014)** - Action/Epic/Drama
 
- **Çakallarla Dans 3: Sıfır Sıkıntı(2014)** - Comedy
+- **Çakallarla Dans 3: Sıfır Sıkıntı(2014)** - Comedy
 
  - **Recep İvedik 4 (2014)** - Comedy
 
@@ -245,6 +251,10 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 - **Sağ Salim 2: Sil Baştan (2014)** - Comedy
 
 - **Gravity (2013)** - Sci-fi/Thriller
+
+- **The Fifty Estate (2013)** - Thriller/Documentary
+
+- **Celal ile Ceren (2013)** - Comedy
 
 - **Kelebeğin Rüyası (2013)** - Biography/Drama/Romance/History
 
@@ -307,6 +317,8 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 - **Recep İvedik 3 (2010)** - Comedy
 
 - **Eyvah Eyvah (2010)** - Comedy/Family
+
+- **The Karate Kid (2010)** - Action/Sport/Family
 
 - **Ip Man 2 (2010)** - Action/Biography/Sport
 
@@ -398,7 +410,7 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 - **Çiçek Abbas (1982)** - Comedy/Family
 
-- **Banker Bilge (1980)** - Comedy/Family
+- **Banker Bilo (1980)** - Comedy/Family
 
 - **Kibar Feyzo (1978)** - Comedy/Family
 
@@ -454,7 +466,7 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 
 # 📺 Series
 
-### Watched (5)
+### Watched (6)
 
 - **Peacemaker (2022)** - Action/Adventure/Sci-fi/Comedy
 
@@ -465,6 +477,8 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 - **Mr. Robot (2015)** - Thriller/Sci-fi
 
 - **The Day of the Jackal (2024)** - Action/Spy/Thriller
+
+- **Night Sky (2022)** - Sci-Fi/Adventure/Mystery
 
 
 # 📺 Documentary
@@ -502,8 +516,6 @@ Welcome to my personal library collection! Here you'll find a curated list of mo
 # 🎷 Playlists
 
 - **[Akp gidince son ses dinlenecek](https://open.spotify.com/playlist/3B40W0KzrbtbJzOzegiT7n?si=ab6436f62498466a)**
-
-- **[En İyi Yunanca Şarkılar](https://open.spotify.com/playlist/7FTd8SvVxnICel4JipJUWx?si=bda1a60a59b54e6d)**
 
 - **[Viral in Germany](https://open.spotify.com/playlist/4vLmZhowA06yPQl30ufI6g?si=d36e8e2753734961)**
 
